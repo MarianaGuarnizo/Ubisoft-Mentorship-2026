@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Ubisoft-Mentorship-2026_WwiseProject",
+   "GUID": "{D641BF61-3358-4F7E-9B07-84372825EA29}",
+   "Generator": "2024.1.10.8979"
+  },
+  "CacheRoot": "../../../../Ubisoft-Mentorship-2026_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{8E2DCCFE-8155-4080-90D2-2616CB4C6E72}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../Ubisoft-Mentorship-2026_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{3010C3C7-A28E-434F-8596-57E351A680CA}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../Ubisoft-Mentorship-2026_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{D37E022B-72D1-43C2-9B05-79066DC6FFCA}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{181506FC-ACBE-C1A3-01BF-1EC680857A05}"
+ }
+}

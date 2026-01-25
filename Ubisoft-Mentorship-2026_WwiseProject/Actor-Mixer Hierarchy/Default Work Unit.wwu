@@ -1,6 +1,252 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{DF512F29-960B-47B1-B6D8-4F56BCB5F3B5}" ShortID="722762097">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="UI_Confirm" ID="{F52415A5-BFA8-4A74-8262-9D4CEB591911}" ShortID="164333473">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Confirm" ID="{EAB54CAF-04DB-4F74-A799-CAAC896D9431}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Confirm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="102444942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{34248827-5DFC-4462-8C90-FB3F61855E0B}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Confirm" ID="{EAB54CAF-04DB-4F74-A799-CAAC896D9431}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_HeartGain" ID="{2AE56BCF-6363-4C36-98A1-41394529CE29}" ShortID="678270491">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_HeartGain" ID="{FC893FF3-3157-411D-9A3F-951719442688}">
+									<Language>SFX</Language>
+									<AudioFile>UI_HeartGain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="888816987"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_HeartGain" ID="{FC893FF3-3157-411D-9A3F-951719442688}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_HeartLoss" ID="{5FB25DC6-A846-4551-99B4-5AEF638448B6}" ShortID="989307196">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_HeartLoss" ID="{D74B58FE-A6BB-4233-BF1E-F5E5F4B7A762}">
+									<Language>SFX</Language>
+									<AudioFile>UI_HeartLoss.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849356236"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_HeartLoss" ID="{D74B58FE-A6BB-4233-BF1E-F5E5F4B7A762}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Hover" ID="{C4E9C556-4E17-4CC9-A81C-DDF2D60FD5EE}" ShortID="691696217">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Hover" ID="{3A73DAEA-1CB1-4679-A499-DF9D204FFE87}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435645120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Hover" ID="{3A73DAEA-1CB1-4679-A499-DF9D204FFE87}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Return" ID="{7680F46B-236B-409C-BA8A-33D0FF2F620C}" ShortID="1062764854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Return" ID="{7CC86BE7-25D5-4A6A-947C-4119FB9DA082}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Return.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825158864"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Return" ID="{7CC86BE7-25D5-4A6A-947C-4119FB9DA082}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Select" ID="{37A4E354-2964-47CD-8F4D-E523A1B56AC3}" ShortID="251901467">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Select" ID="{2A7BBB87-1F16-47EA-B14A-2A35959517C8}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="718505568"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Select" ID="{2A7BBB87-1F16-47EA-B14A-2A35959517C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{3412870C-98E2-431C-87C5-7A78AE293294}" ShortID="106990643">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Props" ID="{0489EF40-FC9D-4784-95BB-EE3F6B430E52}" ShortID="944050967">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+				<Folder Name="Character" ID="{2370A87F-E7B9-4A7F-9705-B0F04B29F532}" ShortID="890863960">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{82BE663A-9076-4156-A957-B29D56D2339D}" ShortID="452714541">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Earth" ID="{3A060227-F0FB-4A93-BE8D-5378ABE23302}" ShortID="1014996118">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Grass" ID="{7D2A1744-ACE8-475B-A13A-B843F06DE0FE}" ShortID="877080725">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Puddle" ID="{747BD74E-F22A-4F5C-81FC-D533E5B17495}" ShortID="33819904">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Stone" ID="{9B63C4E5-407A-4768-8933-B4633C34C0ED}" ShortID="445873936">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{DBAA0872-FCD0-40E6-BD0A-938FA3B55852}"/>
+							</PositioningInfo>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Earth" ID="{3A060227-F0FB-4A93-BE8D-5378ABE23302}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Grass" ID="{7D2A1744-ACE8-475B-A13A-B843F06DE0FE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Puddle" ID="{747BD74E-F22A-4F5C-81FC-D533E5B17495}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Stone" ID="{9B63C4E5-407A-4768-8933-B4633C34C0ED}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Creatures" ID="{CD09AB2E-84D5-40B2-A42C-A03F154B571C}" ShortID="296401066">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

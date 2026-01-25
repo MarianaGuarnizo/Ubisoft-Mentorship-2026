@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D5D139F1-7948-4C62-A6F0-A3801C67913F}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{D5D139F1-7948-4C62-A6F0-A3801C67913F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D5D139F1-7948-4C62-A6F0-A3801C67913F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{6FB04563-9A3C-4805-B863-A22CF0CD8425}" ShortID="465270154">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Confirm" ID="{3895DE59-50F5-440C-A2D5-16B4057AD1BF}">
+							<ChildrenList>
+								<Action Name="" ID="{585DA902-9152-4878-A9DF-6FCE70DFB39F}" ShortID="821159525">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Confirm" ID="{F52415A5-BFA8-4A74-8262-9D4CEB591911}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HeartGain" ID="{F3D556AE-00E6-4ADF-8C66-BC043885228C}">
+							<ChildrenList>
+								<Action Name="" ID="{73743FEA-D03E-4662-89B2-484C3120DA4B}" ShortID="614493166">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_HeartGain" ID="{2AE56BCF-6363-4C36-98A1-41394529CE29}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HeartLoss" ID="{4EDD6899-BD5B-4F26-BC8C-0DE784B33C27}">
+							<ChildrenList>
+								<Action Name="" ID="{239E0D29-6C34-4307-8F7B-EF5A87EF286D}" ShortID="971194802">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_HeartLoss" ID="{5FB25DC6-A846-4551-99B4-5AEF638448B6}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover" ID="{7918C3CE-A184-4FFD-B7A5-EDC7A8542B04}">
+							<ChildrenList>
+								<Action Name="" ID="{DE819C0A-7B14-4790-8C97-38A84989E943}" ShortID="509330074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Hover" ID="{C4E9C556-4E17-4CC9-A81C-DDF2D60FD5EE}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Return" ID="{EFC43590-EC91-489A-9C23-B77D68B740F6}">
+							<ChildrenList>
+								<Action Name="" ID="{3153CFEA-E47B-44A2-BAF2-B98872EB122D}" ShortID="355652395">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Return" ID="{7680F46B-236B-409C-BA8A-33D0FF2F620C}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Select" ID="{DBE90863-7910-4B87-8552-A76360138C62}">
+							<ChildrenList>
+								<Action Name="" ID="{3B533CF1-0F42-4961-8B1E-AE89D9308E16}" ShortID="309464594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Select" ID="{37A4E354-2964-47CD-8F4D-E523A1B56AC3}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

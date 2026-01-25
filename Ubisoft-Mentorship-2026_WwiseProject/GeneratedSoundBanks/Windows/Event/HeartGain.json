@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1893120954",
+    "Type": "Event",
+    "GUID": "{F3D556AE-00E6-4ADF-8C66-BC043885228C}",
+    "Language": "SFX",
+    "Hash": "{69DC8549-05E8-2F15-5001-E7B9ACCDA300}",
+    "ObjectPath": "HeartGain",
+    "ShortName": "HeartGain",
+    "Path": "Event/HeartGain.bnk",
+    "Media": [
+     {
+      "Id": "888816987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_HeartGain.wav",
+      "Path": "Media/888816987.wem",
+      "CachePath": "0B/{0B361B2F-7F9B-82A8-5807-938C26004201}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1893120954",
+      "Name": "HeartGain",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\HeartGain",
+      "GUID": "{F3D556AE-00E6-4ADF-8C66-BC043885228C}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7248299",
+      "DurationMax": "1.7248299",
+      "MediaRefs": [
+       {
+        "Id": "888816987"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BCDB9CE9-2446-8D39-AFE0-541958084E8D}"
+ }
+}

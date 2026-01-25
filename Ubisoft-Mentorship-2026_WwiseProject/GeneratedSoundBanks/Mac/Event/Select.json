@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1432588725",
+    "Type": "Event",
+    "GUID": "{DBE90863-7910-4B87-8552-A76360138C62}",
+    "Language": "SFX",
+    "Hash": "{8C0FB89C-4CC0-D640-EDBA-C47AD502FE23}",
+    "ObjectPath": "Select",
+    "ShortName": "Select",
+    "Path": "Event/Select.bnk",
+    "Media": [
+     {
+      "Id": "718505568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Select.wav",
+      "Path": "Media/718505568.wem",
+      "CachePath": "01/{01976FAF-A55A-EA15-37A6-6B6C12B1E658}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1432588725",
+      "Name": "Select",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Select",
+      "GUID": "{DBE90863-7910-4B87-8552-A76360138C62}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "2.611746",
+      "DurationMax": "2.611746",
+      "MediaRefs": [
+       {
+        "Id": "718505568"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0E1DAC4F-26ED-572A-23F3-3FFB8BB4F772}"
+ }
+}

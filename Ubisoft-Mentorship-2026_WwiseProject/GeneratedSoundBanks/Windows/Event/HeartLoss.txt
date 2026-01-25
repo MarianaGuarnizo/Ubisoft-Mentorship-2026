@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1695606510	HeartLoss			\Default Work Unit\UI\HeartLoss	
+

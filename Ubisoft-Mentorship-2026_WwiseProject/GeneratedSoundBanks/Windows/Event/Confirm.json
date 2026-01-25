@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1517537939",
+    "Type": "Event",
+    "GUID": "{3895DE59-50F5-440C-A2D5-16B4057AD1BF}",
+    "Language": "SFX",
+    "Hash": "{2D2B107B-13E7-95C4-81AB-103ECC092054}",
+    "ObjectPath": "Confirm",
+    "ShortName": "Confirm",
+    "Path": "Event/Confirm.bnk",
+    "Media": [
+     {
+      "Id": "102444942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Confirm.wav",
+      "Path": "Media/102444942.wem",
+      "CachePath": "4C/{4C9F1AC7-6F70-D1C8-B277-FB1A05AC3BF6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1517537939",
+      "Name": "Confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Confirm",
+      "GUID": "{3895DE59-50F5-440C-A2D5-16B4057AD1BF}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0269161",
+      "DurationMax": "1.0269161",
+      "MediaRefs": [
+       {
+        "Id": "102444942"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{39A6FDF3-BA81-1899-0806-111A58A58CB5}"
+ }
+}

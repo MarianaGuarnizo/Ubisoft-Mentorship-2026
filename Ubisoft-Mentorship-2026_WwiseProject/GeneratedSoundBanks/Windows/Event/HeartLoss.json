@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1695606510",
+    "Type": "Event",
+    "GUID": "{4EDD6899-BD5B-4F26-BC8C-0DE784B33C27}",
+    "Language": "SFX",
+    "Hash": "{3F9146D3-ABE3-3CF4-F8C8-DBEE57C19614}",
+    "ObjectPath": "HeartLoss",
+    "ShortName": "HeartLoss",
+    "Path": "Event/HeartLoss.bnk",
+    "Media": [
+     {
+      "Id": "849356236",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_HeartLoss.wav",
+      "Path": "Media/849356236.wem",
+      "CachePath": "D8/{D83E9BF7-8A15-EC4C-BB87-4AB19A3B7D45}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1695606510",
+      "Name": "HeartLoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\HeartLoss",
+      "GUID": "{4EDD6899-BD5B-4F26-BC8C-0DE784B33C27}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7",
+      "DurationMax": "1.7",
+      "MediaRefs": [
+       {
+        "Id": "849356236"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D93FD4D0-9B56-3977-5ECA-BE09FCCE3EAD}"
+ }
+}

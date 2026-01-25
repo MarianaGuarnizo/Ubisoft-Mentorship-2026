@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "394282272",
+    "Type": "User",
+    "GUID": "{0EFA12C5-107A-4904-9E4C-253310022095}",
+    "Language": "SFX",
+    "Hash": "{18920331-6F4F-FC73-349D-7FEF82B3A320}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterSB",
+    "ShortName": "MasterSB",
+    "Path": "MasterSB.bnk"
+   }
+  ],
+  "FileHash": "{98BC33F2-9C27-4C57-1B8B-6026C5382FA1}"
+ }
+}
