@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3444057113	Crystal			\Default Work Unit\Props\Crystal	
+

@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "402727457",
+    "Type": "Event",
+    "GUID": "{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}",
+    "Language": "SFX",
+    "Hash": "{2F0F9490-0FBE-27A9-FBA5-619EA9513DF6}",
+    "ObjectPath": "CrateFall",
+    "ShortName": "CrateFall",
+    "Path": "Event/CrateFall.bnk",
+    "Media": [
+     {
+      "Id": "166787452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrateFall.wav",
+      "Path": "Media/166787452.wem",
+      "CachePath": "0B/{0BE456C5-D2FA-BF40-6C1F-C659B0A5FAE5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "402727457",
+      "Name": "CrateFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrateFall",
+      "GUID": "{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}",
+      "Color": "1",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0314786",
+      "DurationMax": "1.5679511",
+      "MediaRefs": [
+       {
+        "Id": "166787452"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{88E3D8F1-13E6-7187-3D4A-978DB75B5562}"
+ }
+}

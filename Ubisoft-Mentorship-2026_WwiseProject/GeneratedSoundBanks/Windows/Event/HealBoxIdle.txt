@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3222341092	HealBoxIdle			\Default Work Unit\Props\HealBoxIdle	
+

@@ -77,6 +77,80 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Props" ID="{27538FB3-FA86-42F4-A2A8-C74647446D77}" ShortID="263660669">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="CrateBreak" ID="{4390650B-EAD6-4EBF-985C-C769C125E3F5}">
+							<ChildrenList>
+								<Action Name="" ID="{6F00008C-D171-4DB6-BCC5-4D0568DD50DA}" ShortID="718833101">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CrateBreak" ID="{F5C23117-E7AC-4E65-A34C-27B020F88A49}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CrateFall" ID="{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}">
+							<ChildrenList>
+								<Action Name="" ID="{614CF833-D3B9-4734-ABE6-6F8283A9C41F}" ShortID="341495127">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_CrateFall" ID="{B7A9B649-75CD-4A30-9161-951CACAFEB26}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CrystalPickUp" ID="{79828FEC-70B0-47B2-8063-48253672215E}">
+							<ChildrenList>
+								<Action Name="" ID="{D0C87891-5285-486E-BCAF-EBF852FFD646}" ShortID="906525882">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_CrystalPickUp" ID="{4F45A713-A95C-4ACF-AA33-683555C5F4DC}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Crystal" ID="{B4DA66A7-E523-438A-8299-6643015E8A5A}">
+							<ChildrenList>
+								<Action Name="" ID="{8A0CAB98-BC4A-480C-8613-5451BADA3C63}" ShortID="13122400">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystal" ID="{C37A57E4-7F37-4F65-8FB5-81F62BAC994D}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HealBoxIdle" ID="{F6D085D6-F718-4E92-9D60-89FBDEA0239A}">
+							<ChildrenList>
+								<Action Name="" ID="{13A694BD-841E-416C-A5B2-C63548706DC2}" ShortID="981741874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_HealBoxIdle" ID="{F9E2C1BB-F6A1-4933-9E61-6772E2F128C7}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HealBoxOpen" ID="{553EEA84-FA8E-4A73-9668-F818F23A6891}">
+							<ChildrenList>
+								<Action Name="" ID="{CA16998D-2966-45D1-A6AF-276A7228DD36}" ShortID="966672334">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PROPS_HealBoxOpen" ID="{2303DF3E-5F45-432D-8C5B-24F7CCB6036A}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

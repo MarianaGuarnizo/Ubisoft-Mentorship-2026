@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3222341092",
+    "Type": "Event",
+    "GUID": "{F6D085D6-F718-4E92-9D60-89FBDEA0239A}",
+    "Language": "SFX",
+    "Hash": "{F39BFB32-50D2-62D1-4E2E-E26927B38859}",
+    "ObjectPath": "HealBoxIdle",
+    "ShortName": "HealBoxIdle",
+    "Path": "Event/HealBoxIdle.bnk",
+    "Media": [
+     {
+      "Id": "160472549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_HealBoxIdle.wav",
+      "Path": "Media/160472549.wem",
+      "CachePath": "29/{29360407-7103-5AEF-2752-66C5475A5C42}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3222341092",
+      "Name": "HealBoxIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\HealBoxIdle",
+      "GUID": "{F6D085D6-F718-4E92-9D60-89FBDEA0239A}",
+      "Color": "1",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "160472549"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0E40ECC3-54AE-54CD-4950-0494845C15BB}"
+ }
+}

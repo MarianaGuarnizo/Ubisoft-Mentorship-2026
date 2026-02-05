@@ -10,6 +10,15 @@
 					</PropertyList>
 					<ChildrenList>
 						<Sound Name="UI_Confirm" ID="{F52415A5-BFA8-4A74-8262-9D4CEB591911}" ShortID="164333473">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{06D675E1-36D9-47FE-BCDC-40785F1BAAB0}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -38,6 +47,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_HeartGain" ID="{2AE56BCF-6363-4C36-98A1-41394529CE29}" ShortID="678270491">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9A5F548A-0644-4EEA-8E4D-06F9F9C8B007}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -60,6 +78,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_HeartLoss" ID="{5FB25DC6-A846-4551-99B4-5AEF638448B6}" ShortID="989307196">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{75F399D5-29CB-4353-8FB8-567DB29AE03B}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -82,6 +109,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Hover" ID="{C4E9C556-4E17-4CC9-A81C-DDF2D60FD5EE}" ShortID="691696217">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2B2CED6-D462-4E67-AE1B-00A71D0FE3BC}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -104,6 +140,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Return" ID="{7680F46B-236B-409C-BA8A-33D0FF2F620C}" ShortID="1062764854">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DEB14198-F706-4F9F-8181-35685D7EC276}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -160,6 +205,310 @@
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="CrateBreak" ID="{F5C23117-E7AC-4E65-A34C-27B020F88A49}" ShortID="245394055">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{34E7A7B1-B682-4BC4-A975-106ECE2D19CF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="600"/>
+													<Property Name="Min" Type="Real64" Value="-575"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Crates" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PROPS_CrateBreak-001" ID="{03C0D0A8-7BDE-40D1-BAAC-91B892289276}" ShortID="373012989">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CEC03597-4263-47D3-8780-9713BA23445D}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PROPS_CrateBreak-001" ID="{2C71F520-B8FD-4865-9E7B-47AD34BC53C9}">
+											<Language>SFX</Language>
+											<AudioFile>PROPS_CrateBreak-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1052000640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PROPS_CrateBreak-001" ID="{2C71F520-B8FD-4865-9E7B-47AD34BC53C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PROPS_CrateBreak-002" ID="{A9ADE777-0902-4F19-989B-B278566517EC}" ShortID="155141528">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8005807E-980E-4AB4-9E8F-8E78319FF684}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PROPS_CrateBreak-002" ID="{DC68C924-EAA1-484B-AE43-A1EEC4BF1CF7}">
+											<Language>SFX</Language>
+											<AudioFile>PROPS_CrateBreak-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="699338910"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PROPS_CrateBreak-002" ID="{DC68C924-EAA1-484B-AE43-A1EEC4BF1CF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PROPS_CrateBreak-003" ID="{DC7FC1A6-BFCE-4998-B9B1-CE2853F987CB}" ShortID="67945414">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3B4E8609-32C7-44DD-AE61-DA91077CD28B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PROPS_CrateBreak-003" ID="{6B264E62-967D-410E-BCEE-D195D4849266}">
+											<Language>SFX</Language>
+											<AudioFile>PROPS_CrateBreak-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141745773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PROPS_CrateBreak-003" ID="{6B264E62-967D-410E-BCEE-D195D4849266}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Crystal" ID="{C37A57E4-7F37-4F65-8FB5-81F62BAC994D}" ShortID="474294526">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Crystals" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PROPS_CrystalCall" ID="{216B5AFC-85F3-4D71-AB1D-239C1F1422FE}" ShortID="42495773">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PROPS_CrystalCall" ID="{F2480933-E545-464B-A944-A78E2DC750B6}">
+											<Language>SFX</Language>
+											<AudioFile>PROPS_CrystalCall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734819275"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PROPS_CrystalCall" ID="{F2480933-E545-464B-A944-A78E2DC750B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PROPS_CrystalIDLE" ID="{1CBF8883-BDC3-48A4-89AC-AD144F612B49}" ShortID="480364655">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PROPS_CrystalIDLE" ID="{7F047D02-F70F-44F8-8BC8-3B499F51B89F}">
+											<Language>SFX</Language>
+											<AudioFile>PROPS_CrystalIDLE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="799129545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PROPS_CrystalIDLE" ID="{7F047D02-F70F-44F8-8BC8-3B499F51B89F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<Sound Name="PROPS_CrateFall" ID="{B7A9B649-75CD-4A30-9161-951CACAFEB26}" ShortID="722559246">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F375716D-85AA-4677-871A-E8E2F95AF492}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="350"/>
+													<Property Name="Min" Type="Real64" Value="-375"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Crates" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PROPS_CrateFall" ID="{6F0345CB-BB05-4B6E-B28E-FCF262315F23}">
+									<Language>SFX</Language>
+									<AudioFile>PROPS_CrateFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="166787452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PROPS_CrateFall" ID="{6F0345CB-BB05-4B6E-B28E-FCF262315F23}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PROPS_CrystalPickUp" ID="{4F45A713-A95C-4ACF-AA33-683555C5F4DC}" ShortID="840919613">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Crates" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PROPS_CrystalPickUp" ID="{FA55DB0B-4AD5-4477-976E-73A21FDB0D32}">
+									<Language>SFX</Language>
+									<AudioFile>PROPS_CrystalPickUp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="718640375"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PROPS_CrystalPickUp" ID="{FA55DB0B-4AD5-4477-976E-73A21FDB0D32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PROPS_HealBoxIdle" ID="{F9E2C1BB-F6A1-4933-9E61-6772E2F128C7}" ShortID="639352911">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PROPS_HealBoxIdle" ID="{0D2573B7-CC9B-4027-B43D-820C1628B345}">
+									<Language>SFX</Language>
+									<AudioFile>PROPS_HealBoxIdle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="160472549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PROPS_HealBoxIdle" ID="{0D2573B7-CC9B-4027-B43D-820C1628B345}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PROPS_HealBoxOpen" ID="{2303DF3E-5F45-432D-8C5B-24F7CCB6036A}" ShortID="393882311">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PROPS_HealBoxOpen" ID="{225CDE69-399B-4F6C-88E4-212BB45A0757}">
+									<Language>SFX</Language>
+									<AudioFile>PROPS_HealBoxOpen.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="414022638"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PROPS_HealBoxOpen" ID="{225CDE69-399B-4F6C-88E4-212BB45A0757}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{2370A87F-E7B9-4A7F-9705-B0F04B29F532}" ShortID="890863960">
 					<PropertyList>

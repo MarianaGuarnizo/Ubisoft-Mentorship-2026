@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3943406705",
+    "Type": "Event",
+    "GUID": "{79828FEC-70B0-47B2-8063-48253672215E}",
+    "Language": "SFX",
+    "Hash": "{D1B53DA6-69A8-CD94-7F34-2EE72E5F9086}",
+    "ObjectPath": "CrystalPickUp",
+    "ShortName": "CrystalPickUp",
+    "Path": "Event/CrystalPickUp.bnk",
+    "Media": [
+     {
+      "Id": "718640375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrystalPickUp.wav",
+      "Path": "Media/718640375.wem",
+      "CachePath": "D6/{D6D96AA2-AE04-2AF8-AE08-6177695BBE43}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3943406705",
+      "Name": "CrystalPickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrystalPickUp",
+      "GUID": "{79828FEC-70B0-47B2-8063-48253672215E}",
+      "Color": "1",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1150794",
+      "DurationMax": "2.1150794",
+      "MediaRefs": [
+       {
+        "Id": "718640375"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D9A9D42-0598-8871-6FBA-85F878BB4A7D}"
+ }
+}

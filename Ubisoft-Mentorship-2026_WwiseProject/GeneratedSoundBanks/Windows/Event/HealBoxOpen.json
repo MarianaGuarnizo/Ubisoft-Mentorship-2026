@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2128079350",
+    "Type": "Event",
+    "GUID": "{553EEA84-FA8E-4A73-9668-F818F23A6891}",
+    "Language": "SFX",
+    "Hash": "{CA2EB428-0B6A-4A69-4CC4-D39DD97E4B00}",
+    "ObjectPath": "HealBoxOpen",
+    "ShortName": "HealBoxOpen",
+    "Path": "Event/HealBoxOpen.bnk",
+    "Media": [
+     {
+      "Id": "414022638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_HealBoxOpen.wav",
+      "Path": "Media/414022638.wem",
+      "CachePath": "01/{01D6DD0E-B883-885E-280D-A002BA70FB7B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2128079350",
+      "Name": "HealBoxOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\HealBoxOpen",
+      "GUID": "{553EEA84-FA8E-4A73-9668-F818F23A6891}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5221088",
+      "DurationMax": "3.5221088",
+      "MediaRefs": [
+       {
+        "Id": "414022638"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{219A316C-F366-33CC-6CF5-8FF776CF43FD}"
+ }
+}

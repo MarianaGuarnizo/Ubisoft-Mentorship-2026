@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3444057113",
+    "Type": "Event",
+    "GUID": "{B4DA66A7-E523-438A-8299-6643015E8A5A}",
+    "Language": "SFX",
+    "Hash": "{1B067BCF-080D-30B8-930D-DF3F162A3B0C}",
+    "ObjectPath": "Crystal",
+    "ShortName": "Crystal",
+    "Path": "Event/Crystal.bnk",
+    "Media": [
+     {
+      "Id": "734819275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrystalCall.wav",
+      "Path": "Media/734819275.wem",
+      "CachePath": "11/{11B9C56A-790A-19FB-5235-3E25EB5261A8}.wem"
+     },
+     {
+      "Id": "799129545",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrystalIDLE.wav",
+      "Path": "Media/799129545.wem",
+      "CachePath": "18/{182D58D8-5062-0CCD-E15D-98D73EB10064}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3444057113",
+      "Name": "Crystal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Crystal",
+      "GUID": "{B4DA66A7-E523-438A-8299-6643015E8A5A}",
+      "Color": "1",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "734819275"
+       },
+       {
+        "Id": "799129545"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3BD03694-7472-5941-A4E3-4D51A6AF6994}"
+ }
+}

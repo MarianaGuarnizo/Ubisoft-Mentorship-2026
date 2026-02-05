@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	402727457	CrateFall			\Default Work Unit\Props\CrateFall	
+

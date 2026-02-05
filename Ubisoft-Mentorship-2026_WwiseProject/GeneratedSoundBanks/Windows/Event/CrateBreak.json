@@ -1,0 +1,74 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2377317199",
+    "Type": "Event",
+    "GUID": "{4390650B-EAD6-4EBF-985C-C769C125E3F5}",
+    "Language": "SFX",
+    "Hash": "{89E05CB9-50BA-7659-0BE9-11A60A43ECD4}",
+    "ObjectPath": "CrateBreak",
+    "ShortName": "CrateBreak",
+    "Path": "Event/CrateBreak.bnk",
+    "Media": [
+     {
+      "Id": "141745773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrateBreak-003.wav",
+      "Path": "Media/141745773.wem",
+      "CachePath": "5C/{5C37FE0F-0DF3-A232-7286-2BC1B049D7A7}.wem"
+     },
+     {
+      "Id": "699338910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrateBreak-002.wav",
+      "Path": "Media/699338910.wem",
+      "CachePath": "0A/{0A0957B0-46B9-F6BA-F3BF-339A329E2102}.wem"
+     },
+     {
+      "Id": "1052000640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_CrateBreak-001.wav",
+      "Path": "Media/1052000640.wem",
+      "CachePath": "F7/{F72C95AB-72A5-98CC-B97A-973E8AF9FFBA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2377317199",
+      "Name": "CrateBreak",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrateBreak",
+      "GUID": "{4390650B-EAD6-4EBF-985C-C769C125E3F5}",
+      "Color": "1",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6029516",
+      "DurationMax": "3.4282978",
+      "MediaRefs": [
+       {
+        "Id": "141745773"
+       },
+       {
+        "Id": "699338910"
+       },
+       {
+        "Id": "1052000640"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{45D0944D-D915-A8D8-F66E-4C82F7AE0855}"
+ }
+}
