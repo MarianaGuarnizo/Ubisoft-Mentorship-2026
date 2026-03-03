@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3179661459",
+    "Type": "Event",
+    "GUID": "{F6116962-91D9-4A84-97E7-2891774215E3}",
+    "Language": "SFX",
+    "Hash": "{8F67FB79-999E-166B-CFE9-A05163653A5E}",
+    "ObjectPath": "PlateUnlock",
+    "ShortName": "PlateUnlock",
+    "Path": "Event/PlateUnlock.bnk",
+    "Media": [
+     {
+      "Id": "243825077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_PlateUnlock.wav",
+      "Path": "Media/243825077.wem",
+      "CachePath": "2E/{2EDF064D-0801-3678-857B-182418473E31}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3179661459",
+      "Name": "PlateUnlock",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\PlateUnlock",
+      "GUID": "{F6116962-91D9-4A84-97E7-2891774215E3}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2852834",
+      "DurationMax": "1.2852834",
+      "MediaRefs": [
+       {
+        "Id": "243825077"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{75D048C0-6958-B681-D631-0B584C49836E}"
+ }
+}

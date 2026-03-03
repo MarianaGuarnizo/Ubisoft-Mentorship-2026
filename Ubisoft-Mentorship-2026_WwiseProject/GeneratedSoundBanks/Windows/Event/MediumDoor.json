@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4086418528",
+    "Type": "Event",
+    "GUID": "{5847D12C-C55A-4ECF-B9A7-807224F9554B}",
+    "Language": "SFX",
+    "Hash": "{610FCE9C-DE5B-9DA3-7F5A-EE1DB3B29A1E}",
+    "ObjectPath": "MediumDoor",
+    "ShortName": "MediumDoor",
+    "Path": "Event/MediumDoor.bnk",
+    "Media": [
+     {
+      "Id": "888623445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_MediumDoor.wav",
+      "Path": "Media/888623445.wem",
+      "CachePath": "D4/{D4D84A29-D36F-D331-F106-E80F641F58A5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4086418528",
+      "Name": "MediumDoor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\MediumDoor",
+      "GUID": "{5847D12C-C55A-4ECF-B9A7-807224F9554B}",
+      "Color": "1",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "6.431746",
+      "DurationMax": "6.431746",
+      "MediaRefs": [
+       {
+        "Id": "888623445"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7A82C278-2F3F-B1DE-EDCB-F98948B4B9B0}"
+ }
+}

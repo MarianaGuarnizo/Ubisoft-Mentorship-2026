@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3182403742	HangingVines			\Default Work Unit\Ambient\FloraFauna\HangingVines	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	949535130	HangingVines	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\75\{75CCAB18-B3F2-DF67-B9C2-EA5BE6318350}.wem	949535130.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\FloraFauna\HangingVines	
+

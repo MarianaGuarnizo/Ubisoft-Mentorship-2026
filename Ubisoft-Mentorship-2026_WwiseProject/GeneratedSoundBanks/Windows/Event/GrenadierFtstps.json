@@ -1,0 +1,98 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3604079796",
+    "Type": "Event",
+    "GUID": "{00181578-945B-4FC1-A896-5EB7530BDD23}",
+    "Language": "SFX",
+    "Hash": "{6B8BD0C4-16C1-5813-E281-57EAAD9B354A}",
+    "ObjectPath": "GrenadierFtstps",
+    "ShortName": "GrenadierFtstps",
+    "Path": "Event/GrenadierFtstps.bnk",
+    "Media": [
+     {
+      "Id": "71532078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Footsteps_3.wav",
+      "Path": "Media/71532078.wem",
+      "CachePath": "D7/{D7B88E59-776C-4831-6B64-5D608AB92909}.wem"
+     },
+     {
+      "Id": "172659747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Footsteps_1.wav",
+      "Path": "Media/172659747.wem",
+      "CachePath": "56/{56B5D6F7-112C-D7AB-1220-4B6DC4397A6C}.wem"
+     },
+     {
+      "Id": "231747292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Footsteps_2.wav",
+      "Path": "Media/231747292.wem",
+      "CachePath": "63/{63F1D6F8-4E5B-D588-C390-7D2732B30CCD}.wem"
+     },
+     {
+      "Id": "778130205",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Footsteps_5.wav",
+      "Path": "Media/778130205.wem",
+      "CachePath": "3E/{3E1E1AD1-A0A3-1689-9C7E-2F8AF91E08D0}.wem"
+     },
+     {
+      "Id": "800279443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Footsteps_4.wav",
+      "Path": "Media/800279443.wem",
+      "CachePath": "90/{90960A88-922F-162A-EC2D-EBDF7AC4FD02}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3604079796",
+      "Name": "GrenadierFtstps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierFtstps",
+      "GUID": "{00181578-945B-4FC1-A896-5EB7530BDD23}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.75464994",
+      "DurationMax": "1.0400517",
+      "MediaRefs": [
+       {
+        "Id": "71532078"
+       },
+       {
+        "Id": "172659747"
+       },
+       {
+        "Id": "231747292"
+       },
+       {
+        "Id": "778130205"
+       },
+       {
+        "Id": "800279443"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6893B470-3291-9B34-A840-99D34E33A215}"
+ }
+}

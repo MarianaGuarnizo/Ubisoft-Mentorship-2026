@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3444057113	Crystal			\Default Work Unit\Props\Crystal	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\Test	
+

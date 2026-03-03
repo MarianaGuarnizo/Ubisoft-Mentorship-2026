@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3193947170	Hurt			\Default Work Unit\Character\Hurt	
+

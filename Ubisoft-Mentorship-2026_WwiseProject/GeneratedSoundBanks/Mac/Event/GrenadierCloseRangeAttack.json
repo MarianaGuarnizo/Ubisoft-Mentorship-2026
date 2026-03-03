@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "590881027",
+    "Type": "Event",
+    "GUID": "{2D8A8F21-F50A-4269-A453-E9B8FEE9A6A7}",
+    "Language": "SFX",
+    "Hash": "{7652DE40-02FC-FA57-D020-788F2584C05C}",
+    "ObjectPath": "GrenadierCloseRangeAttack",
+    "ShortName": "GrenadierCloseRangeAttack",
+    "Path": "Event/GrenadierCloseRangeAttack.bnk",
+    "Media": [
+     {
+      "Id": "882409907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_MeleeAttack2.wav",
+      "Path": "Media/882409907.wem",
+      "CachePath": "EC/{EC5A2968-EB68-44AA-4FFE-DEE953523DDD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "590881027",
+      "Name": "GrenadierCloseRangeAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierCloseRangeAttack",
+      "GUID": "{2D8A8F21-F50A-4269-A453-E9B8FEE9A6A7}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.73",
+      "DurationMax": "1.73",
+      "MediaRefs": [
+       {
+        "Id": "882409907"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C515B52-EFC6-AC24-7576-7A5A34E48CF1}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3604079796	GrenadierFtstps			\Default Work Unit\Character\Grenadier\GrenadierFtstps	
+

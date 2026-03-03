@@ -1,0 +1,97 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "501939944",
+    "Type": "Event",
+    "GUID": "{22464572-1EA5-461C-952E-66CF1FB2D45B}",
+    "Language": "SFX",
+    "Hash": "{A7A0CB9D-FEEB-CB3B-B916-5B0AE19A8ABD}",
+    "ObjectPath": "ChompFtstps",
+    "ShortName": "ChompFtstps",
+    "Path": "Event/ChompFtstps.bnk",
+    "Media": [
+     {
+      "Id": "35815534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperFootsteps_01.wav",
+      "Path": "Media/35815534.wem",
+      "CachePath": "20/{2005A0A1-6A97-0485-95F0-2F2FC80B3C94}.wem"
+     },
+     {
+      "Id": "384798563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperFootsteps_02.wav",
+      "Path": "Media/384798563.wem",
+      "CachePath": "32/{32513FF7-BA1E-5AA2-AEC3-D3ADF6391AF3}.wem"
+     },
+     {
+      "Id": "831328799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperFootsteps_04.wav",
+      "Path": "Media/831328799.wem",
+      "CachePath": "D6/{D60165F5-467F-6721-8377-9E9FD9820580}.wem"
+     },
+     {
+      "Id": "886012118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperFootsteps_03.wav",
+      "Path": "Media/886012118.wem",
+      "CachePath": "43/{43EB22E9-859E-924B-7C6E-24455DF881CC}.wem"
+     },
+     {
+      "Id": "966285077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperFootsteps_05.wav",
+      "Path": "Media/966285077.wem",
+      "CachePath": "0B/{0BD6AE5D-C7C0-9B4E-AEB1-AC33C7A69E2A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "501939944",
+      "Name": "ChompFtstps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompFtstps",
+      "GUID": "{22464572-1EA5-461C-952E-66CF1FB2D45B}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24535057",
+      "DurationMax": "0.38604978",
+      "MediaRefs": [
+       {
+        "Id": "35815534"
+       },
+       {
+        "Id": "384798563"
+       },
+       {
+        "Id": "831328799"
+       },
+       {
+        "Id": "886012118"
+       },
+       {
+        "Id": "966285077"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2CDA9598-CE69-9587-961B-41FADD345EA3}"
+ }
+}

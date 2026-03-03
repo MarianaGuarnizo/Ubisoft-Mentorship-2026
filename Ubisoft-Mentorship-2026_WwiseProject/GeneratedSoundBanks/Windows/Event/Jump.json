@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3833651337",
+    "Type": "Event",
+    "GUID": "{D51E5304-693E-4A50-BE9C-FFEA0AC36727}",
+    "Language": "SFX",
+    "Hash": "{254F855D-40A3-ECC6-1303-FC084358ABA7}",
+    "ObjectPath": "Jump",
+    "ShortName": "Jump",
+    "Path": "Event/Jump.bnk",
+    "Media": [
+     {
+      "Id": "674843335",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EllenJumpV2.wav",
+      "Path": "Media/674843335.wem",
+      "CachePath": "A1/{A166331F-BB62-B0FD-1557-2FF0CC5543B9}.wem"
+     },
+     {
+      "Id": "750319442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EllenJumpV2 - Trimmed.wav",
+      "Path": "Media/750319442.wem",
+      "CachePath": "94/{94136E35-EF8E-E01D-A543-550016609702}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3833651337",
+      "Name": "Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Jump",
+      "GUID": "{D51E5304-693E-4A50-BE9C-FFEA0AC36727}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5515873",
+      "DurationMax": "1.5515873",
+      "MediaRefs": [
+       {
+        "Id": "674843335"
+       },
+       {
+        "Id": "750319442"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{899DF48B-42D7-9560-0194-B8D3232C7339}"
+ }
+}

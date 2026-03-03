@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3561744037",
+    "Type": "Event",
+    "GUID": "{EC6213F4-C004-49B8-960F-817E351DAEDE}",
+    "Language": "SFX",
+    "Hash": "{FD27175D-A784-B24C-1AB0-F60B8B763971}",
+    "ObjectPath": "PlateIdle",
+    "ShortName": "PlateIdle",
+    "Path": "Event/PlateIdle.bnk",
+    "Media": [
+     {
+      "Id": "941763846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_PlateIDLE.wav",
+      "Path": "Media/941763846.wem",
+      "CachePath": "18/{186EA123-382E-10A7-F311-7740FFA05564}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3561744037",
+      "Name": "PlateIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\PlateIdle",
+      "GUID": "{EC6213F4-C004-49B8-960F-817E351DAEDE}",
+      "Color": "1",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "941763846"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{72F492DC-962C-43B6-B3F6-D722D1DCECDD}"
+ }
+}

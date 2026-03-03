@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4242898983",
+    "Type": "Event",
+    "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
+    "Language": "SFX",
+    "Hash": "{18F990CF-B28A-61CC-B41A-08D116564BC8}",
+    "ObjectPath": "GrenadierrangeAttack",
+    "ShortName": "GrenadierrangeAttack",
+    "Path": "Event/GrenadierrangeAttack.bnk",
+    "Media": [
+     {
+      "Id": "730712234",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_RangeAttack.wav",
+      "Path": "Media/730712234.wem",
+      "CachePath": "9E/{9EC834C8-08F1-6BE0-AACF-2FD3F588D90E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4242898983",
+      "Name": "GrenadierrangeAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierrangeAttack",
+      "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7666667",
+      "DurationMax": "2.7666667",
+      "MediaRefs": [
+       {
+        "Id": "730712234"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BC6B5C2E-6A7D-4FED-9AA7-280988A3DF5D}"
+ }
+}

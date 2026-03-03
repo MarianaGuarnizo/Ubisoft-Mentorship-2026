@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1399379220	EmoteLanding			\Default Work Unit\Character\EmoteLanding	
+

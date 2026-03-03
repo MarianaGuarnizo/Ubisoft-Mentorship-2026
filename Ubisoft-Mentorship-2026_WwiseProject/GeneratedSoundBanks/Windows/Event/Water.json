@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2654748154",
+    "Type": "Event",
+    "GUID": "{B472F481-EA26-4DA9-B779-3B5B152D796C}",
+    "Language": "SFX",
+    "Hash": "{57105D8D-7F0D-C2F9-86D0-3A6ABF5F451E}",
+    "ObjectPath": "Water",
+    "ShortName": "Water",
+    "Path": "Event/Water.bnk",
+    "Media": [
+     {
+      "Id": "11209312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "WaterFlow.wav",
+      "Path": "Media/11209312.wem",
+      "CachePath": "92/{9299C8A4-708D-E71C-3815-840A2EECE26F}.wem"
+     },
+     {
+      "Id": "372058101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "WaterFlow_2.wav",
+      "Path": "Media/372058101.wem",
+      "CachePath": "89/{8949D0CF-4E12-CDD4-BD6D-2D4A05B276CF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2654748154",
+      "Name": "Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\Water",
+      "GUID": "{B472F481-EA26-4DA9-B779-3B5B152D796C}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "11209312"
+       },
+       {
+        "Id": "372058101"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test",
+      "GUID": "{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B8852A74-A7DF-6EF6-3D8D-F6B0401F9886}"
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2386519981",
+    "Type": "Event",
+    "GUID": "{E5B969C8-4B68-4C58-B623-98CC6AA6A0FE}",
+    "Language": "SFX",
+    "Hash": "{BF25A4F0-429F-EDE0-7B5A-49C5341416B1}",
+    "ObjectPath": "Swing",
+    "ShortName": "Swing",
+    "Path": "Event/Swing.bnk",
+    "Media": [
+     {
+      "Id": "57783406",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Weapon_3.wav",
+      "Path": "Media/57783406.wem",
+      "CachePath": "BE/{BE73AA50-971A-2A5B-1D07-77B143D11C87}.wem"
+     },
+     {
+      "Id": "182764578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_EmoteAttack_2.wav",
+      "Path": "Media/182764578.wem",
+      "CachePath": "AC/{ACA7383C-5662-009B-BDEC-7DC015E79EBF}.wem"
+     },
+     {
+      "Id": "359781237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_EmoteAttack_1.wav",
+      "Path": "Media/359781237.wem",
+      "CachePath": "B1/{B14CFD97-BF54-24E7-FD8C-11278B625BBD}.wem"
+     },
+     {
+      "Id": "650996628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Weapon_2.wav",
+      "Path": "Media/650996628.wem",
+      "CachePath": "2E/{2E65F10D-0BA3-ABBA-9793-1BAFA3AFA1B4}.wem"
+     },
+     {
+      "Id": "653178161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_EmoteAttack_5.wav",
+      "Path": "Media/653178161.wem",
+      "CachePath": "6F/{6F274261-0094-A24D-5D90-56F2CA10B435}.wem"
+     },
+     {
+      "Id": "669664002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Weapon_4.wav",
+      "Path": "Media/669664002.wem",
+      "CachePath": "9A/{9AE4C295-69FD-AD91-FE89-5F8FCBB7D91E}.wem"
+     },
+     {
+      "Id": "737713033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Weapon_1.wav",
+      "Path": "Media/737713033.wem",
+      "CachePath": "31/{31644E65-845E-B93B-2865-2D174051B576}.wem"
+     },
+     {
+      "Id": "992480377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_EmoteAttack_4.wav",
+      "Path": "Media/992480377.wem",
+      "CachePath": "75/{751199DD-B50B-91C7-3373-87C97D18F0B4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2386519981",
+      "Name": "Swing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Weapon\\Swing",
+      "GUID": "{E5B969C8-4B68-4C58-B623-98CC6AA6A0FE}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "0.95315194",
+      "DurationMax": "0.9884127",
+      "MediaRefs": [
+       {
+        "Id": "57783406"
+       },
+       {
+        "Id": "182764578"
+       },
+       {
+        "Id": "359781237"
+       },
+       {
+        "Id": "650996628"
+       },
+       {
+        "Id": "653178161"
+       },
+       {
+        "Id": "669664002"
+       },
+       {
+        "Id": "737713033"
+       },
+       {
+        "Id": "992480377"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DCC3B3F1-470E-6EC6-03EF-7CA62BD69C43}"
+ }
+}

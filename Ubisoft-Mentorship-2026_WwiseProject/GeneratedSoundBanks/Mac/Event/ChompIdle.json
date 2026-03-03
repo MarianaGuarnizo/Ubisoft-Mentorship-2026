@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3236507202",
+    "Type": "Event",
+    "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
+    "Language": "SFX",
+    "Hash": "{08A45F72-213D-594F-B052-ACF02A1C7921}",
+    "ObjectPath": "ChompIdle",
+    "ShortName": "ChompIdle",
+    "Path": "Event/ChompIdle.bnk",
+    "Media": [
+     {
+      "Id": "17923742",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperIdleMix.wav",
+      "Path": "Media/17923742.wem",
+      "CachePath": "99/{9989BE2D-4D84-641B-9F04-55EF53330796}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3236507202",
+      "Name": "ChompIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompIdle",
+      "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
+      "Color": "12",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "17923742"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5219BC30-ABDC-477D-7248-6EE92A2E33EB}"
+ }
+}

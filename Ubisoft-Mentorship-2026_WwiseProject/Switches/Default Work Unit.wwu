@@ -3,7 +3,21 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{170CCA02-3029-4E4F-BB13-A9F8892DFE27}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="SurfaceType" ID="{41F9D800-430C-4195-8FC6-B276ECB03B06}"/>
+				<SwitchGroup Name="SurfaceType" ID="{41F9D800-430C-4195-8FC6-B276ECB03B06}">
+					<ChildrenList>
+						<Switch Name="Earth" ID="{CB514846-7E63-40FF-AC68-B44C7575EC3F}"/>
+						<Switch Name="Grass" ID="{1D81CB37-9339-4F46-A94D-552557631668}"/>
+						<Switch Name="Puddle" ID="{8BBA38F7-6C4D-414B-AE98-A354A13AD141}"/>
+						<Switch Name="Stone" ID="{23E5A44A-56EC-44AF-A7CE-F917E68BCE50}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="DeathSurfaceType" ID="{BBC234E1-A86B-4EF7-A1A8-78D34474B41C}">
+					<ChildrenList>
+						<Switch Name="Ground" ID="{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}"/>
+						<Switch Name="Water" ID="{D0C34F3E-FE90-4E78-A799-953A15B4B272}"/>
+						<Switch Name="Acid" ID="{1BA8A747-A96B-4676-8D93-78C333F281DB}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

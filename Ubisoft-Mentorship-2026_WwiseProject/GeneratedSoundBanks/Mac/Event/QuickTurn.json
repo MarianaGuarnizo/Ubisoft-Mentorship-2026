@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2747498379",
+    "Type": "Event",
+    "GUID": "{3769B649-9DC0-44A2-AF81-6C93DF00FAD7}",
+    "Language": "SFX",
+    "Hash": "{45014E21-4590-597A-800B-49EE7B042F03}",
+    "ObjectPath": "QuickTurn",
+    "ShortName": "QuickTurn",
+    "Path": "Event/QuickTurn.bnk",
+    "Media": [
+     {
+      "Id": "272228498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "QuickTurn-003.wav",
+      "Path": "Media/272228498.wem",
+      "CachePath": "7E/{7E33F058-3E53-4695-C884-D8B749062EBB}.wem"
+     },
+     {
+      "Id": "414480374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "QuickTurn-001.wav",
+      "Path": "Media/414480374.wem",
+      "CachePath": "9C/{9C1E3F93-7A53-97F5-D503-0864B256AFEB}.wem"
+     },
+     {
+      "Id": "441613391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "QuickTurn-002.wav",
+      "Path": "Media/441613391.wem",
+      "CachePath": "4B/{4B07742E-D2B0-9212-5EC4-1AC12DD8AB2C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2747498379",
+      "Name": "QuickTurn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\QuickTurn",
+      "GUID": "{3769B649-9DC0-44A2-AF81-6C93DF00FAD7}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3406576",
+      "DurationMax": "1.5002041",
+      "MediaRefs": [
+       {
+        "Id": "272228498"
+       },
+       {
+        "Id": "414480374"
+       },
+       {
+        "Id": "441613391"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1035F044-36F5-3601-06DC-071A3E3F9486}"
+ }
+}

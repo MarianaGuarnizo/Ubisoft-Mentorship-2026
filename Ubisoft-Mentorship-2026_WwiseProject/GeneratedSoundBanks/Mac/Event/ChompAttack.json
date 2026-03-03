@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "897397800",
+    "Type": "Event",
+    "GUID": "{2BCC2631-7AA3-4FD2-89E0-90AE2F5E7BDF}",
+    "Language": "SFX",
+    "Hash": "{40CD0A36-5700-17D8-972E-2AAA85277D07}",
+    "ObjectPath": "ChompAttack",
+    "ShortName": "ChompAttack",
+    "Path": "Event/ChompAttack.bnk",
+    "Media": [
+     {
+      "Id": "264264361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperAttack.wav",
+      "Path": "Media/264264361.wem",
+      "CachePath": "0B/{0BD2390C-6A11-0C6E-D1B7-97CC0D66BEDC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "897397800",
+      "Name": "ChompAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompAttack",
+      "GUID": "{2BCC2631-7AA3-4FD2-89E0-90AE2F5E7BDF}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1003218",
+      "DurationMax": "1.2530338",
+      "MediaRefs": [
+       {
+        "Id": "264264361"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3F4CC076-E774-EC4A-A2DD-E3D800E0A65F}"
+ }
+}

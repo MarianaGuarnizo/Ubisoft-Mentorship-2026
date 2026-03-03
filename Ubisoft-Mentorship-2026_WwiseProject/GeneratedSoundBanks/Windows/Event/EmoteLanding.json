@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1399379220",
+    "Type": "Event",
+    "GUID": "{D17C47EE-6735-4840-A8F5-7F923A2E8B8B}",
+    "Language": "SFX",
+    "Hash": "{4F3E7322-8E68-19DD-9B68-847D3388BDE9}",
+    "ObjectPath": "EmoteLanding",
+    "ShortName": "EmoteLanding",
+    "Path": "Event/EmoteLanding.bnk",
+    "Media": [
+     {
+      "Id": "126893930",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EmoteLanding-001.wav",
+      "Path": "Media/126893930.wem",
+      "CachePath": "D0/{D0E7045A-ACBA-6F3E-38B5-D0BF6C2CEE92}.wem"
+     },
+     {
+      "Id": "482341231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EmoteLanding-003.wav",
+      "Path": "Media/482341231.wem",
+      "CachePath": "62/{62A3C7F7-A9B3-6F02-AEC8-FD110720309B}.wem"
+     },
+     {
+      "Id": "593527922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "EmoteLanding-002.wav",
+      "Path": "Media/593527922.wem",
+      "CachePath": "9D/{9D1569E4-BDBF-B22A-4260-20F1101393FA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1399379220",
+      "Name": "EmoteLanding",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EmoteLanding",
+      "GUID": "{D17C47EE-6735-4840-A8F5-7F923A2E8B8B}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4843084",
+      "DurationMax": "1.6865987",
+      "MediaRefs": [
+       {
+        "Id": "126893930"
+       },
+       {
+        "Id": "482341231"
+       },
+       {
+        "Id": "593527922"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3A0B7EBA-8399-0A53-271F-8E1B11C0A9ED}"
+ }
+}

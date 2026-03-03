@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "193618431",
+    "Type": "Event",
+    "GUID": "{2281C375-9485-45F6-9829-237999155855}",
+    "Language": "SFX",
+    "Hash": "{911552E9-A3F4-18F7-505F-2E5064783D64}",
+    "ObjectPath": "PortalEnter",
+    "ShortName": "PortalEnter",
+    "Path": "Event/PortalEnter.bnk",
+    "Media": [
+     {
+      "Id": "394003437",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_PortalEnter.wav",
+      "Path": "Media/394003437.wem",
+      "CachePath": "EC/{EC9105E6-7558-7119-B5AE-0C34452A6CF7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "193618431",
+      "Name": "PortalEnter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalEnter",
+      "GUID": "{2281C375-9485-45F6-9829-237999155855}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "6.640408",
+      "DurationMax": "6.640408",
+      "MediaRefs": [
+       {
+        "Id": "394003437"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{18163F6D-613B-5C0B-9C72-9CAE7056FF0E}"
+ }
+}

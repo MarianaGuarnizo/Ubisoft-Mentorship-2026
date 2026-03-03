@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1537061107",
+    "Type": "Event",
+    "GUID": "{30F5590E-1461-4C3A-8E6F-12C31D5DF2EA}",
+    "Language": "SFX",
+    "Hash": "{471F708E-E604-FAA8-F945-A2AD4F56EF1E}",
+    "ObjectPath": "Wind",
+    "ShortName": "Wind",
+    "Path": "Event/Wind.bnk",
+    "Media": [
+     {
+      "Id": "315223708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Amb_Island _1_MainWind.wav",
+      "Path": "Media/315223708.wem",
+      "CachePath": "73/{73A3B5B5-8A37-087E-4F67-3F0EEFA32F69}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1537061107",
+      "Name": "Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\Wind",
+      "GUID": "{30F5590E-1461-4C3A-8E6F-12C31D5DF2EA}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "315223708"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{47ECCD1F-F17A-4E01-1AD5-6FB710EBD64C}"
+ }
+}

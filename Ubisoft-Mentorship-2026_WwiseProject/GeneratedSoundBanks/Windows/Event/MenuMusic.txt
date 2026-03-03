@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	679636833	MenuMusic			\Default Work Unit\Music\MenuMusic	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	965066180	main	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\34\{343DCB0F-556E-C8E4-30D3-3D20282A9351}.wem	965066180.wem	\Interactive Music Hierarchy\Default Work Unit\main\main	
+

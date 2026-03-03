@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	193618431	PortalEnter			\Default Work Unit\Props\PortalEnter	
+

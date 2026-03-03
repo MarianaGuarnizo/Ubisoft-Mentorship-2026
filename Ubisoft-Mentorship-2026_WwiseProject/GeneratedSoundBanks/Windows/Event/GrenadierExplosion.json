@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1236530165",
+    "Type": "Event",
+    "GUID": "{15D41DE5-FD5F-40AD-9046-8C60F306D045}",
+    "Language": "SFX",
+    "Hash": "{FA4EDE27-B392-82D7-DB19-D0E165DB449F}",
+    "ObjectPath": "GrenadierExplosion",
+    "ShortName": "GrenadierExplosion",
+    "Path": "Event/GrenadierExplosion.bnk",
+    "Media": [
+     {
+      "Id": "110606665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CHARA_GrenadierExplosion.wav",
+      "Path": "Media/110606665.wem",
+      "CachePath": "6A/{6A4AF33A-24AD-935D-C7BB-4690B149C0C9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1236530165",
+      "Name": "GrenadierExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierExplosion",
+      "GUID": "{15D41DE5-FD5F-40AD-9046-8C60F306D045}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.9947166",
+      "DurationMax": "5.9947166",
+      "MediaRefs": [
+       {
+        "Id": "110606665"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BAABEEEE-EB01-D4C6-CC2F-34A836157224}"
+ }
+}

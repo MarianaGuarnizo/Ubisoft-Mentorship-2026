@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4213176998",
+    "Type": "Event",
+    "GUID": "{A417D77A-3497-417B-97CF-20BD4E9F5561}",
+    "Language": "SFX",
+    "Hash": "{68BA271C-0B7A-D0E4-4C88-350AC9EB23F1}",
+    "ObjectPath": "WeaponPick",
+    "ShortName": "WeaponPick",
+    "Path": "Event/WeaponPick.bnk",
+    "Media": [
+     {
+      "Id": "1043072083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "StickPick.wav",
+      "Path": "Media/1043072083.wem",
+      "CachePath": "C8/{C8E66070-09BE-C59C-DDBB-341C2A556953}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4213176998",
+      "Name": "WeaponPick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Weapon\\WeaponPick",
+      "GUID": "{A417D77A-3497-417B-97CF-20BD4E9F5561}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "3.184127",
+      "DurationMax": "3.184127",
+      "MediaRefs": [
+       {
+        "Id": "1043072083"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{55B8041B-3C6E-2E58-7A59-0E574CF3C7C4}"
+ }
+}

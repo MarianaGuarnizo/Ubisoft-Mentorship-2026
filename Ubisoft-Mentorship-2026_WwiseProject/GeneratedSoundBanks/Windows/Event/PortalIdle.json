@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1625375393",
+    "Type": "Event",
+    "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
+    "Language": "SFX",
+    "Hash": "{5A45C83E-C7E7-EA52-5B97-25124411B3A5}",
+    "ObjectPath": "PortalIdle",
+    "ShortName": "PortalIdle",
+    "Path": "Event/PortalIdle.bnk",
+    "Media": [
+     {
+      "Id": "450575975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_PortalIDLE.wav",
+      "Path": "Media/450575975.wem",
+      "CachePath": "7E/{7E829518-DA96-CBBE-51C3-9FBDC16218A7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1625375393",
+      "Name": "PortalIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalIdle",
+      "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
+      "Color": "1",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "450575975"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{736DC4EC-B1F9-E494-30D3-AD5CEEE4EC9A}"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3675248848",
+    "Type": "Event",
+    "GUID": "{2B3A1E31-E043-48EC-852C-9A57C163E987}",
+    "Language": "SFX",
+    "Hash": "{1354D0EB-6104-CA0F-E8B8-E90532761448}",
+    "ObjectPath": "BluePlant",
+    "ShortName": "BluePlant",
+    "Path": "Event/BluePlant.bnk",
+    "Media": [
+     {
+      "Id": "622112153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BlueGlowyPlant.wav",
+      "Path": "Media/622112153.wem",
+      "CachePath": "B1/{B1B5A590-D428-029A-80DA-1551464D755D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3675248848",
+      "Name": "BluePlant",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\BluePlant",
+      "GUID": "{2B3A1E31-E043-48EC-852C-9A57C163E987}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "622112153"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CC5FE544-483D-5E41-F92A-24549226760D}"
+ }
+}

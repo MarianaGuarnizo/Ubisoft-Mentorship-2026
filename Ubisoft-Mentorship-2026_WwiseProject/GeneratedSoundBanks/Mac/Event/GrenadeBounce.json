@@ -1,0 +1,74 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2267468973",
+    "Type": "Event",
+    "GUID": "{237541CB-CB07-4DAB-A989-C390671BB0E4}",
+    "Language": "SFX",
+    "Hash": "{F88400BB-5087-58EF-4098-F31B07815B9F}",
+    "ObjectPath": "GrenadeBounce",
+    "ShortName": "GrenadeBounce",
+    "Path": "Event/GrenadeBounce.bnk",
+    "Media": [
+     {
+      "Id": "260875494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_RangeAttackV2 - Trimmed (3).wav",
+      "Path": "Media/260875494.wem",
+      "CachePath": "6E/{6E1FB0B9-2849-540C-7231-97C030D43B92}.wem"
+     },
+     {
+      "Id": "642328358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_RangeAttackV2 - Trimmed.wav",
+      "Path": "Media/642328358.wem",
+      "CachePath": "BD/{BDAE7465-5250-855F-B4A4-7DAFA6BD8ED7}.wem"
+     },
+     {
+      "Id": "879853118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_RangeAttackV2 - Trimmed (2).wav",
+      "Path": "Media/879853118.wem",
+      "CachePath": "CE/{CEE497B6-0625-9ACE-B972-606DCBED9E9A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2267468973",
+      "Name": "GrenadeBounce",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadeBounce",
+      "GUID": "{237541CB-CB07-4DAB-A989-C390671BB0E4}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6553184",
+      "DurationMax": "1.265444",
+      "MediaRefs": [
+       {
+        "Id": "260875494"
+       },
+       {
+        "Id": "642328358"
+       },
+       {
+        "Id": "879853118"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2F0B8EB4-CF50-7DE4-6672-12DAAAB621D9}"
+ }
+}

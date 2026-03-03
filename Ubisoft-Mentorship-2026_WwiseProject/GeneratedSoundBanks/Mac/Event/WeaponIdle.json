@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3966510143",
+    "Type": "Event",
+    "GUID": "{F6F3DFA1-A818-459E-9245-9BC2347C77B6}",
+    "Language": "SFX",
+    "Hash": "{ACD3FCD0-D27B-D68F-AF1F-9ABB17E57FA1}",
+    "ObjectPath": "WeaponIdle",
+    "ShortName": "WeaponIdle",
+    "Path": "Event/WeaponIdle.bnk",
+    "Media": [
+     {
+      "Id": "450246676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "StickIdle.wav",
+      "Path": "Media/450246676.wem",
+      "CachePath": "BC/{BC37EE68-8D58-3A66-147D-D26D06B47055}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3966510143",
+      "Name": "WeaponIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Weapon\\WeaponIdle",
+      "GUID": "{F6F3DFA1-A818-459E-9245-9BC2347C77B6}",
+      "Color": "1",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "450246676"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FB1023A9-4E5A-EB1F-592F-50988A6E264D}"
+ }
+}

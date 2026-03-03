@@ -1,0 +1,109 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3193947170",
+    "Type": "Event",
+    "GUID": "{C7CB0C02-C9F2-46A6-8BDF-56AD2EB994F8}",
+    "Language": "SFX",
+    "Hash": "{4ADC1C84-0256-6231-870C-790BF3CFB198}",
+    "ObjectPath": "Hurt",
+    "ShortName": "Hurt",
+    "Path": "Event/Hurt.bnk",
+    "Media": [
+     {
+      "Id": "288223554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_4.wav",
+      "Path": "Media/288223554.wem",
+      "CachePath": "3B/{3B9A7458-A0DE-75CD-99BC-2CF5CD37A0D3}.wem"
+     },
+     {
+      "Id": "423518928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_5.wav",
+      "Path": "Media/423518928.wem",
+      "CachePath": "52/{528BBC02-FA35-6A69-3F01-57EFA09D4BE2}.wem"
+     },
+     {
+      "Id": "461711058",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_6.wav",
+      "Path": "Media/461711058.wem",
+      "CachePath": "3C/{3C6DC9DD-455F-364E-8445-6B7AEA2B404B}.wem"
+     },
+     {
+      "Id": "589064263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_2.wav",
+      "Path": "Media/589064263.wem",
+      "CachePath": "A3/{A34DB5ED-FB41-28C4-C734-6457CB3D69A0}.wem"
+     },
+     {
+      "Id": "962962743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_3.wav",
+      "Path": "Media/962962743.wem",
+      "CachePath": "94/{9401215A-6490-6EC5-648E-3416C56F8748}.wem"
+     },
+     {
+      "Id": "1034670589",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Hurt_1.wav",
+      "Path": "Media/1034670589.wem",
+      "CachePath": "1E/{1EAE9AD7-4129-54E6-649C-6D1F19CF4707}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3193947170",
+      "Name": "Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Hurt",
+      "GUID": "{C7CB0C02-C9F2-46A6-8BDF-56AD2EB994F8}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "0.54861677",
+      "DurationMax": "1.041678",
+      "MediaRefs": [
+       {
+        "Id": "288223554"
+       },
+       {
+        "Id": "423518928"
+       },
+       {
+        "Id": "461711058"
+       },
+       {
+        "Id": "589064263"
+       },
+       {
+        "Id": "962962743"
+       },
+       {
+        "Id": "1034670589"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{BD7EEEC9-E182-2749-3EBB-AF9A26CEB584}"
+ }
+}

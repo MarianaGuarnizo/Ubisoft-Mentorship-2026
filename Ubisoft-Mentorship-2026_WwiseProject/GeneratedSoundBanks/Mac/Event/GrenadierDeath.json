@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1511889326",
+    "Type": "Event",
+    "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
+    "Language": "SFX",
+    "Hash": "{0E604040-A75F-5DDC-2DF7-20A54351AC77}",
+    "ObjectPath": "GrenadierDeath",
+    "ShortName": "GrenadierDeath",
+    "Path": "Event/GrenadierDeath.bnk",
+    "Media": [
+     {
+      "Id": "922103404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CHARA_GrenadierDeath.wav",
+      "Path": "Media/922103404.wem",
+      "CachePath": "47/{47DFD6B3-DE2A-F45B-B043-A3EF17382617}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1511889326",
+      "Name": "GrenadierDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierDeath",
+      "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "7.597347",
+      "DurationMax": "7.597347",
+      "MediaRefs": [
+       {
+        "Id": "922103404"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{33AFAC79-E6BF-5FEF-FAC3-3F9558D03073}"
+ }
+}

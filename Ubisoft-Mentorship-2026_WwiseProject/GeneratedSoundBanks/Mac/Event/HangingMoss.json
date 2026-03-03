@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2095273585",
+    "Type": "Event",
+    "GUID": "{AB13726A-330F-431D-80B2-FAE366E95C88}",
+    "Language": "SFX",
+    "Hash": "{0441583C-89AC-9497-BDF6-6EB607D070B7}",
+    "ObjectPath": "HangingMoss",
+    "ShortName": "HangingMoss",
+    "Path": "Event/HangingMoss.bnk",
+    "Media": [
+     {
+      "Id": "496532772",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "HangingMoss.wav",
+      "Path": "Media/496532772.wem",
+      "CachePath": "8B/{8BD525DA-BDCB-79FA-4DEF-78E1ADA090C6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2095273585",
+      "Name": "HangingMoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\HangingMoss",
+      "GUID": "{AB13726A-330F-431D-80B2-FAE366E95C88}",
+      "Color": "4",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "496532772"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E9B3A8CD-7454-7AD2-0EBF-C575FFFD338B}"
+ }
+}

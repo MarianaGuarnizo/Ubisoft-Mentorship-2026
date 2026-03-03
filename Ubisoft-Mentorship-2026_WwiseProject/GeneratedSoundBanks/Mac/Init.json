@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{681DBF1F-4855-9F4F-0F9B-679F38F01BB3}",
+    "Hash": "{9CE853D7-0075-42D0-1ED8-17C1699EE460}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,17 +54,76 @@
       "GUID": "{818E1D2A-440F-4DD0-A9DD-29BC867A9281}"
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test",
+      "GUID": "{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "63790334",
       "Name": "SurfaceType",
       "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType",
       "GUID": "{41F9D800-430C-4195-8FC6-B276ECB03B06}",
-      "Switches": []
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Stone",
+        "GUID": "{23E5A44A-56EC-44AF-A7CE-F917E68BCE50}"
+       },
+       {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Puddle",
+        "GUID": "{8BBA38F7-6C4D-414B-AE98-A354A13AD141}"
+       },
+       {
+        "Id": "3747705955",
+        "Name": "Earth",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Earth",
+        "GUID": "{CB514846-7E63-40FF-AC68-B44C7575EC3F}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Grass",
+        "GUID": "{1D81CB37-9339-4F46-A94D-552557631668}"
+       }
+      ]
+     },
+     {
+      "Id": "2510861594",
+      "Name": "DeathSurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType",
+      "GUID": "{BBC234E1-A86B-4EF7-A1A8-78D34474B41C}",
+      "Switches": [
+       {
+        "Id": "2528658256",
+        "Name": "Ground",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Ground",
+        "GUID": "{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Water",
+        "GUID": "{D0C34F3E-FE90-4E78-A799-953A15B4B272}"
+       },
+       {
+        "Id": "3554728690",
+        "Name": "Acid",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Acid",
+        "GUID": "{1BA8A747-A96B-4676-8D93-78C333F281DB}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{8360D5B1-EBBC-C299-9A4F-F65F9AE469F6}"
+  "FileHash": "{08BA012F-EEFE-ED5A-DF42-100BB0F81021}"
  }
 }

@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3414813087",
+    "Type": "Event",
+    "GUID": "{8BDE8A42-3C48-4546-BAF3-ED9E08369C0E}",
+    "Language": "SFX",
+    "Hash": "{EEC11711-BBD0-95E6-3757-3D2A8EF41EC7}",
+    "ObjectPath": "GrenadierHit",
+    "ShortName": "GrenadierHit",
+    "Path": "Event/GrenadierHit.bnk",
+    "Media": [
+     {
+      "Id": "183979838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grenadier_Hit.wav",
+      "Path": "Media/183979838.wem",
+      "CachePath": "50/{50E5D6B6-BC17-6EC2-9041-0E9DFC679159}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3414813087",
+      "Name": "GrenadierHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierHit",
+      "GUID": "{8BDE8A42-3C48-4546-BAF3-ED9E08369C0E}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5666667",
+      "DurationMax": "1.5666667",
+      "MediaRefs": [
+       {
+        "Id": "183979838"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{44F49827-1CF6-65EE-CF1A-2D1D0F862EA1}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3561744037	PlateIdle			\Default Work Unit\Props\PlateIdle	
+

@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4279841335",
+    "Type": "Event",
+    "GUID": "{CF842EF1-DCBA-405E-A520-537C879F88B6}",
+    "Language": "SFX",
+    "Hash": "{0C0C7B87-65FB-BCAF-65BE-0DCD57A620E2}",
+    "ObjectPath": "Respawn",
+    "ShortName": "Respawn",
+    "Path": "Event/Respawn.bnk",
+    "Media": [
+     {
+      "Id": "1011538528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Respawn.wav",
+      "Path": "Media/1011538528.wem",
+      "CachePath": "89/{898DF231-6DC6-3665-4822-8F620F2D444B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4279841335",
+      "Name": "Respawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Respawn",
+      "GUID": "{CF842EF1-DCBA-405E-A520-537C879F88B6}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "4.524059",
+      "DurationMax": "4.524059",
+      "MediaRefs": [
+       {
+        "Id": "1011538528"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6BBC7561-BC9A-8561-43F1-DB8228861792}"
+ }
+}

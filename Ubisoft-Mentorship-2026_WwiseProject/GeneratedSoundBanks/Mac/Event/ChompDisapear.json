@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "546661981",
+    "Type": "Event",
+    "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
+    "Language": "SFX",
+    "Hash": "{2E1E6750-E708-9E94-C785-075445396942}",
+    "ObjectPath": "ChompDisapear",
+    "ShortName": "ChompDisapear",
+    "Path": "Event/ChompDisapear.bnk",
+    "Media": [
+     {
+      "Id": "912217402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ChomperDisappearV1.wav",
+      "Path": "Media/912217402.wem",
+      "CachePath": "C8/{C8728B7C-C640-690B-86AE-57B41FB3439F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "546661981",
+      "Name": "ChompDisapear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompDisapear",
+      "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
+      "Color": "12",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0937414",
+      "DurationMax": "2.0937414",
+      "MediaRefs": [
+       {
+        "Id": "912217402"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F501FE95-2CFF-C965-D81F-AD71CB326EEE}"
+ }
+}

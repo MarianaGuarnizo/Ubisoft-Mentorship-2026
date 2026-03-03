@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "679636833",
+    "Type": "Event",
+    "GUID": "{72969B4B-1B79-417A-B63C-2F00F5519584}",
+    "Language": "SFX",
+    "Hash": "{DB17F1A4-F3A3-FD62-B34A-C54A3AB2E2D7}",
+    "ObjectPath": "MenuMusic",
+    "ShortName": "MenuMusic",
+    "Path": "Event/MenuMusic.bnk",
+    "Media": [
+     {
+      "Id": "965066180",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "main.wav",
+      "Path": "Media/965066180.wem",
+      "CachePath": "34/{343DCB0F-556E-C8E4-30D3-3D20282A9351}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "679636833",
+      "Name": "MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\MenuMusic",
+      "GUID": "{72969B4B-1B79-417A-B63C-2F00F5519584}",
+      "Color": "8",
+      "DurationType": "OneShot",
+      "DurationMin": "146.34146",
+      "DurationMax": "146.34146",
+      "MediaRefs": [
+       {
+        "Id": "965066180"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E5DC7597-5FC8-BCC0-52DA-87A2FC35FE12}"
+ }
+}

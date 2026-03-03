@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2053280679",
+    "Type": "Event",
+    "GUID": "{15D5343A-B374-4F4F-85EB-1DE2F23AFDE1}",
+    "Language": "SFX",
+    "Hash": "{AE1222CD-78B5-8873-B799-B5E8231CDAC3}",
+    "ObjectPath": "GrenadeWhoosh",
+    "ShortName": "GrenadeWhoosh",
+    "Path": "Event/GrenadeWhoosh.bnk",
+    "Media": [
+     {
+      "Id": "486047075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "GrenadeWhoosh_ProjectileV3.wav",
+      "Path": "Media/486047075.wem",
+      "CachePath": "FC/{FC91EB9C-83AC-E9D9-0CA7-7746DDFB218D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2053280679",
+      "Name": "GrenadeWhoosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadeWhoosh",
+      "GUID": "{15D5343A-B374-4F4F-85EB-1DE2F23AFDE1}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.152721",
+      "DurationMax": "1.152721",
+      "MediaRefs": [
+       {
+        "Id": "486047075"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1A8DB781-2697-D58F-2C77-B1BE4C779F37}"
+ }
+}

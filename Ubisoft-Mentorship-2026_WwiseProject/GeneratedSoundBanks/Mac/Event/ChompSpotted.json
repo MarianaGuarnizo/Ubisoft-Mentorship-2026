@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2941029371",
+    "Type": "Event",
+    "GUID": "{23A26DA3-262A-41B6-8D01-A960DEA9220A}",
+    "Language": "SFX",
+    "Hash": "{4FE71A13-6580-A029-400D-38AC224A42B8}",
+    "ObjectPath": "ChompSpotted",
+    "ShortName": "ChompSpotted",
+    "Path": "Event/ChompSpotted.bnk",
+    "Media": [
+     {
+      "Id": "62571009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SpottedV2_EnnemyVersion.wav",
+      "Path": "Media/62571009.wem",
+      "CachePath": "74/{74E0CF64-8A41-1F24-38BF-FBCA4959ADEA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2941029371",
+      "Name": "ChompSpotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompSpotted",
+      "GUID": "{23A26DA3-262A-41B6-8D01-A960DEA9220A}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.50872195",
+      "DurationMax": "0.59630233",
+      "MediaRefs": [
+       {
+        "Id": "62571009"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1AA80579-8723-A08F-324F-0B3A3563581A}"
+ }
+}

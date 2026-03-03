@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "120692987",
+    "Type": "Event",
+    "GUID": "{70B21B31-3A53-4308-A68D-5037C2D5CE68}",
+    "Language": "SFX",
+    "Hash": "{EBCECCFA-2936-523D-E5A6-5BDA1AECA870}",
+    "ObjectPath": "ChompHit",
+    "ShortName": "ChompHit",
+    "Path": "Event/ChompHit.bnk",
+    "Media": [
+     {
+      "Id": "587947916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Hit1.wav",
+      "Path": "Media/587947916.wem",
+      "CachePath": "9A/{9A90B6A9-6C28-9853-710C-D9472F379AF3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "120692987",
+      "Name": "ChompHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompHit",
+      "GUID": "{70B21B31-3A53-4308-A68D-5037C2D5CE68}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2699257",
+      "DurationMax": "0.36554837",
+      "MediaRefs": [
+       {
+        "Id": "587947916"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4A6BA315-5CEA-47D8-23A0-959EDC31BE6C}"
+ }
+}

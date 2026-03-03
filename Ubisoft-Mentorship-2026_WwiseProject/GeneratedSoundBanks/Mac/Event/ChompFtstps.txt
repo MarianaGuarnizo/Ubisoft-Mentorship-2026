@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	501939944	ChompFtstps			\Default Work Unit\Character\Chomper\ChompFtstps	
+

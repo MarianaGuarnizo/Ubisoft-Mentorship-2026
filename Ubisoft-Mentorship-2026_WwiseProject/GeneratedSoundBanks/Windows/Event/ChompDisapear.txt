@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	546661981	ChompDisapear			\Default Work Unit\Character\Chomper\ChompDisapear	
+

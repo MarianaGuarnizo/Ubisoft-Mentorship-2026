@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2095273585	HangingMoss			\Default Work Unit\Ambient\FloraFauna\HangingMoss	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	496532772	HangingMoss	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\8B\{8BD525DA-BDCB-79FA-4DEF-78E1ADA090C6}.wem	496532772.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\FloraFauna\HangingMoss	
+

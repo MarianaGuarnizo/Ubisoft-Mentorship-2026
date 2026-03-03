@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "97938166",
+    "Type": "Event",
+    "GUID": "{2C5393B8-8F4E-49BA-BC05-C7D323B9544C}",
+    "Language": "SFX",
+    "Hash": "{02DC1F98-3D7B-E4B4-4CB4-7554A10E7E91}",
+    "ObjectPath": "SmallDoor",
+    "ShortName": "SmallDoor",
+    "Path": "Event/SmallDoor.bnk",
+    "Media": [
+     {
+      "Id": "763247836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PROPS_SmallDoor.wav",
+      "Path": "Media/763247836.wem",
+      "CachePath": "03/{033F00CD-6C97-DEF7-AE3D-B614EFC78116}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "97938166",
+      "Name": "SmallDoor",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\SmallDoor",
+      "GUID": "{2C5393B8-8F4E-49BA-BC05-C7D323B9544C}",
+      "Color": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "5.1648755",
+      "DurationMax": "5.1648755",
+      "MediaRefs": [
+       {
+        "Id": "763247836"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AC938D90-8B4F-00B8-9B71-1CDBF0B3355E}"
+ }
+}

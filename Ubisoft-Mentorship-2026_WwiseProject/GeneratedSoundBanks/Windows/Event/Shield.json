@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1161967626",
+    "Type": "Event",
+    "GUID": "{9342F19A-7CD7-4C27-8A03-AD8B00A87C60}",
+    "Language": "SFX",
+    "Hash": "{2C4A8CCE-9A0A-1C3E-B64F-DAA85989D0A7}",
+    "ObjectPath": "Shield",
+    "ShortName": "Shield",
+    "Path": "Event/Shield.bnk",
+    "Media": [
+     {
+      "Id": "124242335",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CHARA_Shield.wav",
+      "Path": "Media/124242335.wem",
+      "CachePath": "60/{60447478-BB81-5BF9-B36A-3BC88BE24A4C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1161967626",
+      "Name": "Shield",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Shield",
+      "GUID": "{9342F19A-7CD7-4C27-8A03-AD8B00A87C60}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "5.3577323",
+      "DurationMax": "5.3577323",
+      "MediaRefs": [
+       {
+        "Id": "124242335"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3E250593-044A-DC1F-840A-9DA27C8FE1F8}"
+ }
+}

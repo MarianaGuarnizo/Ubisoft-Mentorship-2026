@@ -1,0 +1,217 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "779278001",
+    "Type": "Event",
+    "GUID": "{2147F094-FC97-45DC-9A2C-5A86396A1126}",
+    "Language": "SFX",
+    "Hash": "{A7B3D037-8F7A-EEFE-D761-06F118137C9D}",
+    "ObjectPath": "Death",
+    "ShortName": "Death",
+    "Path": "Event/Death.bnk",
+    "Media": [
+     {
+      "Id": "248255695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathAcid-002.wav",
+      "Path": "Media/248255695.wem",
+      "CachePath": "7D/{7DBDAC18-27D8-2867-B29D-77634C89C5C0}.wem"
+     },
+     {
+      "Id": "411541965",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathWater-001.wav",
+      "Path": "Media/411541965.wem",
+      "CachePath": "34/{34D54F8C-DBF2-0424-8925-0DBD8EF0B433}.wem"
+     },
+     {
+      "Id": "562673900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathAcid-001.wav",
+      "Path": "Media/562673900.wem",
+      "CachePath": "A0/{A054E858-CA28-B261-014B-885D63CAFDC7}.wem"
+     },
+     {
+      "Id": "620914291",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Death-001.wav",
+      "Path": "Media/620914291.wem",
+      "CachePath": "CA/{CA95C58B-E19E-0074-77F5-240C6E71ABE6}.wem"
+     },
+     {
+      "Id": "648992660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_Emote_Death.wav",
+      "Path": "Media/648992660.wem",
+      "CachePath": "E5/{E54D1B12-6C19-30F2-8F6C-218D036D973F}.wem"
+     },
+     {
+      "Id": "660674125",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathAcid-003.wav",
+      "Path": "Media/660674125.wem",
+      "CachePath": "99/{99D9D8EC-AE48-1EF5-B465-0BCB26892256}.wem"
+     },
+     {
+      "Id": "812859324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Death-002.wav",
+      "Path": "Media/812859324.wem",
+      "CachePath": "C5/{C5AA321A-48D6-1294-99A1-A3A8CE6C6D93}.wem"
+     },
+     {
+      "Id": "826181304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Death-003.wav",
+      "Path": "Media/826181304.wem",
+      "CachePath": "65/{6534BCC9-51F5-779A-4EB2-24A454E28119}.wem"
+     },
+     {
+      "Id": "907611714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathWater-002.wav",
+      "Path": "Media/907611714.wem",
+      "CachePath": "6C/{6CACF066-C40E-8297-B801-02DD3D792D46}.wem"
+     },
+     {
+      "Id": "1073046251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ellen_DeathWater-003.wav",
+      "Path": "Media/1073046251.wem",
+      "CachePath": "78/{78260F9E-6D9F-AA0A-C53D-00C1107BE25F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "779278001",
+      "Name": "Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Death",
+      "GUID": "{2147F094-FC97-45DC-9A2C-5A86396A1126}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5210501",
+      "DurationMax": "3.8622448",
+      "MediaRefs": [
+       {
+        "Id": "648992660"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2510861594",
+         "Id": "2654748154",
+         "GUID": "{D0C34F3E-FE90-4E78-A799-953A15B4B272}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "411541965"
+         },
+         {
+          "Id": "907611714"
+         },
+         {
+          "Id": "1073046251"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2510861594",
+         "Id": "2528658256",
+         "GUID": "{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "620914291"
+         },
+         {
+          "Id": "812859324"
+         },
+         {
+          "Id": "826181304"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2510861594",
+         "Id": "3554728690",
+         "GUID": "{1BA8A747-A96B-4676-8D93-78C333F281DB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "248255695"
+         },
+         {
+          "Id": "562673900"
+         },
+         {
+          "Id": "660674125"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2510861594",
+      "Name": "DeathSurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType",
+      "GUID": "{BBC234E1-A86B-4EF7-A1A8-78D34474B41C}",
+      "Switches": [
+       {
+        "Id": "2528658256",
+        "Name": "Ground",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Ground",
+        "GUID": "{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Water",
+        "GUID": "{D0C34F3E-FE90-4E78-A799-953A15B4B272}"
+       },
+       {
+        "Id": "3554728690",
+        "Name": "Acid",
+        "ObjectPath": "\\Switches\\Default Work Unit\\DeathSurfaceType\\Acid",
+        "GUID": "{1BA8A747-A96B-4676-8D93-78C333F281DB}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CA9496A5-5EF4-599D-B6EF-F2B841ABB0D8}"
+ }
+}

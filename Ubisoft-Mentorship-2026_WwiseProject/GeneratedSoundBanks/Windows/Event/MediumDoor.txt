@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4086418528	MediumDoor			\Default Work Unit\Props\MediumDoor	
+

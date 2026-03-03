@@ -1,0 +1,269 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "674522502",
+    "Type": "Event",
+    "GUID": "{BF9832EE-04FB-4D29-AA33-C7648C20651B}",
+    "Language": "SFX",
+    "Hash": "{C1273175-46FE-D611-728C-27123F6E9811}",
+    "ObjectPath": "Land",
+    "ShortName": "Land",
+    "Path": "Event/Land.bnk",
+    "Media": [
+     {
+      "Id": "206595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandEarth_02.wav",
+      "Path": "Media/206595.wem",
+      "CachePath": "EC/{EC2CBE17-C8FC-5A7D-01BF-A221B80FFB93}.wem"
+     },
+     {
+      "Id": "146065748",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandPuddle-002.wav",
+      "Path": "Media/146065748.wem",
+      "CachePath": "2E/{2E8EC0F7-9504-1875-F3AF-872C94DD7599}.wem"
+     },
+     {
+      "Id": "320719635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandStone-003.wav",
+      "Path": "Media/320719635.wem",
+      "CachePath": "51/{51769D93-ACAA-080B-2EF2-E2CE2ECBB29B}.wem"
+     },
+     {
+      "Id": "397384275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Land.wav",
+      "Path": "Media/397384275.wem",
+      "CachePath": "CB/{CBA75FE3-65B2-C926-55AE-2C32B9855F30}.wem"
+     },
+     {
+      "Id": "440590927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandGrass-002.wav",
+      "Path": "Media/440590927.wem",
+      "CachePath": "85/{859A9B8C-C9D5-6D2E-868F-073F1A0B3364}.wem"
+     },
+     {
+      "Id": "613577583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandEarth_03.wav",
+      "Path": "Media/613577583.wem",
+      "CachePath": "45/{4545E075-C7E3-1170-22CE-A14F198C5C50}.wem"
+     },
+     {
+      "Id": "683361616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandStone-002.wav",
+      "Path": "Media/683361616.wem",
+      "CachePath": "A0/{A0B83599-2DB3-CC4E-974C-8D02BD5A4946}.wem"
+     },
+     {
+      "Id": "721730344",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandGrass-003.wav",
+      "Path": "Media/721730344.wem",
+      "CachePath": "1C/{1CFDB694-E2F4-BDE3-67EE-789817C80EED}.wem"
+     },
+     {
+      "Id": "733608633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandPuddle-003.wav",
+      "Path": "Media/733608633.wem",
+      "CachePath": "E1/{E194D873-DADB-297B-836E-2CA5B8D3B771}.wem"
+     },
+     {
+      "Id": "778991496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandGrass-001.wav",
+      "Path": "Media/778991496.wem",
+      "CachePath": "67/{679C8BFE-4F29-1849-37F3-F697673E20E9}.wem"
+     },
+     {
+      "Id": "857005803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandStone-001.wav",
+      "Path": "Media/857005803.wem",
+      "CachePath": "22/{2267E401-DE12-3772-9288-423E386F9B0A}.wem"
+     },
+     {
+      "Id": "948475015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandEarth.wav",
+      "Path": "Media/948475015.wem",
+      "CachePath": "AD/{AD901F7F-5C30-70B3-F567-37B182F732D0}.wem"
+     },
+     {
+      "Id": "1018830009",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LandPuddle-001.wav",
+      "Path": "Media/1018830009.wem",
+      "CachePath": "26/{2661CF0D-021E-2156-5149-ED353C76A205}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "674522502",
+      "Name": "Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\Land",
+      "GUID": "{BF9832EE-04FB-4D29-AA33-C7648C20651B}",
+      "Color": "24",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2485465",
+      "DurationMax": "1.6674603",
+      "MediaRefs": [
+       {
+        "Id": "397384275"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "4248645337",
+         "GUID": "{1D81CB37-9339-4F46-A94D-552557631668}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "440590927"
+         },
+         {
+          "Id": "721730344"
+         },
+         {
+          "Id": "778991496"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "3747705955",
+         "GUID": "{CB514846-7E63-40FF-AC68-B44C7575EC3F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "206595"
+         },
+         {
+          "Id": "613577583"
+         },
+         {
+          "Id": "948475015"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "1216965916",
+         "GUID": "{23E5A44A-56EC-44AF-A7CE-F917E68BCE50}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "320719635"
+         },
+         {
+          "Id": "683361616"
+         },
+         {
+          "Id": "857005803"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2003927601",
+         "GUID": "{8BBA38F7-6C4D-414B-AE98-A354A13AD141}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "146065748"
+         },
+         {
+          "Id": "733608633"
+         },
+         {
+          "Id": "1018830009"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "63790334",
+      "Name": "SurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType",
+      "GUID": "{41F9D800-430C-4195-8FC6-B276ECB03B06}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Stone",
+        "GUID": "{23E5A44A-56EC-44AF-A7CE-F917E68BCE50}"
+       },
+       {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Puddle",
+        "GUID": "{8BBA38F7-6C4D-414B-AE98-A354A13AD141}"
+       },
+       {
+        "Id": "3747705955",
+        "Name": "Earth",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Earth",
+        "GUID": "{CB514846-7E63-40FF-AC68-B44C7575EC3F}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Grass",
+        "GUID": "{1D81CB37-9339-4F46-A94D-552557631668}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73994FAD-80A3-BA18-A41D-332CF6860EF8}"
+ }
+}

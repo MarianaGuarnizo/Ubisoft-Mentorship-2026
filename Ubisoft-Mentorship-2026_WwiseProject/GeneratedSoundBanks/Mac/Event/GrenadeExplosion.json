@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2310057666",
+    "Type": "Event",
+    "GUID": "{C0169B88-18B3-4914-B3F2-146027F8ECD6}",
+    "Language": "SFX",
+    "Hash": "{0ED4F779-2177-A459-23A6-516D25F90AA3}",
+    "ObjectPath": "GrenadeExplosion",
+    "ShortName": "GrenadeExplosion",
+    "Path": "Event/GrenadeExplosion.bnk",
+    "Media": [
+     {
+      "Id": "1036545245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "CHARA_GrenadierGrenadeExplosion.wav",
+      "Path": "Media/1036545245.wem",
+      "CachePath": "8F/{8F0AFA80-76ED-F4A8-DAB6-D2641DB3BC05}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2310057666",
+      "Name": "GrenadeExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadeExplosion",
+      "GUID": "{C0169B88-18B3-4914-B3F2-146027F8ECD6}",
+      "Color": "12",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6590476",
+      "DurationMax": "3.6590476",
+      "MediaRefs": [
+       {
+        "Id": "1036545245"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{34D92E3D-ADE3-F50D-C208-1CD5E547429B}"
+ }
+}

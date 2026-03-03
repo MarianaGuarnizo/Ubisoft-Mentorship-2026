@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	779278001	Death			\Default Work Unit\Character\Death	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2510861594	DeathSurfaceType			\Default Work Unit\DeathSurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	2528658256	Ground	DeathSurfaceType			
+	2654748154	Water	DeathSurfaceType			
+	3554728690	Acid	DeathSurfaceType			
+

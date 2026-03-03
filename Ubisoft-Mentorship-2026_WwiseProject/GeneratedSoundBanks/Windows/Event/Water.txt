@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2654748154	Water			\Default Work Unit\Ambient\Island\Water	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\Test	
+
