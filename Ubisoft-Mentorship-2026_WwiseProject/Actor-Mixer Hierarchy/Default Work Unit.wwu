@@ -382,7 +382,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -419,10 +419,15 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4098,6 +4103,9 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
@@ -4109,7 +4117,7 @@
 										<AudioFileSource Name="ChomperIdleMix" ID="{89508E46-FCBF-4B46-AE49-C83091A1D05E}">
 											<PropertyList>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.992375294367473"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.519815630382962"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ChomperIdleMix.wav</AudioFile>
