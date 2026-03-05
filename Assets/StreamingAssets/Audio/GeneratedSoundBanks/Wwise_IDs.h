@@ -63,6 +63,7 @@ namespace AK
         static const AkUniqueID SELECT = 1432588725U;
         static const AkUniqueID SHIELD = 1161967626U;
         static const AkUniqueID SMALLDOOR = 97938166U;
+        static const AkUniqueID SPACESHIPIDLE = 841424013U;
         static const AkUniqueID SWING = 2386519981U;
         static const AkUniqueID WATER = 2654748154U;
         static const AkUniqueID WEAPONIDLE = 3966510143U;

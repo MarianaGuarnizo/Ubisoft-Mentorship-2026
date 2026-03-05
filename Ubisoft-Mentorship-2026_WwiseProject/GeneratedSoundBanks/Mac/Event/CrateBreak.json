@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4390650B-EAD6-4EBF-985C-C769C125E3F5}",
     "Language": "SFX",
-    "Hash": "{709016A8-93E5-6598-7D3F-7D6D19E386DF}",
+    "Hash": "{EFEA5FE6-FA1D-058B-C3E8-6C3C1F189ADC}",
     "ObjectPath": "CrateBreak",
     "ShortName": "CrateBreak",
     "Path": "Event/CrateBreak.bnk",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{A85A5808-A40F-22FA-D346-158C4071A920}"
+  "FileHash": "{F148B6D5-F682-D356-949D-097CC06B66D4}"
  }
 }

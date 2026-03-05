@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
     "Language": "SFX",
-    "Hash": "{851FC8D0-C5EF-7BF7-36AF-BD7EB1D343E8}",
+    "Hash": "{98CB1F48-3B1C-C5B6-F14A-EA819345632D}",
     "ObjectPath": "ChompIdle",
     "ShortName": "ChompIdle",
     "Path": "Event/ChompIdle.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "ChomperIdleMix.wav",
       "Path": "Media/17923742.wem",
-      "CachePath": "52/{52D09406-B8D3-2262-566E-97B08B3872BE}.wem"
+      "CachePath": "BC/{BC3B2A8E-C90B-8446-D232-B66834A1498B}.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{18FC62F5-40A6-9A82-733C-416D5F7F7D4F}"
+  "FileHash": "{3511EB47-77AD-B4D8-5900-1419A43275C2}"
  }
 }

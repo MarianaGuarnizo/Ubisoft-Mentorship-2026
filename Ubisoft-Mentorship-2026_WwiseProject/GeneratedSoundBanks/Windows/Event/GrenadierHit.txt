@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3414813087	GrenadierHit			\Default Work Unit\Character\Grenadier\GrenadierHit	
+	3414813087	GrenadierHit			\Default Work Unit\Creatures\Grenadier\GrenadierHit	
 

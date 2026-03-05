@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}",
     "Language": "SFX",
-    "Hash": "{51FFBB6E-9131-EBAB-B729-239C3EAD0844}",
+    "Hash": "{FCAC49CC-5B59-5DEF-5A89-CF99AC1143F3}",
     "ObjectPath": "CrateFall",
     "ShortName": "CrateFall",
     "Path": "Event/CrateFall.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{CC13A244-F812-A9AA-44B9-3D2A2E8D89AB}"
+  "FileHash": "{95DD48F6-5266-64E7-0916-24BB526CE4C7}"
  }
 }

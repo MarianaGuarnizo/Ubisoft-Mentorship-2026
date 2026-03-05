@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "841424013",
+    "Type": "Event",
+    "GUID": "{36E3DDA6-9366-4ECC-9007-A3CBEEEC754C}",
+    "Language": "SFX",
+    "Hash": "{DA764F4C-1F41-2DD2-9E21-E87B8724B907}",
+    "ObjectPath": "SpaceshipIdle",
+    "ShortName": "SpaceshipIdle",
+    "Path": "Event/SpaceshipIdle.bnk",
+    "Media": [
+     {
+      "Id": "983069443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SpaceshipBroken.wav",
+      "Path": "Media/983069443.wem",
+      "CachePath": "55/{555D196A-5C15-2012-6397-09774ED83557}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "841424013",
+      "Name": "SpaceshipIdle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\SpaceshipIdle",
+      "GUID": "{36E3DDA6-9366-4ECC-9007-A3CBEEEC754C}",
+      "Color": "4",
+      "MaxAttenuation": "320",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "983069443"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2AE7A98F-A0DE-C41A-A10D-E34AE70D2C71}"
+ }
+}

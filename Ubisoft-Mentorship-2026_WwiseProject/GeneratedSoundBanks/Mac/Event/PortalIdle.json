@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
     "Language": "SFX",
-    "Hash": "{5A45C83E-C7E7-EA52-5B97-25124411B3A5}",
+    "Hash": "{C008EC79-29C1-62E2-6FB7-BEB62A082C71}",
     "ObjectPath": "PortalIdle",
     "ShortName": "PortalIdle",
     "Path": "Event/PortalIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalIdle",
       "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
       "Color": "1",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{6B33ED01-339F-4CCA-BE9A-BABAAF00F08C}"
+  "FileHash": "{EF213E99-1BB3-9DE8-95AA-A5C4A60C8240}"
  }
 }

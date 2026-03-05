@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{237541CB-CB07-4DAB-A989-C390671BB0E4}",
     "Language": "SFX",
-    "Hash": "{F88400BB-5087-58EF-4098-F31B07815B9F}",
+    "Hash": "{EAC4F261-6F0C-9E2C-8AB5-A98407C7CC8C}",
     "ObjectPath": "GrenadeBounce",
     "ShortName": "GrenadeBounce",
     "Path": "Event/GrenadeBounce.bnk",
@@ -50,7 +50,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadeBounce",
       "GUID": "{237541CB-CB07-4DAB-A989-C390671BB0E4}",
       "Color": "12",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
       "DurationMin": "0.6553184",
       "DurationMax": "1.265444",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{2F0B8EB4-CF50-7DE4-6672-12DAAAB621D9}"
+  "FileHash": "{FE0E863F-0199-C581-04F0-B81FB3D6F1B0}"
  }
 }
