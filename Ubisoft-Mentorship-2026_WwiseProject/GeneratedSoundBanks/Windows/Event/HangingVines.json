@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{585E97FC-25C7-4EEC-A12C-8F901B6A02D1}",
     "Language": "SFX",
-    "Hash": "{683F2CF7-5A30-C7AF-482E-9A37127DA12B}",
+    "Hash": "{1990B611-F83D-48C8-74A3-1D6ABE45208F}",
     "ObjectPath": "HangingVines",
     "ShortName": "HangingVines",
     "Path": "Event/HangingVines.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\HangingVines",
       "GUID": "{585E97FC-25C7-4EEC-A12C-8F901B6A02D1}",
       "Color": "4",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{D1F0F0B8-063B-1745-D395-D566457AF023}"
+  "FileHash": "{3E414790-8279-CA1F-4F85-0DAB6E08B620}"
  }
 }

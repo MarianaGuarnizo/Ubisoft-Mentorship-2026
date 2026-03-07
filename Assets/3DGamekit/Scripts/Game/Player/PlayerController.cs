@@ -445,6 +445,7 @@ namespace Gamekit3D
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 emoteJumpPlayer.PlayRandomClip();
+               // AkUnitySoundEngine.PostEvent("Jump", gameObject); Not wokring :(
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)

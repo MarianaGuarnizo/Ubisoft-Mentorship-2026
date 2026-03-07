@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{15D5343A-B374-4F4F-85EB-1DE2F23AFDE1}",
     "Language": "SFX",
-    "Hash": "{DD3F473D-DAC7-E575-1361-807FD0690C5C}",
+    "Hash": "{46ACFEB3-76CA-76A9-21D3-4D772AC7AEFD}",
     "ObjectPath": "GrenadeWhoosh",
     "ShortName": "GrenadeWhoosh",
     "Path": "Event/GrenadeWhoosh.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadeWhoosh",
       "GUID": "{15D5343A-B374-4F4F-85EB-1DE2F23AFDE1}",
       "Color": "12",
-      "MaxAttenuation": "150",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
       "DurationMin": "1.152721",
       "DurationMax": "1.152721",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{AE02F468-6E5E-273E-A1E5-81FD6D468B1F}"
+  "FileHash": "{223D43B3-A94C-BE34-B145-9E9D52F307CE}"
  }
 }

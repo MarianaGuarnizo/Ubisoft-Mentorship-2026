@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}",
     "Language": "SFX",
-    "Hash": "{57241446-AC24-AA09-7320-7F587F3DD6DB}",
+    "Hash": "{FCAC49CC-5B59-5DEF-5A89-CF99AC1143F3}",
     "ObjectPath": "CrateFall",
     "ShortName": "CrateFall",
     "Path": "Event/CrateFall.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrateFall",
       "GUID": "{C2E9155E-9245-49A8-8C44-7D5EAB5E78EC}",
       "Color": "1",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.0314786",
       "DurationMax": "1.5679511",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{6FD18BCF-9C47-1AE2-A04A-B06181901D9D}"
+  "FileHash": "{95DD48F6-5266-64E7-0916-24BB526CE4C7}"
  }
 }

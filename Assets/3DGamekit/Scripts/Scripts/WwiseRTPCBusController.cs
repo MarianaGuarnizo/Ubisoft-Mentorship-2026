@@ -29,6 +29,6 @@ public class WwiseRTPCBusController : MonoBehaviour
     public void SetVolume(float value)
     {
         float rtpcValue = value * 100f; // Convert 0-1 slider to 0-100 RTPC
-        AkSoundEngine.SetRTPCValue(rtpcName, rtpcValue);
+        AkUnitySoundEngine.SetRTPCValue(rtpcName, rtpcValue);
     }
 }

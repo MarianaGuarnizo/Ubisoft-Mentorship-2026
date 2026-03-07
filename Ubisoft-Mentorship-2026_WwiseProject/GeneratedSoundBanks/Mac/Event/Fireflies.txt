@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1126065684	Fireflies			\Default Work Unit\Ambient\FloraFauna\Fireflies	
 
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	1033631106	FireFliesDef	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\26\{2638329F-8E47-139D-5F17-0DB13D31288F}.wem	1033631106.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\FloraFauna\FireFliesDef	
+

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
     "Language": "SFX",
-    "Hash": "{655ECF76-3F85-B53D-0927-C66D878577E7}",
+    "Hash": "{C6B57549-48DA-519C-DB1D-F35DD8E00E20}",
     "ObjectPath": "GrenadierDeath",
     "ShortName": "GrenadierDeath",
     "Path": "Event/GrenadierDeath.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierDeath",
       "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
       "Color": "12",
-      "MaxAttenuation": "150",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
       "DurationMin": "7.597347",
       "DurationMax": "7.597347",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{64B2EA95-085F-701E-4003-BDE3720CFD98}"
+  "FileHash": "{EE86F1DF-376C-6979-C851-609ABE9CAE76}"
  }
 }
