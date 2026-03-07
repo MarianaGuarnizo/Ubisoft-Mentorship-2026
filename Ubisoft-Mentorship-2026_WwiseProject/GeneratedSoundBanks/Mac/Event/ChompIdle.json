@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
     "Language": "SFX",
-    "Hash": "{98CB1F48-3B1C-C5B6-F14A-EA819345632D}",
+    "Hash": "{95AF0E1B-9CC9-1E38-D426-57C1B830017E}",
     "ObjectPath": "ChompIdle",
     "ShortName": "ChompIdle",
     "Path": "Event/ChompIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompIdle",
       "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3511EB47-77AD-B4D8-5900-1419A43275C2}"
+  "FileHash": "{E2643033-C7D9-1DAB-C52E-3A42B5C6B748}"
  }
 }

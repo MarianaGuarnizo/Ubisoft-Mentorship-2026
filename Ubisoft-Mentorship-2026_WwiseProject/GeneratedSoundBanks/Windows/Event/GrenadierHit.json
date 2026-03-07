@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BDE8A42-3C48-4546-BAF3-ED9E08369C0E}",
     "Language": "SFX",
-    "Hash": "{2DD51D98-7C6B-A03A-5A02-D1E39B04CF69}",
+    "Hash": "{82BF5369-E772-20F1-0736-B29A9A4F1C40}",
     "ObjectPath": "GrenadierHit",
     "ShortName": "GrenadierHit",
     "Path": "Event/GrenadierHit.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierHit",
       "GUID": "{8BDE8A42-3C48-4546-BAF3-ED9E08369C0E}",
       "Color": "12",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "150",
       "DurationType": "OneShot",
       "DurationMin": "1.5666667",
       "DurationMax": "1.5666667",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{46515E81-4209-0DC2-C9DA-4E130A8D3DEE}"
+  "FileHash": "{96E5602F-13B8-7F99-3C9E-5B9CD5D53235}"
  }
 }

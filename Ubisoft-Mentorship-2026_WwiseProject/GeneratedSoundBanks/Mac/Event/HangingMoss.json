@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AB13726A-330F-431D-80B2-FAE366E95C88}",
     "Language": "SFX",
-    "Hash": "{6EC28114-A70A-6265-CD70-151AD4D4B80E}",
+    "Hash": "{6D4459B0-3C81-7B6C-A702-C3D943593094}",
     "ObjectPath": "HangingMoss",
     "ShortName": "HangingMoss",
     "Path": "Event/HangingMoss.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\HangingMoss",
       "GUID": "{AB13726A-330F-431D-80B2-FAE366E95C88}",
       "Color": "4",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{37DFFEB6-E56F-CA3F-317A-FC664B6C6BF4}"
+  "FileHash": "{02BFF471-69C4-8D4E-1D1C-B46439E121E3}"
  }
 }

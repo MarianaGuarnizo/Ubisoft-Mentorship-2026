@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
     "Language": "SFX",
-    "Hash": "{6FA1CD63-A28A-2D49-531F-F78826229360}",
+    "Hash": "{E7322A86-B773-9012-40D0-ED49DFD92F6B}",
     "ObjectPath": "ChompDisapear",
     "ShortName": "ChompDisapear",
     "Path": "Event/ChompDisapear.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompDisapear",
       "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "2.0937414",
       "DurationMax": "2.0937414",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{501DB336-152A-0335-38C3-315A05F46A3C}"
+  "FileHash": "{832069BE-B1E9-05D5-AA60-D0D6FBDFC15D}"
  }
 }
