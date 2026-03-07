@@ -307,26 +307,6 @@
 													<ObjectRef Name="Test" ID="{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}" WorkUnitID="{AC7A141D-47F7-4439-815F-FD061C4342C3}"/>
 												</Reference>
 											</ReferenceList>
-											<BlendTrackAssocList>
-												<BlendTrackAssoc>
-													<ItemRef Name="WaterFlow_2" ID="{277F25F8-E63C-4EE5-8F82-68D288A266FC}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>41.1107361111111</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
-												</BlendTrackAssoc>
-												<BlendTrackAssoc>
-													<ItemRef Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>26.4812314814815</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>100</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
-												</BlendTrackAssoc>
-											</BlendTrackAssocList>
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
@@ -400,13 +380,29 @@
 								</Sound>
 								<Sound Name="FireFliesDef" ID="{83CFE29C-E0D8-44F3-8B17-0DEEFE666B95}" ShortID="363116380">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{6E08EFEA-25E7-48F5-88EB-247B881A271D}"/>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -435,6 +431,7 @@
 								</Sound>
 								<Sound Name="HangingMoss" ID="{2A16116A-B54A-4489-B271-A35B739D1523}" ShortID="962970396">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
@@ -490,6 +487,7 @@
 								</Sound>
 								<Sound Name="HangingVines" ID="{D9692EFF-D71C-4B97-8B6B-7087234FE1C7}" ShortID="878800106">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
@@ -752,7 +750,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -860,7 +858,7 @@
 						<BlendContainer Name="Crystal" ID="{C37A57E4-7F37-4F65-8FB5-81F62BAC994D}" ShortID="474294526">
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -985,14 +983,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>50.1849351851852</RightEdgePos>
+												<RightEdgePos>49.9992500000001</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="PROPS_CrystalCall_Rnd" ID="{C0C82C80-7CD9-4166-919B-59ED5F81959B}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>40.5553055555556</LeftEdgePos>
+												<LeftEdgePos>40.00025</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -1045,7 +1043,7 @@
 						<Sound Name="PROPS_CrystalPickUp" ID="{4F45A713-A95C-4ACF-AA33-683555C5F4DC}" ShortID="840919613">
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1073,7 +1071,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1098,7 +1096,7 @@
 						<Sound Name="PROPS_HealBoxOpen" ID="{2303DF3E-5F45-432D-8C5B-24F7CCB6036A}" ShortID="393882311">
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1186,7 +1184,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1209,6 +1207,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_PlateUnlock" ID="{AF08B536-D09D-4FA3-BCE5-F71974C35600}" ShortID="1029204753">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1255,10 +1260,15 @@
 						<Sound Name="PROPS_PortalIDLE" ID="{FC16E270-3723-47BB-BFC9-74A6E061F705}" ShortID="160812496">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1283,10 +1293,15 @@
 						<Sound Name="PROPS_PortalSwirl" ID="{52D313B9-97DC-4D3D-B813-1D755D167A1F}" ShortID="975325607">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1585,6 +1600,11 @@
 								<Sound Name="StickIdle" ID="{AF2DCD56-F063-4885-A514-314781E73488}" ShortID="446162103">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1611,6 +1631,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="StickPick" ID="{8DF465DE-8085-46A3-A5D9-6301AEA22A18}" ShortID="631137516">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>

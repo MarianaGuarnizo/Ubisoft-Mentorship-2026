@@ -22,5 +22,5 @@ Problem with too many instances --> going to look into a script to balance
 AkSoundEngine.PostEvent("EventName" , this.gameObject);
 Does not recognise the ID through Sound Bank, when implementing audio directly through code
 
-Even with Short Attenuation we can jhear the Portal Idle
+Even with Short Attenuation we can hear the Portal Idle
 
