@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B4DA66A7-E523-438A-8299-6643015E8A5A}",
     "Language": "SFX",
-    "Hash": "{3C92DEF6-D992-225C-7978-E7AB77D4F3FA}",
+    "Hash": "{96F94E1E-4CA6-4C69-7DF1-96E127B649BB}",
     "ObjectPath": "Crystal",
     "ShortName": "Crystal",
     "Path": "Event/Crystal.bnk",
@@ -41,7 +41,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\Crystal",
       "GUID": "{B4DA66A7-E523-438A-8299-6643015E8A5A}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -63,6 +63,6 @@
     ]
    }
   ],
-  "FileHash": "{EF7B9490-C84A-3939-394F-CCB7DCD21B23}"
+  "FileHash": "{3A688892-45AB-13F4-70D2-B705D1014455}"
  }
 }

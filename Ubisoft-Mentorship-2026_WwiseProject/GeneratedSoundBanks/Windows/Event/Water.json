@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B472F481-EA26-4DA9-B779-3B5B152D796C}",
     "Language": "SFX",
-    "Hash": "{57105D8D-7F0D-C2F9-86D0-3A6ABF5F451E}",
+    "Hash": "{60BDF1D2-A1AD-15E0-5C56-EC98870B76A7}",
     "ObjectPath": "Water",
     "ShortName": "Water",
     "Path": "Event/Water.bnk",
@@ -62,6 +62,6 @@
     ]
    }
   ],
-  "FileHash": "{B8852A74-A7DF-6EF6-3D8D-F6B0401F9886}"
+  "FileHash": "{7D61A8A7-8DCC-E5BC-10B9-1BD81928740B}"
  }
 }

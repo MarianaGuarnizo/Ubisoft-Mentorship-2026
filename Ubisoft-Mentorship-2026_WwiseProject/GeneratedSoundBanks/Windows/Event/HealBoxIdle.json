@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6D085D6-F718-4E92-9D60-89FBDEA0239A}",
     "Language": "SFX",
-    "Hash": "{F96FDBAB-BD13-359F-760C-14DDCB46173E}",
+    "Hash": "{D420E2B5-A504-E0CB-4CC7-7D54414887C3}",
     "ObjectPath": "HealBoxIdle",
     "ShortName": "HealBoxIdle",
     "Path": "Event/HealBoxIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\HealBoxIdle",
       "GUID": "{F6D085D6-F718-4E92-9D60-89FBDEA0239A}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{D421E706-DE5F-B0D0-8456-82127DEF33EE}"
+  "FileHash": "{60F18696-4954-55ED-B09E-B8471A1E33BB}"
  }
 }
