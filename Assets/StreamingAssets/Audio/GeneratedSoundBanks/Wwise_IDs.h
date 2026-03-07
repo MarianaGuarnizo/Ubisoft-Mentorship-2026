@@ -65,6 +65,7 @@ namespace AK
         static const AkUniqueID SMALLDOOR = 97938166U;
         static const AkUniqueID SPACESHIPIDLE = 841424013U;
         static const AkUniqueID SWING = 2386519981U;
+        static const AkUniqueID THROUGHLEAVES = 368044264U;
         static const AkUniqueID WATER = 2654748154U;
         static const AkUniqueID WEAPONIDLE = 3966510143U;
         static const AkUniqueID WEAPONPICK = 4213176998U;

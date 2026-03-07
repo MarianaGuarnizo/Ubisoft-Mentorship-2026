@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "368044264",
+    "Type": "Event",
+    "GUID": "{EBD6F44A-9DFF-4E27-B1BE-A066C4282076}",
+    "Language": "SFX",
+    "Hash": "{BE66B4BF-3DA2-511B-414D-EED32F867ABD}",
+    "ObjectPath": "ThroughLeaves",
+    "ShortName": "ThroughLeaves",
+    "Path": "Event/ThroughLeaves.bnk",
+    "Media": [
+     {
+      "Id": "25109157",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-007.wav",
+      "Path": "Media/25109157.wem",
+      "CachePath": "D5/{D56FA83E-135C-27D8-FC24-88BCFD77A745}.wem"
+     },
+     {
+      "Id": "530693831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-005.wav",
+      "Path": "Media/530693831.wem",
+      "CachePath": "8A/{8A575363-6FB5-F921-95B5-DD4F7046B1AD}.wem"
+     },
+     {
+      "Id": "620815972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-004.wav",
+      "Path": "Media/620815972.wem",
+      "CachePath": "2D/{2DCA0BA1-CCD2-7B05-52F7-5F6CD99C1B66}.wem"
+     },
+     {
+      "Id": "643985167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-002.wav",
+      "Path": "Media/643985167.wem",
+      "CachePath": "B3/{B37F825F-D24C-66C4-C965-F9E20CAE891F}.wem"
+     },
+     {
+      "Id": "794359102",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-006.wav",
+      "Path": "Media/794359102.wem",
+      "CachePath": "1B/{1B741029-9301-D023-3641-40F6438549D6}.wem"
+     },
+     {
+      "Id": "810759440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-003.wav",
+      "Path": "Media/810759440.wem",
+      "CachePath": "A2/{A26F9A5D-5DE5-B2CC-EB5F-09211F93040C}.wem"
+     },
+     {
+      "Id": "1011660006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ThroughLeaves-001.wav",
+      "Path": "Media/1011660006.wem",
+      "CachePath": "BE/{BECC57A4-DDCD-9A9C-BF7A-0B0CE306E737}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "368044264",
+      "Name": "ThroughLeaves",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\ThroughLeaves",
+      "GUID": "{EBD6F44A-9DFF-4E27-B1BE-A066C4282076}",
+      "Color": "4",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2716191",
+      "DurationMax": "1.6476082",
+      "MediaRefs": [
+       {
+        "Id": "25109157"
+       },
+       {
+        "Id": "530693831"
+       },
+       {
+        "Id": "620815972"
+       },
+       {
+        "Id": "643985167"
+       },
+       {
+        "Id": "794359102"
+       },
+       {
+        "Id": "810759440"
+       },
+       {
+        "Id": "1011660006"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F839360A-A970-2A2B-08C6-44A67D522B82}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC6213F4-C004-49B8-960F-817E351DAEDE}",
     "Language": "SFX",
-    "Hash": "{D646D855-415B-73D3-A526-980C0759504F}",
+    "Hash": "{00A583ED-ADDE-B9C0-4DC8-67069D403FCF}",
     "ObjectPath": "PlateIdle",
     "ShortName": "PlateIdle",
     "Path": "Event/PlateIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\PlateIdle",
       "GUID": "{EC6213F4-C004-49B8-960F-817E351DAEDE}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{743EEE3F-CADF-B8DA-4D61-21BAF750DBF9}"
+  "FileHash": "{080C14D1-3406-73B6-37E9-536D1C2DF933}"
  }
 }
