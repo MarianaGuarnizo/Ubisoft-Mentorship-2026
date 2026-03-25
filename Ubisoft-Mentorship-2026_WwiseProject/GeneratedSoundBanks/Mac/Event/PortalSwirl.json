@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B545269D-C012-4CA6-90CE-2AB6603396E5}",
     "Language": "SFX",
-    "Hash": "{669A5D20-1D0E-8AE3-E35F-4975A86CEF62}",
+    "Hash": "{76C64C4F-B2D6-25BB-B722-2191E6C12ADD}",
     "ObjectPath": "PortalSwirl",
     "ShortName": "PortalSwirl",
     "Path": "Event/PortalSwirl.bnk",
@@ -18,7 +18,7 @@
      {
       "Id": "785678776",
       "Language": "SFX",
-      "Streaming": "false",
+      "Streaming": "true",
       "Location": "Loose",
       "ShortName": "PROPS_PortalSwirl.wav",
       "Path": "Media/785678776.wem",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalSwirl",
       "GUID": "{B545269D-C012-4CA6-90CE-2AB6603396E5}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{29B06419-04EF-6077-821F-F8E237FFC433}"
+  "FileHash": "{A08EB704-37DE-0364-2D68-CEECB21ACD26}"
  }
 }

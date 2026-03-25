@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{22464572-1EA5-461C-952E-66CF1FB2D45B}",
     "Language": "SFX",
-    "Hash": "{A7A0CB9D-FEEB-CB3B-B916-5B0AE19A8ABD}",
+    "Hash": "{CEEEBEFD-C65C-4879-CB56-305BC9CC7378}",
     "ObjectPath": "ChompFtstps",
     "ShortName": "ChompFtstps",
     "Path": "Event/ChompFtstps.bnk",
@@ -68,6 +68,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompFtstps",
       "GUID": "{22464572-1EA5-461C-952E-66CF1FB2D45B}",
       "Color": "12",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.24535057",
       "DurationMax": "0.38604978",
@@ -92,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{00996087-730A-69E8-D468-5C85CB18F229}"
+  "FileHash": "{E75DE479-76CF-4221-E942-5084BB10BD8F}"
  }
 }

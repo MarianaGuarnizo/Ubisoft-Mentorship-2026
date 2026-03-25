@@ -445,12 +445,12 @@ namespace Gamekit3D
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 emoteJumpPlayer.PlayRandomClip();
-               // AkUnitySoundEngine.PostEvent("Jump", gameObject); Not wokring :(
+                AkUnitySoundEngine.PostEvent("Jump", gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-                hurtAudioPlayer.PlayRandomClip();
+                AkUnitySoundEngine.PostEvent("Hurt", gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
@@ -550,6 +550,7 @@ namespace Gamekit3D
         {
             meleeWeapon.BeginAttack(throwing != 0);
             m_InAttack = true;
+            AkUnitySoundEngine.PostEvent("Swing", gameObject);
         }
 
         // This is called by an animation event when Ellen finishes swinging her staff.

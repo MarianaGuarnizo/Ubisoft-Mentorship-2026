@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	897397800	ChompAttack			\Default Work Unit\Character\Chomper\ChompAttack	
+	897397800	ChompAttack			\Default Work Unit\Creatures\Chomper\ChompAttack	
 

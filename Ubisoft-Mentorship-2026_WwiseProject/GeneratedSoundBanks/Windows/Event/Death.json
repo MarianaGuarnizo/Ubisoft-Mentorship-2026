@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2147F094-FC97-45DC-9A2C-5A86396A1126}",
     "Language": "SFX",
-    "Hash": "{A7B3D037-8F7A-EEFE-D761-06F118137C9D}",
+    "Hash": "{5BF2D989-3C5F-B7FA-B2F6-1F0DC4A29673}",
     "ObjectPath": "Death",
     "ShortName": "Death",
     "Path": "Event/Death.bnk",
@@ -146,7 +146,8 @@
          "GroupType": "Switch",
          "GroupId": "2510861594",
          "Id": "2528658256",
-         "GUID": "{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}"
+         "GUID": "{BB00F53F-2E07-45E2-A210-FF67AAAC3F81}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -212,6 +213,6 @@
     ]
    }
   ],
-  "FileHash": "{EF8C0F0D-C703-D24A-0AE0-9579427AADE9}"
+  "FileHash": "{45D6BA29-517F-F426-08F5-58AD24C4D8A1}"
  }
 }

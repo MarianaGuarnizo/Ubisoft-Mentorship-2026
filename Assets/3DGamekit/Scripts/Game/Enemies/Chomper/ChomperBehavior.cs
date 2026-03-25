@@ -68,9 +68,9 @@ namespace Gamekit3D
         void PlayStep(int frontFoot)
         {
             if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
+                AkUnitySoundEngine.PostEvent("ChompFtstps", gameObject);
             else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
+                AkUnitySoundEngine.PostEvent("ChompFtstps", gameObject);
         }
 
         /// <summary>
@@ -85,7 +85,7 @@ namespace Gamekit3D
         public void Spotted()
         {
             if (spottedAudio != null)
-                spottedAudio.PlayRandomClip();
+                AkUnitySoundEngine.PostEvent("ChompSpotted", gameObject);
         }
 
         protected void OnDisable()
@@ -246,6 +246,7 @@ namespace Gamekit3D
             //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
+            AkUnitySoundEngine.PostEvent("ChompHit", gameObject);
             GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
         }
 

@@ -1,3 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2941029371	ChompSpotted			\Default Work Unit\Character\Chomper\ChompSpotted	
+	2941029371	ChompSpotted			\Default Work Unit\Creatures\Chomper\ChompSpotted	
 

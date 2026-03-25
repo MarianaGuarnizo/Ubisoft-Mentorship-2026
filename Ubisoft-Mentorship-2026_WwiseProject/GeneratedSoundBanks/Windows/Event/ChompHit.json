@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{70B21B31-3A53-4308-A68D-5037C2D5CE68}",
     "Language": "SFX",
-    "Hash": "{EBCECCFA-2936-523D-E5A6-5BDA1AECA870}",
+    "Hash": "{CFAB760E-44AF-3D07-38CF-849E47EA8213}",
     "ObjectPath": "ChompHit",
     "ShortName": "ChompHit",
     "Path": "Event/ChompHit.bnk",
@@ -32,6 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompHit",
       "GUID": "{70B21B31-3A53-4308-A68D-5037C2D5CE68}",
       "Color": "12",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.2699257",
       "DurationMax": "0.36554837",
@@ -44,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{2922B3EF-68A5-AD5C-810A-A88ABFB7B957}"
+  "FileHash": "{37265157-E6E0-CECE-43E8-AA6D58AFE9AE}"
  }
 }

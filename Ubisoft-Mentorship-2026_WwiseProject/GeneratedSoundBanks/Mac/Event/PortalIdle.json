@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
     "Language": "SFX",
-    "Hash": "{C008EC79-29C1-62E2-6FB7-BEB62A082C71}",
+    "Hash": "{26C504A0-B35E-4A19-6DD0-3118273165C2}",
     "ObjectPath": "PortalIdle",
     "ShortName": "PortalIdle",
     "Path": "Event/PortalIdle.bnk",
@@ -18,7 +18,7 @@
      {
       "Id": "450575975",
       "Language": "SFX",
-      "Streaming": "false",
+      "Streaming": "true",
       "Location": "Loose",
       "ShortName": "PROPS_PortalIDLE.wav",
       "Path": "Media/450575975.wem",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalIdle",
       "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{EF213E99-1BB3-9DE8-95AA-A5C4A60C8240}"
+  "FileHash": "{98CC8C97-0B9B-B6FF-48BF-84374D1F71E7}"
  }
 }

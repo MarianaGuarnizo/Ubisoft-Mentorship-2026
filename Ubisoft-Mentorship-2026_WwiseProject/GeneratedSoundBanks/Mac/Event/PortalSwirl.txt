@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3435179084	PortalSwirl			\Default Work Unit\Props\PortalSwirl	
 
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	785678776	PROPS_PortalSwirl	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\8A\{8ACDC079-8919-7AB7-AC31-7567C0D9B578}.wem	785678776.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\PROPS_PortalSwirl	
+
