@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4390650B-EAD6-4EBF-985C-C769C125E3F5}",
     "Language": "SFX",
-    "Hash": "{82DFB5FF-E599-9C9D-7349-E9A416C6F329}",
+    "Hash": "{A280565B-7809-3531-CD04-E739DECB260C}",
     "ObjectPath": "CrateBreak",
     "ShortName": "CrateBreak",
     "Path": "Event/CrateBreak.bnk",
@@ -50,7 +50,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrateBreak",
       "GUID": "{4390650B-EAD6-4EBF-985C-C769C125E3F5}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.6029516",
       "DurationMax": "3.4282978",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{92ECEDE1-86E2-E871-545E-A2CCE8A32805}"
+  "FileHash": "{22858724-F5AA-B716-3428-81E9A8A47657}"
  }
 }

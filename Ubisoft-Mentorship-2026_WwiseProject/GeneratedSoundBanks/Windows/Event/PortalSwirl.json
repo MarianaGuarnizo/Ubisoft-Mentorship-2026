@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B545269D-C012-4CA6-90CE-2AB6603396E5}",
     "Language": "SFX",
-    "Hash": "{76C64C4F-B2D6-25BB-B722-2191E6C12ADD}",
+    "Hash": "{E422CC9D-06A3-2012-231B-A26382102FA8}",
     "ObjectPath": "PortalSwirl",
     "ShortName": "PortalSwirl",
     "Path": "Event/PortalSwirl.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\PortalSwirl",
       "GUID": "{B545269D-C012-4CA6-90CE-2AB6603396E5}",
       "Color": "1",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CE8272F2-B430-F037-2740-67E0907B9CBD}"
+  "FileHash": "{65950C6F-7C08-1084-6932-239C0BAB95A2}"
  }
 }

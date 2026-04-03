@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5847D12C-C55A-4ECF-B9A7-807224F9554B}",
     "Language": "SFX",
-    "Hash": "{02FD9FF2-BD41-C297-829F-66ECDDAC6596}",
+    "Hash": "{797E9907-DC38-A41E-728B-29F073B20522}",
     "ObjectPath": "MediumDoor",
     "ShortName": "MediumDoor",
     "Path": "Event/MediumDoor.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\MediumDoor",
       "GUID": "{5847D12C-C55A-4ECF-B9A7-807224F9554B}",
       "Color": "1",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
       "DurationMin": "6.431746",
       "DurationMax": "6.431746",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{A5864A96-BE39-36DA-C9BD-1B6A81050B9B}"
+  "FileHash": "{9AF2C4CD-EB49-A9F3-0342-9DCA6E5DE5FF}"
  }
 }

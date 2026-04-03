@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{23A26DA3-262A-41B6-8D01-A960DEA9220A}",
     "Language": "SFX",
-    "Hash": "{1DBEE477-1168-5067-2087-9C15D7C6CC88}",
+    "Hash": "{D501C1CB-ACC7-7C08-9C2B-D1DC0B1EDC9C}",
     "ObjectPath": "ChompSpotted",
     "ShortName": "ChompSpotted",
     "Path": "Event/ChompSpotted.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompSpotted",
       "GUID": "{23A26DA3-262A-41B6-8D01-A960DEA9220A}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.50872195",
       "DurationMax": "0.59630233",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{E4BE0DD1-8F4D-5702-2C95-769F53DB2B8C}"
+  "FileHash": "{CF775441-BF9F-84CA-AC79-B2BD46BDCFA9}"
  }
 }

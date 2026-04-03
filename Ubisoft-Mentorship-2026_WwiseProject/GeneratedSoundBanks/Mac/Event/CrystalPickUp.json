@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79828FEC-70B0-47B2-8063-48253672215E}",
     "Language": "SFX",
-    "Hash": "{AAEC623C-0774-4EA3-97AB-E89E903565FC}",
+    "Hash": "{50FF7B8A-CC8D-C674-A52F-2DF0FAA0A1AD}",
     "ObjectPath": "CrystalPickUp",
     "ShortName": "CrystalPickUp",
     "Path": "Event/CrystalPickUp.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\CrystalPickUp",
       "GUID": "{79828FEC-70B0-47B2-8063-48253672215E}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.1150794",
       "DurationMax": "2.1150794",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{58E56636-83DD-CA5B-3D43-26CA46226BE0}"
+  "FileHash": "{10720232-5E2F-E27C-20E9-A77643C7E35F}"
  }
 }

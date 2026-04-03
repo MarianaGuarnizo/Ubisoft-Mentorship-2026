@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2D8A8F21-F50A-4269-A453-E9B8FEE9A6A7}",
     "Language": "SFX",
-    "Hash": "{C6E8C2D4-706E-E0D6-B218-A9DEE65CA56F}",
+    "Hash": "{1F0C98C8-6535-4189-6A7B-F585F4BA442B}",
     "ObjectPath": "GrenadierCloseRangeAttack",
     "ShortName": "GrenadierCloseRangeAttack",
     "Path": "Event/GrenadierCloseRangeAttack.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierCloseRangeAttack",
       "GUID": "{2D8A8F21-F50A-4269-A453-E9B8FEE9A6A7}",
       "Color": "12",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "1.73",
       "DurationMax": "1.73",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{D5D1782F-0AE1-7C03-5C73-FD12693E8F94}"
+  "FileHash": "{76C19372-1198-0F30-0213-505453906223}"
  }
 }

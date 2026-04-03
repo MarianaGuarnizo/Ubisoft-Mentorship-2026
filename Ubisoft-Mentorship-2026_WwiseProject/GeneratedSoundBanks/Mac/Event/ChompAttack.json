@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BCC2631-7AA3-4FD2-89E0-90AE2F5E7BDF}",
     "Language": "SFX",
-    "Hash": "{A90C4025-A133-14D1-D6A7-48FDAF607525}",
+    "Hash": "{58BE87E5-B373-9757-5704-C09861B2EFFB}",
     "ObjectPath": "ChompAttack",
     "ShortName": "ChompAttack",
     "Path": "Event/ChompAttack.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Chomper\\ChompAttack",
       "GUID": "{2BCC2631-7AA3-4FD2-89E0-90AE2F5E7BDF}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "1.1003218",
       "DurationMax": "1.2530338",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{A46FB94A-6AE3-A359-BCCF-627679312E41}"
+  "FileHash": "{16C3913C-CA7F-A7BA-C0D9-1C71DCFF400C}"
  }
 }

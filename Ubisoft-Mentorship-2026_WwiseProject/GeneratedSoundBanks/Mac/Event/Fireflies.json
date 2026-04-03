@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0E349FB0-6E24-4625-A27E-17F5E8A903CC}",
     "Language": "SFX",
-    "Hash": "{11583B86-F382-D62D-8A44-2A48B250DF2C}",
+    "Hash": "{D6033843-978C-D70B-A1DE-91E1CE2CDF8D}",
     "ObjectPath": "Fireflies",
     "ShortName": "Fireflies",
     "Path": "Event/Fireflies.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\Fireflies",
       "GUID": "{0E349FB0-6E24-4625-A27E-17F5E8A903CC}",
       "Color": "4",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{68287DCC-23F1-3C23-3B36-F2704526A342}"
+  "FileHash": "{1ABE4C41-501F-8AE6-ECF4-5A4E7481F516}"
  }
 }

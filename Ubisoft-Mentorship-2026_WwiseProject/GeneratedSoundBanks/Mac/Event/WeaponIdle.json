@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6F3DFA1-A818-459E-9245-9BC2347C77B6}",
     "Language": "SFX",
-    "Hash": "{F11EA0F5-7F21-53AE-B185-68C3146DA543}",
+    "Hash": "{FCFC4362-318D-7AC0-0E9D-2D9B1041E13C}",
     "ObjectPath": "WeaponIdle",
     "ShortName": "WeaponIdle",
     "Path": "Event/WeaponIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\Weapon\\WeaponIdle",
       "GUID": "{F6F3DFA1-A818-459E-9245-9BC2347C77B6}",
       "Color": "1",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{F056D383-269F-B309-A704-EC4C940DBFF7}"
+  "FileHash": "{03A2EA94-D2A8-2FE3-A77B-B47A46BFB56B}"
  }
 }

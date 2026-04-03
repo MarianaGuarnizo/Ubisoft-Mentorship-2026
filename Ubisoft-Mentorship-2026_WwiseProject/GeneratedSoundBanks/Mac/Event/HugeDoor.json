@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9851973A-A797-48E8-B328-EAC4F0322162}",
     "Language": "SFX",
-    "Hash": "{DC324EDF-3595-31B5-8A64-057CBA13D5E8}",
+    "Hash": "{B78F3355-34D0-B066-3C7D-96EEFEFC6A9A}",
     "ObjectPath": "HugeDoor",
     "ShortName": "HugeDoor",
     "Path": "Event/HugeDoor.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\HugeDoor",
       "GUID": "{9851973A-A797-48E8-B328-EAC4F0322162}",
       "Color": "1",
-      "MaxAttenuation": "2500",
+      "MaxAttenuation": "1000",
       "DurationType": "OneShot",
       "DurationMin": "5.1487756",
       "DurationMax": "5.1487756",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{A0EAFC6A-CE85-FFE0-F7CF-64387A8DB2DF}"
+  "FileHash": "{CD0A0A2A-427A-AF1B-D4DA-19730793DC15}"
  }
 }

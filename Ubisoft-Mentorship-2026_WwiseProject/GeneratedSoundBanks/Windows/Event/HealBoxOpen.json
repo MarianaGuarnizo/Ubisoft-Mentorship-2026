@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{553EEA84-FA8E-4A73-9668-F818F23A6891}",
     "Language": "SFX",
-    "Hash": "{C70021DF-78E7-0D81-A97C-E8E61EBAEC3F}",
+    "Hash": "{C7E07115-A1A9-42A1-22DE-126B763A568A}",
     "ObjectPath": "HealBoxOpen",
     "ShortName": "HealBoxOpen",
     "Path": "Event/HealBoxOpen.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Props\\HealBoxOpen",
       "GUID": "{553EEA84-FA8E-4A73-9668-F818F23A6891}",
       "Color": "1",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "3.5221088",
       "DurationMax": "3.5221088",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{03EE0FDB-247E-15C9-CFB8-2A08294B6E2C}"
+  "FileHash": "{EE4EC23E-F02E-C1B7-A7BD-D1FF2F974A67}"
  }
 }

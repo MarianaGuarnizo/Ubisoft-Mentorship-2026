@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
     "Language": "SFX",
-    "Hash": "{099133D9-6B1C-8079-D600-A98030AF5665}",
+    "Hash": "{515F22E0-629E-7352-EAD2-CDD84E9F5656}",
     "ObjectPath": "GrenadierrangeAttack",
     "ShortName": "GrenadierrangeAttack",
     "Path": "Event/GrenadierrangeAttack.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierrangeAttack",
       "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
       "Color": "12",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "2.7666667",
       "DurationMax": "2.7666667",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{D51F49FD-4B24-78F3-D439-0FE4F6E6EF26}"
+  "FileHash": "{3BA214CC-2735-63B7-384F-EFB5D336ADCE}"
  }
 }
