@@ -11,6 +11,154 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}">
+							<ChildrenList>
+								<Bus Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{100F76DA-B361-4112-8C3A-9D5203DB0EA6}" ShortID="215175297"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+												<CustomState Name="" ID="{0EA24BC1-358C-4D26-B8E7-C69597342AA6}" ShortID="423696814">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+												<CustomState Name="" ID="{CFD8B9F1-2A95-4B48-9E16-2C4F1338B38E}" ShortID="235097442"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+												<CustomState Name="" ID="{3A681937-3101-44B7-9690-3AEDFBB4689D}" ShortID="731232505"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+												<CustomState Name="" ID="{586F5F99-5839-4391-A0C2-C160E0FF4DB0}" ShortID="568779315"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{3C801FD7-5F6B-4E89-8701-A8A2D6189D60}" ShortID="304044817"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+												<CustomState Name="" ID="{D32CC5E7-0C26-411F-B76E-58A039152EE9}" ShortID="171702995">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="59"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+												<CustomState Name="" ID="{8569C51A-E3AE-4CB4-959D-62F8AF60E21D}" ShortID="526602490"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+												<CustomState Name="" ID="{8D182BBE-0BAA-4432-ADD8-572B62262D6C}" ShortID="827122724"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+												<CustomState Name="" ID="{84542037-D3B9-4CBC-AEC7-5AAFA6AC09CB}" ShortID="445919418"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{5DB1810C-9968-4D49-8486-3FB36A8BD3DB}" ShortID="838510650"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+												<CustomState Name="" ID="{6FFAFAB2-6EDE-4804-B9EA-4D9CDAFD21DD}" ShortID="547786636">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="61"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+												<CustomState Name="" ID="{658E2AC8-9086-49B7-BAD3-A851989321B4}" ShortID="952303794"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+												<CustomState Name="" ID="{FF870063-684F-44C0-BB48-9F2CEFED7BB4}" ShortID="175553711">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-13"/>
+														<Property Name="Lowpass" Type="int16" Value="30"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+												<CustomState Name="" ID="{75B36CBE-A71B-4A0E-B91D-21AC7D8EE99F}" ShortID="1023635308"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}"/>
+								<Bus Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{0BDBA99B-4972-42CA-87C3-E2B3E904BD73}" ShortID="830643707"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+												<CustomState Name="" ID="{A9C7FDB2-4420-409F-8463-8EAF5A8A178C}" ShortID="867499526">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="60"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+												<CustomState Name="" ID="{DD95C6F5-9F90-45C0-9BA8-85AAF1B2C730}" ShortID="909979988"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+												<CustomState Name="" ID="{B56630E9-68BC-4E88-8678-DE8A69BEEE66}" ShortID="613185449"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+												<CustomState Name="" ID="{97541B92-F400-4979-8EAC-13FC66566A4C}" ShortID="288290174"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -53,6 +201,39 @@
 							</ObjectLists>
 						</Bus>
 						<Bus Name="Music" ID="{818E1D2A-440F-4DD0-A9DD-29BC867A9281}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+										<CustomState Name="" ID="{387F8FE4-5026-444C-A498-8D16132A229A}" ShortID="409552739"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+										<CustomState Name="" ID="{214A63FD-6629-451E-B4A1-5D9FB6D2DD21}" ShortID="193653235">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+										<CustomState Name="" ID="{1E5193FD-3226-4248-9B83-4A1283168523}" ShortID="291432863"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+										<CustomState Name="" ID="{C0295E7B-657C-4D81-B6BE-14BE8C5E9E53}" ShortID="1008739735"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+										<CustomState Name="" ID="{E7B0248B-8B4B-49FC-99F8-82607381C73A}" ShortID="35726859"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>

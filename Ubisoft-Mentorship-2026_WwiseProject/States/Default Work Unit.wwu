@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E7155394-B701-4220-9AB4-EED3AD4B4837}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{E7155394-B701-4220-9AB4-EED3AD4B4837}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E7155394-B701-4220-9AB4-EED3AD4B4837}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}">
+					<ChildrenList>
+						<State Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+						<State Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+						<State Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+						<State Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+						<State Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MusicChange" ID="{FB22BD3D-A77D-40BE-A093-A669D91AD0AB}">
+					<ChildrenList>
+						<State Name="None" ID="{A87E8A05-91D4-43E0-A52E-32C3F61CA134}"/>
+						<State Name="Part1" ID="{6FF8051B-9BEF-4CAF-8509-C09E42CEEAD2}"/>
+						<State Name="Part2" ID="{087F5479-CFB3-47E9-9938-106CF1EE43AB}"/>
+						<State Name="Ruins" ID="{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

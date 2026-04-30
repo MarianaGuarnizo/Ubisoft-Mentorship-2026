@@ -594,7 +594,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="GrenadierrangeAttack" ID="{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}">
+								<Event Name="GrenadierRangeAttack" ID="{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}">
 									<ChildrenList>
 										<Action Name="" ID="{D4B6FF6F-DCCB-4A6C-951B-6F1B4BAD4AA8}" ShortID="940600293">
 											<ReferenceList>

@@ -24,7 +24,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -66,7 +66,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -97,7 +97,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -128,7 +128,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -159,7 +159,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -181,7 +181,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -216,7 +216,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -250,7 +250,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -366,7 +366,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -405,7 +405,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -456,7 +456,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -512,7 +512,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -568,7 +568,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -605,7 +605,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -804,7 +804,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -912,7 +912,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1063,6 +1063,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1072,7 +1077,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1089,15 +1094,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_CrystalPickUp" ID="{4F45A713-A95C-4ACF-AA33-683555C5F4DC}" ShortID="840919613">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1125,7 +1130,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1150,7 +1155,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1175,7 +1180,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1205,7 +1210,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1238,7 +1243,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1256,6 +1261,7 @@
 						</Sound>
 						<Sound Name="PROPS_PlateUnlock" ID="{AF08B536-D09D-4FA3-BCE5-F71974C35600}" ShortID="1029204753">
 							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -1267,7 +1273,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1289,7 +1295,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1322,7 +1328,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1355,7 +1361,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1377,7 +1383,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1401,7 +1407,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1662,7 +1668,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1691,7 +1697,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Props" ID="{815B69CE-CFBC-4253-B716-CF8A10176E16}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1731,7 +1737,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1760,7 +1766,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2132,7 +2138,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2195,7 +2201,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2280,7 +2286,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2870,7 +2876,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3028,7 +3034,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3477,7 +3483,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3562,7 +3568,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+									<ObjectRef Name="Character" ID="{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3597,7 +3603,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3622,7 +3628,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3647,7 +3653,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3687,7 +3693,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3827,7 +3833,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3922,7 +3928,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3947,7 +3953,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3972,7 +3978,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3997,7 +4003,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4022,7 +4028,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4068,7 +4074,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4123,7 +4129,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4262,7 +4268,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4319,7 +4325,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4349,7 +4355,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4395,7 +4401,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{B9DBFC70-3501-407B-8E95-B52F1337A1AA}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Ennemies" ID="{69F1EC94-711D-4F30-A3F2-602E06967A9C}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
