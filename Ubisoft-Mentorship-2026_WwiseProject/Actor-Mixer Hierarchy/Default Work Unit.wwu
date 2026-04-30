@@ -238,6 +238,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
@@ -249,6 +252,11 @@
 										<Sound Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}" ShortID="523279923">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -307,6 +315,26 @@
 													<ObjectRef Name="Test" ID="{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}" WorkUnitID="{AC7A141D-47F7-4439-815F-FD061C4342C3}"/>
 												</Reference>
 											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="WaterFlow_2" ID="{277F25F8-E63C-4EE5-8F82-68D288A266FC}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>28.7039537037037</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>12.4077824074074</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>

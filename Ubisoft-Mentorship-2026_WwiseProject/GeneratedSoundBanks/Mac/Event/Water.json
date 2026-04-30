@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B472F481-EA26-4DA9-B779-3B5B152D796C}",
     "Language": "SFX",
-    "Hash": "{60BDF1D2-A1AD-15E0-5C56-EC98870B76A7}",
+    "Hash": "{97FA447D-887D-F74B-7426-0884351FD71A}",
     "ObjectPath": "Water",
     "ShortName": "Water",
     "Path": "Event/Water.bnk",
@@ -41,6 +41,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\Water",
       "GUID": "{B472F481-EA26-4DA9-B779-3B5B152D796C}",
       "Color": "4",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -62,6 +63,6 @@
     ]
    }
   ],
-  "FileHash": "{BD340E85-BC95-0367-F636-982E57C6F9AB}"
+  "FileHash": "{F6C315C2-C352-C8D9-7AFB-C05885C683B3}"
  }
 }
