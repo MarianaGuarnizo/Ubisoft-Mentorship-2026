@@ -72,36 +72,6 @@ namespace AK
         static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS
 
-    namespace STATES
-    {
-        namespace GAMESTATE
-        {
-            static const AkUniqueID GROUP = 4091656514U;
-
-            namespace STATE
-            {
-                static const AkUniqueID BOSSFIGHT = 580146960U;
-                static const AkUniqueID EXPLORE = 579523862U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID VICTORY = 2716678721U;
-            } // namespace STATE
-        } // namespace GAMESTATE
-
-        namespace MUSICCHANGE
-        {
-            static const AkUniqueID GROUP = 1911932434U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID PART1 = 3177314147U;
-                static const AkUniqueID PART2 = 3177314144U;
-                static const AkUniqueID RUINS = 417916826U;
-            } // namespace STATE
-        } // namespace MUSICCHANGE
-
-    } // namespace STATES
-
     namespace SWITCHES
     {
         namespace DEATHSURFACETYPE
