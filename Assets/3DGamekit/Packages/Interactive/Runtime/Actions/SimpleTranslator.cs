@@ -9,6 +9,8 @@ namespace Gamekit3D.GameCommands
         public Vector3 start = -Vector3.forward;
         public Vector3 end = Vector3.forward;
 
+        private bool hasPlayedSound = false; //checker si le son est déjà played
+
         public override void PerformTransform(float position)
         {
 
@@ -21,6 +23,52 @@ namespace Gamekit3D.GameCommands
 
             if (m_Platform != null)
                 m_Platform.MoveCharacterController(deltaPosition);
+
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge1")
+            {
+                AkUnitySoundEngine.PostEvent("SmallDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge2")
+            {
+                AkUnitySoundEngine.PostEvent("MediumDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge")
+            {
+                AkUnitySoundEngine.PostEvent("HugeDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door1")
+            {
+                AkUnitySoundEngine.PostEvent("SmallDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door2")
+            {
+                AkUnitySoundEngine.PostEvent("SmallDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door3")
+            {
+                AkUnitySoundEngine.PostEvent("SmallDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door4")
+            {
+                AkUnitySoundEngine.PostEvent("HugeDoor", gameObject);
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "MovingPlatform22")
+            {
+                //Add code for PlatformFly in lvl2
+                hasPlayedSound = true;
+            }
+            if (!hasPlayedSound && position > 0.01f && gameObject.name == "MovingPlatform23")
+            {
+                //Add code for PlatformFly in lvl2
+                hasPlayedSound = true;
+            }
         }
     }
 }
