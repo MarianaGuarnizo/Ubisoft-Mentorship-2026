@@ -129,6 +129,7 @@ namespace Gamekit3D
         public void Hit()
         {
             damageAudioPlayer.PlayRandomClip();
+            AkUnitySoundEngine.PostEvent("GrenadierHit", gameObject);
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
         }
@@ -136,8 +137,30 @@ namespace Gamekit3D
         public void Die()
         {
             deathAudioPlayer.PlayRandomClip();
+            AkUnitySoundEngine.PostEvent("GrenadierDeath", gameObject);
             m_EnemyController.animator.SetTrigger(hashDeathParam);
         }
+
+        public void PlayWwiseRangeAttack()
+        {
+            AkUnitySoundEngine.PostEvent("GrenadierRangeAttack", gameObject);
+        }
+
+        public void PlayWwiseRangeExplo()
+        {
+            AkUnitySoundEngine.PostEvent("GrenadierExplosion", gameObject);
+        }
+
+        public void PlayWwiseMeleeAttack()
+        {
+            AkUnitySoundEngine.PostEvent("GrenadierMeleeAttack", gameObject);
+        }
+
+        public void WwisePlayGrenadierCloseRangeAttack()
+        {
+            AkUnitySoundEngine.PostEvent("GrenadierCloseRangeAttack", gameObject);
+        }
+
 
         public void ActivateShield()
         {
@@ -164,12 +187,13 @@ namespace Gamekit3D
 
         public void PlayStep()
         {
-            footstepAudioPlayer.PlayRandomClip();
+            AkUnitySoundEngine.PostEvent("GrenadierFtstps", gameObject);
         }
 
         public void Shoot()
         {
             throwAudioPlayer.PlayRandomClip();
+            AkUnitySoundEngine.PostEvent("GrenadeWhoosh", gameObject);
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 

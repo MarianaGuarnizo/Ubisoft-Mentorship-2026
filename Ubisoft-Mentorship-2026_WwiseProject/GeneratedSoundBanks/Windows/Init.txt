@@ -1,3 +1,17 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1911932434	MusicChange			\Default Work Unit\MusicChange	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	417916826	Ruins	MusicChange			
+	748895195	None	MusicChange			
+	3177314144	Part2	MusicChange			
+	3177314147	Part1	MusicChange			
+	579523862	Explore	GameState			
+	580146960	BossFight	GameState			
+	748895195	None	GameState			
+	2716678721	Victory	GameState			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	988953028	SFXVolume			\Default Work Unit\SFXVolume	
 	2346531308	MusicVolume			\Default Work Unit\MusicVolume	

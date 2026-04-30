@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E13CE100-33F3-0017-27C9-6D7D6141B279}",
+    "Hash": "{E807E077-C702-F7FC-CAE3-291E273E3ADD}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -80,6 +80,72 @@
       "GUID": "{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1911932434",
+      "Name": "MusicChange",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicChange",
+      "GUID": "{FB22BD3D-A77D-40BE-A093-A669D91AD0AB}",
+      "States": [
+       {
+        "Id": "417916826",
+        "Name": "Ruins",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Ruins",
+        "GUID": "{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\None",
+        "GUID": "{A87E8A05-91D4-43E0-A52E-32C3F61CA134}"
+       },
+       {
+        "Id": "3177314144",
+        "Name": "Part2",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part2",
+        "GUID": "{087F5479-CFB3-47E9-9938-106CF1EE43AB}"
+       },
+       {
+        "Id": "3177314147",
+        "Name": "Part1",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part1",
+        "GUID": "{6FF8051B-9BEF-4CAF-8509-C09E42CEEAD2}"
+       }
+      ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{D154197B-5B76-4555-84C2-346B68020777}",
+      "States": [
+       {
+        "Id": "579523862",
+        "Name": "Explore",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Explore",
+        "GUID": "{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"
+       },
+       {
+        "Id": "580146960",
+        "Name": "BossFight",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\BossFight",
+        "GUID": "{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{953EAB03-844B-4E15-9F80-0D66F2BC5863}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Victory",
+        "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "63790334",
@@ -142,6 +208,6 @@
     ]
    }
   ],
-  "FileHash": "{4200B89E-E060-3A2B-79C7-F67AA1B48403}"
+  "FileHash": "{80CE75EE-0E5B-1F70-A29C-3AD80E7D84ED}"
  }
 }
