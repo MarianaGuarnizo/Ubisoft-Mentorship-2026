@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{36E3DDA6-9366-4ECC-9007-A3CBEEEC754C}",
     "Language": "SFX",
-    "Hash": "{CFE68CE0-1EB9-6EBF-BC5F-6B5E5D98DB59}",
+    "Hash": "{EA878A7A-ECA5-BD16-DB82-543E26C64235}",
     "ObjectPath": "SpaceshipIdle",
     "ShortName": "SpaceshipIdle",
     "Path": "Event/SpaceshipIdle.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\SpaceshipIdle",
       "GUID": "{36E3DDA6-9366-4ECC-9007-A3CBEEEC754C}",
       "Color": "4",
-      "MaxAttenuation": "160",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A0BCE970-55BB-30B8-E4A6-679E051C6CF3}"
+  "FileHash": "{05635B35-FF38-1F8A-D234-7B5191E78BA5}"
  }
 }

@@ -680,5 +680,51 @@ namespace Gamekit3D
             m_Respawning = true;
             m_Damageable.isInvulnerable = true;
         }
+  
+        void WwisePlayFootsteps()
+        {
+            AkUnitySoundEngine.PostEvent("Footseps", gameObject);
+        }
+
+        void WwisePlayLanding()
+        {
+            AkUnitySoundEngine.PostEvent("Land", gameObject);
+        }
+
+        void WwisePlayEmoteLanding()
+        {
+            AkUnitySoundEngine.PostEvent("EmoteLanding", gameObject);
+        }
+
+        void WwisePlayWalklanding()
+        {
+            AkUnitySoundEngine.PostEvent("Land", gameObject);
+        }
+
+        void WwisePlayIdleland()
+        {
+            AkUnitySoundEngine.PostEvent("Land", gameObject);
+        }
+
+        void WwisePlayDeath()
+        {
+            AkUnitySoundEngine.PostEvent("Death", gameObject);
+        }
+
+        void WwisePlayQuickTurn()
+        {
+            AkUnitySoundEngine.PostEvent("QuickTurn", gameObject);
+        }
+
+        void WwisePlayEllenSpawn()
+        {
+            AkUnitySoundEngine.PostEvent("Respawn", gameObject);
+        }
+
+        void WwisePlayHitBack()
+        {
+            AkUnitySoundEngine.PostEvent("Hurt", gameObject);
+        }
+
     }
 }

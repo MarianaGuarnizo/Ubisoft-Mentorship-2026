@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D17C47EE-6735-4840-A8F5-7F923A2E8B8B}",
     "Language": "SFX",
-    "Hash": "{4F3E7322-8E68-19DD-9B68-847D3388BDE9}",
+    "Hash": "{A6B9D033-9F4B-DD65-F0AE-9C3D9684269D}",
     "ObjectPath": "EmoteLanding",
     "ShortName": "EmoteLanding",
     "Path": "Event/EmoteLanding.bnk",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{3010D925-CB3D-7A92-C272-C6711227C6E7}"
+  "FileHash": "{D4837755-2C2D-302B-61F8-D44E90C92E23}"
  }
 }

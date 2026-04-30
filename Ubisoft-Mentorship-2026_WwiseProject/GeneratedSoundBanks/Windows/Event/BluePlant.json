@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2B3A1E31-E043-48EC-852C-9A57C163E987}",
     "Language": "SFX",
-    "Hash": "{16991E56-9FA2-D7FE-3247-9C36739607CB}",
+    "Hash": "{B73FFD86-D85A-F6A7-E93D-501BFBC59344}",
     "ObjectPath": "BluePlant",
     "ShortName": "BluePlant",
     "Path": "Event/BluePlant.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3823750A-B5BE-315F-00D0-2C707E9C6281}"
+  "FileHash": "{8EB6F8FC-72D3-5DCD-E3FD-4B8917D8BD12}"
  }
 }

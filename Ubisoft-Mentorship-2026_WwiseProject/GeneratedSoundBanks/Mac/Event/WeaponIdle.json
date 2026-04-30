@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6F3DFA1-A818-459E-9245-9BC2347C77B6}",
     "Language": "SFX",
-    "Hash": "{FCFC4362-318D-7AC0-0E9D-2D9B1041E13C}",
+    "Hash": "{8C960857-E1AE-B4AF-7124-C3778D572681}",
     "ObjectPath": "WeaponIdle",
     "ShortName": "WeaponIdle",
     "Path": "Event/WeaponIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{03A2EA94-D2A8-2FE3-A77B-B47A46BFB56B}"
+  "FileHash": "{20DA5B76-AAEC-F55A-A28B-0EAAC495D90D}"
  }
 }

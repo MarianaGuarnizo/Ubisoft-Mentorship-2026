@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BF9832EE-04FB-4D29-AA33-C7648C20651B}",
     "Language": "SFX",
-    "Hash": "{C1273175-46FE-D611-728C-27123F6E9811}",
+    "Hash": "{547E74C0-063D-5570-AFC3-132DF2B99203}",
     "ObjectPath": "Land",
     "ShortName": "Land",
     "Path": "Event/Land.bnk",
@@ -154,7 +154,8 @@
          "GroupType": "Switch",
          "GroupId": "63790334",
          "Id": "4248645337",
-         "GUID": "{1D81CB37-9339-4F46-A94D-552557631668}"
+         "GUID": "{1D81CB37-9339-4F46-A94D-552557631668}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -264,6 +265,6 @@
     ]
    }
   ],
-  "FileHash": "{1CDC2D16-500C-A814-9CF9-1E124F91372D}"
+  "FileHash": "{2315F0AD-104D-4392-DBB4-A31C63B8A4AB}"
  }
 }
