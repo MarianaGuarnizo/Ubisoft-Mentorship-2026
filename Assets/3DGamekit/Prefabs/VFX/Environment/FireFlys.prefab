@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 82817005893220700}
   - component: {fileID: 114469218096833924}
   - component: {fileID: 677914605365678464}
-  - component: {fileID: 299770213605433787}
+  - component: {fileID: 7656187314961763053}
+  - component: {fileID: 2432908854561444313}
   m_Layer: 0
   m_Name: FireFlys
   m_TagString: Untagged
@@ -5199,7 +5200,28 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &299770213605433787
+--- !u!135 &7656187314961763053
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324037995551082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 15
+  m_Center: {x: 0.06379986, y: -0.96283317, z: -0.16248254}
+--- !u!114 &2432908854561444313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5208,7 +5230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1324037995551082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6540a7e591973d84caaaccec81c58a0a, type: 3}
+  m_Script: {fileID: 11500000, guid: b619ba919867b9947bfe700fb3bc9409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   triggerList: f7e1664c
@@ -5229,3 +5251,8 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 2
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
