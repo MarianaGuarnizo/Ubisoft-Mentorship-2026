@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A417D77A-3497-417B-97CF-20BD4E9F5561}",
     "Language": "SFX",
-    "Hash": "{0995C6E2-FB2C-65B1-09B9-6AE62904B790}",
+    "Hash": "{8F2ED274-92EA-7AAB-D623-FFEC56B21123}",
     "ObjectPath": "WeaponPick",
     "ShortName": "WeaponPick",
     "Path": "Event/WeaponPick.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{50842CBD-1201-B8AB-7135-5762D5C61109}"
+  "FileHash": "{25B29F2B-A6ED-5E10-ECCA-BD89206FC01F}"
  }
 }

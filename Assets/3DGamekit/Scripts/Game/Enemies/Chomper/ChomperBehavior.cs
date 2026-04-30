@@ -206,6 +206,18 @@ namespace Gamekit3D
             m_Controller.animator.SetTrigger(hashAttack);
         }
 
+        public void PlayWwiseChomperAttack()
+        {
+            AkUnitySoundEngine.PostEvent("ChompAttack", gameObject);
+        }
+
+
+        public void PlayWwiseIdle()
+        {
+            AkUnitySoundEngine.PostEvent("ChompIdle", gameObject);
+        }
+
+
         public void AttackBegin()
         {
             meleeWeapon.BeginAttack(false);
