@@ -17,6 +17,7 @@ namespace Gamekit3D
         ParticleSystem.EmissionModule m_Emission;
         float m_StartTime;
         float m_EndTime;
+        bool soundPlayed = false; //new variable to check if the sound was played
 
         const string k_CutoffName = "_Cutoff";
 
@@ -54,6 +55,12 @@ namespace Gamekit3D
                     m_Renderer[i].SetPropertyBlock(m_PropertyBlock);
                 }
 
+                //Play sound when particles appear
+                if (!soundPlayed && m_Emission.rateOverTimeMultiplier > 0)
+                {
+                    AkUnitySoundEngine.PostEvent("ChompDisapear", gameObject);
+                    soundPlayed = true; //Updates variable to avoid to play the same sound multiple times 
+                }
 
                 m_Emission.rateOverTimeMultiplier = curve.Evaluate(cutoff) * m_EmissionRate;
 

@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	546661981	ChompDisapear			\Default Work Unit\Creatures\Chomper\ChompDisapear	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2038996943	Plate_Sizzle	Wwise RoomVerb			
+

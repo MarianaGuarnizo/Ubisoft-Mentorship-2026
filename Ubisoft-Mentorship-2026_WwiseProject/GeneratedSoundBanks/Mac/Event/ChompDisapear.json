@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
     "Language": "SFX",
-    "Hash": "{0543E40F-D655-0F21-28A0-4A592D4EB93D}",
+    "Hash": "{46003ACD-3E01-805D-F516-D328E301432A}",
     "ObjectPath": "ChompDisapear",
     "ShortName": "ChompDisapear",
     "Path": "Event/ChompDisapear.bnk",
@@ -25,6 +25,18 @@
       "CachePath": "C8/{C8728B7C-C640-690B-86AE-57B41FB3439F}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2038996943",
+       "Name": "Plate_Sizzle",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Sizzle",
+       "GUID": "{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "546661981",
@@ -40,11 +52,18 @@
        {
         "Id": "912217402"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2038996943"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{D4124183-03A2-B36B-BCB7-E44DED6612FC}"
+  "FileHash": "{C4C3F261-EDF4-F1F8-37D6-65E51F0C33B1}"
  }
 }
