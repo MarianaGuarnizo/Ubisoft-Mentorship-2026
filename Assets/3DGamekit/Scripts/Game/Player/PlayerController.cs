@@ -505,11 +505,34 @@ namespace Gamekit3D
                 {
                     // ... and get the movement of the root motion rotated to lie along the plane of the ground.
                     movement = Vector3.ProjectOnPlane(m_Animator.deltaPosition, hit.normal);
-                    
+
                     // Also store the current walking surface so the correct audio is played.
                     Renderer groundRenderer = hit.collider.GetComponentInChildren<Renderer>();
                     m_CurrentWalkingSurface = groundRenderer ? groundRenderer.sharedMaterial : null;
+
+                    // Wwise SurfaceType switch — runs on the same hit, no second raycast
+                    if (m_CurrentWalkingSurface != null)
+                    {
+                        string switchValue;
+                        switch (m_CurrentWalkingSurface.name)
+                        {
+                            case "Mud_Mat":
+                                switchValue = "Puddle";
+                                break;
+                            case "RockLedge02_Mat":
+                                switchValue = "Stone";
+                                break;
+                            case "Grass_Mat":
+                                switchValue = "Grass";
+                                break;
+                            default:
+                                switchValue = "Earth";
+                                break;
+                        }
+                        AkUnitySoundEngine.SetSwitch("SurfaceType", switchValue, gameObject);
+                    }
                 }
+
                 else
                 {
                     // If no ground is hit just get the movement as the root motion.
