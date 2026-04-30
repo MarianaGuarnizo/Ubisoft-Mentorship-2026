@@ -100,6 +100,9 @@ namespace Gamekit3D
         // Tags
         readonly int m_HashBlockInput = Animator.StringToHash("BlockInput");
 
+        protected bool m_FootstepPlaying;
+        protected bool m_FootstepCanPlay = true;
+
         protected bool IsMoveInput
         {
             get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
@@ -421,19 +424,34 @@ namespace Gamekit3D
         {
             float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-            if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
+            if (footfallCurve > 0.01f && !m_FootstepPlaying && m_FootstepCanPlay)
             {
-                footstepPlayer.playing = true;
-                footstepPlayer.canPlay = false;
-                footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+                m_FootstepPlaying = true;
+                m_FootstepCanPlay = false;
+
+                // Make sure SurfaceType switch is current before the event fires
+                if (m_CurrentWalkingSurface != null)
+                {
+                    string switchValue;
+                    switch (m_CurrentWalkingSurface.name)
+                    {
+                        case "Mud_Mat": switchValue = "Puddle"; break;
+                        case "RockLedge02_Mat": switchValue = "Stone"; break;
+                        case "Grass_Mat": switchValue = "Grass"; break;
+                        default: switchValue = "Earth"; break;
+                    }
+                    AkUnitySoundEngine.SetSwitch("SurfaceType", switchValue, gameObject);
+                }
+
+                AkUnitySoundEngine.PostEvent("Footsteps", gameObject);
             }
-            else if (footstepPlayer.playing)
+            else if (m_FootstepPlaying)
             {
-                footstepPlayer.playing = false;
+                m_FootstepPlaying = false;
             }
-            else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
+            else if (footfallCurve < 0.01f && !m_FootstepCanPlay)
             {
-                footstepPlayer.canPlay = true;
+                m_FootstepCanPlay = true;
             }
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
@@ -706,7 +724,7 @@ namespace Gamekit3D
   
         void WwisePlayFootsteps()
         {
-            AkUnitySoundEngine.PostEvent("Footseps", gameObject);
+            AkUnitySoundEngine.PostEvent("Footsteps", gameObject);
         }
 
         void WwisePlayLanding()
