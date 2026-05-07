@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{36E3DDA6-9366-4ECC-9007-A3CBEEEC754C}",
     "Language": "SFX",
-    "Hash": "{EA878A7A-ECA5-BD16-DB82-543E26C64235}",
+    "Hash": "{A6A7BC65-7840-63ED-D711-BDEC7096069D}",
     "ObjectPath": "SpaceshipIdle",
     "ShortName": "SpaceshipIdle",
     "Path": "Event/SpaceshipIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{05635B35-FF38-1F8A-D234-7B5191E78BA5}"
+  "FileHash": "{4B5D8D48-F4AA-7B28-31C6-11D945C02600}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C7CB0C02-C9F2-46A6-8BDF-56AD2EB994F8}",
     "Language": "SFX",
-    "Hash": "{5706356C-8905-C4F5-9BF4-5A53F789C057}",
+    "Hash": "{CA862109-8159-E651-8EE8-135DC6E7B13C}",
     "ObjectPath": "Hurt",
     "ShortName": "Hurt",
     "Path": "Event/Hurt.bnk",
@@ -104,6 +104,6 @@
     ]
    }
   ],
-  "FileHash": "{D0EBE358-6AD4-0F3C-C1DD-435C4CCC4BCD}"
+  "FileHash": "{BB4DCFF8-C742-B572-36B1-EFB806D527BE}"
  }
 }

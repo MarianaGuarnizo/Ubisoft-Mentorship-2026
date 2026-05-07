@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{4EDD6899-BD5B-4F26-BC8C-0DE784B33C27}",
     "Language": "SFX",
-    "Hash": "{3F9146D3-ABE3-3CF4-F8C8-DBEE57C19614}",
+    "Hash": "{D777F537-F1BB-9583-A98A-31B4ED45A6AF}",
     "ObjectPath": "HeartLoss",
     "ShortName": "HeartLoss",
     "Path": "Event/HeartLoss.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{E6E83978-561A-729F-6AF7-B12E115EC27F}"
+  "FileHash": "{71EC8F0D-2614-D17D-1C3A-D7A5AE33FCF7}"
  }
 }

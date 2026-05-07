@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9851973A-A797-48E8-B328-EAC4F0322162}",
     "Language": "SFX",
-    "Hash": "{B78F3355-34D0-B066-3C7D-96EEFEFC6A9A}",
+    "Hash": "{72AB7922-5880-DEEC-7AC9-F91D2C46FFBB}",
     "ObjectPath": "HugeDoor",
     "ShortName": "HugeDoor",
     "Path": "Event/HugeDoor.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{CD0A0A2A-427A-AF1B-D4DA-19730793DC15}"
+  "FileHash": "{6D84C2C8-32BF-DB4E-0CF3-1950B4AAA712}"
  }
 }

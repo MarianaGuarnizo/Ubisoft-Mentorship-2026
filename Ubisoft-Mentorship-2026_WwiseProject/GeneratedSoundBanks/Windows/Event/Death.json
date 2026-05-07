@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2147F094-FC97-45DC-9A2C-5A86396A1126}",
     "Language": "SFX",
-    "Hash": "{06B25BAB-B976-499C-6F35-753EC6FEFE6C}",
+    "Hash": "{57CFE168-CBB1-4705-223A-6FFC34C3519D}",
     "ObjectPath": "Death",
     "ShortName": "Death",
     "Path": "Event/Death.bnk",
@@ -213,6 +213,6 @@
     ]
    }
   ],
-  "FileHash": "{AE6E7611-972F-63F9-B18F-598C81F8F482}"
+  "FileHash": "{CEB4466B-0504-9EB4-518C-774659AE831D}"
  }
 }

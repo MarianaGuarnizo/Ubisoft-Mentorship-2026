@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BDE8A42-3C48-4546-BAF3-ED9E08369C0E}",
     "Language": "SFX",
-    "Hash": "{AF2AFCA9-8921-7816-CF98-B905F122F5C7}",
+    "Hash": "{107D2692-B8C8-4DD5-EB6F-B60D10E6BDA3}",
     "ObjectPath": "GrenadierHit",
     "ShortName": "GrenadierHit",
     "Path": "Event/GrenadierHit.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{FD7CB9BA-26BE-3E5B-90C1-294A27B10236}"
+  "FileHash": "{467B0856-6C6E-D624-188A-F5C4887C81CD}"
  }
 }

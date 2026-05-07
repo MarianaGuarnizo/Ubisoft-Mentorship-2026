@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3769B649-9DC0-44A2-AF81-6C93DF00FAD7}",
     "Language": "SFX",
-    "Hash": "{A5E2C1D4-3323-BFD2-275E-9CCD10C84636}",
+    "Hash": "{647482EF-EDF7-8AF8-0F32-4F3BAC83804F}",
     "ObjectPath": "QuickTurn",
     "ShortName": "QuickTurn",
     "Path": "Event/QuickTurn.bnk",
@@ -68,6 +68,6 @@
     ]
    }
   ],
-  "FileHash": "{0CCBFA8D-307B-F965-A886-91A7D11BC801}"
+  "FileHash": "{750A837C-5D81-922E-2EC4-98E2E3E2D93E}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{237541CB-CB07-4DAB-A989-C390671BB0E4}",
     "Language": "SFX",
-    "Hash": "{55FAAC87-DE5F-7DD2-CCD7-A2FD868F00F2}",
+    "Hash": "{496BFE7C-2D0A-2AF0-946E-B1C4728B5DFF}",
     "ObjectPath": "GrenadeBounce",
     "ShortName": "GrenadeBounce",
     "Path": "Event/GrenadeBounce.bnk",
@@ -69,6 +69,6 @@
     ]
    }
   ],
-  "FileHash": "{75CF324A-A6CE-0F0C-86C8-5828E52C3C97}"
+  "FileHash": "{528142BE-2E4D-D7D9-4134-96CA083C40D9}"
  }
 }

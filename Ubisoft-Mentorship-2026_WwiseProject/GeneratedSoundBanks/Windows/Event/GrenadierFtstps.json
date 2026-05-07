@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{00181578-945B-4FC1-A896-5EB7530BDD23}",
     "Language": "SFX",
-    "Hash": "{F27BEF7D-519E-7B89-A79C-88F4FB02C447}",
+    "Hash": "{FAC1AAC6-33A8-24E3-7437-07E35C240E61}",
     "ObjectPath": "GrenadierFtstps",
     "ShortName": "GrenadierFtstps",
     "Path": "Event/GrenadierFtstps.bnk",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{9EF8FA9D-90CA-B6CB-68F9-10F5ED0B90C1}"
+  "FileHash": "{E53463E9-99A7-F825-EF13-0735E2056D35}"
  }
 }

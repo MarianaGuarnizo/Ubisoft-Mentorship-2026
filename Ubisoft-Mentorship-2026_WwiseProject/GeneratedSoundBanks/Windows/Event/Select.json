@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DBE90863-7910-4B87-8552-A76360138C62}",
     "Language": "SFX",
-    "Hash": "{8C0FB89C-4CC0-D640-EDBA-C47AD502FE23}",
+    "Hash": "{1D7C6337-4FC3-FE58-AECE-E69D8B291584}",
     "ObjectPath": "Select",
     "ShortName": "Select",
     "Path": "Event/Select.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{3B3CF73B-612B-D6D4-1463-CE608499EB37}"
+  "FileHash": "{CF2333F1-27B9-12A9-57DC-9D34997B7C59}"
  }
 }

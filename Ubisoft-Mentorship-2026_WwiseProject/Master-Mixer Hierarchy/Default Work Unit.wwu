@@ -124,6 +124,32 @@
 								</Bus>
 								<Bus Name="UI" ID="{BE012766-9177-4FC3-9158-06E9568631A6}"/>
 								<Bus Name="Ambient" ID="{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}">
+									<ChildrenList>
+										<Bus Name="Exterior" ID="{42C5B807-8D70-4497-94AF-38A64F9786BC}">
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Occlusion" ID="{8D0C8ED3-2393-418A-A30E-EFC389F80FEB}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Small" ID="{027FA434-4423-4696-9033-21CE2D047313}"/>
+														<CustomState Name="" ID="{B8F8D2D5-DA0F-4AB0-A2C0-5ABA202527E2}" ShortID="10697917">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="-85"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="None" ID="{9121407C-838D-49EE-9121-8C1B6FB37432}"/>
+														<CustomState Name="" ID="{1385AE9D-48D2-4B85-AD3C-9012FBBF5651}" ShortID="840176345"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+										</Bus>
+										<Bus Name="Interior" ID="{26E64CFF-25D4-4E8C-B3B1-80C06C48C0EF}"/>
+									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>

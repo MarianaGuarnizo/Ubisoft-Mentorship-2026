@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EFC43590-EC91-489A-9C23-B77D68B740F6}",
     "Language": "SFX",
-    "Hash": "{08A67FAD-D284-EB54-67BB-15474462E6CD}",
+    "Hash": "{B7C29C6B-A406-4713-0CD4-5CB43FD4E03D}",
     "ObjectPath": "Return",
     "ShortName": "Return",
     "Path": "Event/Return.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{94753948-7952-BC6F-7834-28E42F287D29}"
+  "FileHash": "{592BC28D-5AB3-B747-B5ED-344485AE3441}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F3D556AE-00E6-4ADF-8C66-BC043885228C}",
     "Language": "SFX",
-    "Hash": "{544FAB38-9910-AC53-4CE5-986164A7143A}",
+    "Hash": "{14F28724-676D-9ADF-4658-0DFC103B4658}",
     "ObjectPath": "HeartGain",
     "ShortName": "HeartGain",
     "Path": "Event/HeartGain.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{0EEAB327-4E0D-0BB1-390A-8EE831951C62}"
+  "FileHash": "{385026CC-93D6-5CFE-9BA8-06252F66D82D}"
  }
 }

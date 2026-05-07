@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2BCC2631-7AA3-4FD2-89E0-90AE2F5E7BDF}",
     "Language": "SFX",
-    "Hash": "{083088AF-D29B-A8E6-E394-C41B5F5AEC1A}",
+    "Hash": "{57F8AA10-577F-0976-7FB2-623380B62AB0}",
     "ObjectPath": "ChompAttack",
     "ShortName": "ChompAttack",
     "Path": "Event/ChompAttack.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{2908D12D-16E1-3C87-6FC2-5E0CD786D396}"
+  "FileHash": "{ACFE6D9E-1287-5C28-39EC-FADDF64EF2DC}"
  }
 }

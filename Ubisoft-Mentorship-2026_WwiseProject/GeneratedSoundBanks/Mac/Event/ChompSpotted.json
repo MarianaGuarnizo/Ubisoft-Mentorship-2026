@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{23A26DA3-262A-41B6-8D01-A960DEA9220A}",
     "Language": "SFX",
-    "Hash": "{70F46E93-6E95-125A-BDE9-55CFF3147B65}",
+    "Hash": "{890B81ED-8546-6B37-E191-67D697E58985}",
     "ObjectPath": "ChompSpotted",
     "ShortName": "ChompSpotted",
     "Path": "Event/ChompSpotted.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{65CCCADD-1A58-FC46-49DA-2ACD64B4D297}"
+  "FileHash": "{953D187C-6D7C-2C95-B838-9E8A52A58E04}"
  }
 }

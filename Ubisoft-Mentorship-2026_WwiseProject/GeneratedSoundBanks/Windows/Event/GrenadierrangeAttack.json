@@ -10,10 +10,10 @@
     "Type": "Event",
     "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
     "Language": "SFX",
-    "Hash": "{515F22E0-629E-7352-EAD2-CDD84E9F5656}",
-    "ObjectPath": "GrenadierrangeAttack",
-    "ShortName": "GrenadierrangeAttack",
-    "Path": "Event/GrenadierrangeAttack.bnk",
+    "Hash": "{03059ED0-3576-BD84-2F00-1DE4593567E1}",
+    "ObjectPath": "GrenadierRangeAttack",
+    "ShortName": "GrenadierRangeAttack",
+    "Path": "Event/GrenadierRangeAttack.bnk",
     "Media": [
      {
       "Id": "730712234",
@@ -28,8 +28,8 @@
     "Events": [
      {
       "Id": "4242898983",
-      "Name": "GrenadierrangeAttack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierrangeAttack",
+      "Name": "GrenadierRangeAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierRangeAttack",
       "GUID": "{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}",
       "Color": "12",
       "MaxAttenuation": "100",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{3BA214CC-2735-63B7-384F-EFB5D336ADCE}"
+  "FileHash": "{F9519404-537F-164A-3ED6-15F7372250D0}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E5B969C8-4B68-4C58-B623-98CC6AA6A0FE}",
     "Language": "SFX",
-    "Hash": "{BF25A4F0-429F-EDE0-7B5A-49C5341416B1}",
+    "Hash": "{EBB6BCF5-7E57-E92D-98D7-7FF876CE3E27}",
     "ObjectPath": "Swing",
     "ShortName": "Swing",
     "Path": "Event/Swing.bnk",
@@ -128,6 +128,6 @@
     ]
    }
   ],
-  "FileHash": "{C4C304EA-55E6-DACE-D365-65E869FAB58C}"
+  "FileHash": "{084571D9-8454-2E97-4E47-D29928DB07C0}"
  }
 }

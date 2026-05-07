@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D2659146-42FB-6500-2FDB-61BF2834C8F0}",
+    "Hash": "{A4E37D8E-95DA-4ED7-C9BC-A965B04BD242}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,10 +36,46 @@
     },
     "Busses": [
      {
+      "Id": "77978275",
+      "Name": "Ambient",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Ambient",
+      "GUID": "{D7AC1E7C-99EC-4438-8A0D-6B09C8100863}"
+     },
+     {
       "Id": "393239870",
       "Name": "SFX",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
       "GUID": "{B9DBFC70-3501-407B-8E95-B52F1337A1AA}"
+     },
+     {
+      "Id": "436743010",
+      "Name": "Character",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Character",
+      "GUID": "{B517D8A6-A29E-47B1-ADCF-D3F8F8C1E25D}"
+     },
+     {
+      "Id": "968010305",
+      "Name": "Props",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Props",
+      "GUID": "{815B69CE-CFBC-4253-B716-CF8A10176E16}"
+     },
+     {
+      "Id": "1132214669",
+      "Name": "Interior",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Ambient\\Interior",
+      "GUID": "{26E64CFF-25D4-4E8C-B3B1-80C06C48C0EF}"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\UI",
+      "GUID": "{BE012766-9177-4FC3-9158-06E9568631A6}"
+     },
+     {
+      "Id": "2213992659",
+      "Name": "Exterior",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Ambient\\Exterior",
+      "GUID": "{42C5B807-8D70-4497-94AF-38A64F9786BC}"
      },
      {
       "Id": "3803692087",
@@ -52,6 +88,12 @@
       "Name": "Music",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
       "GUID": "{818E1D2A-440F-4DD0-A9DD-29BC867A9281}"
+     },
+     {
+      "Id": "4166191657",
+      "Name": "Ennemies",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Ennemies",
+      "GUID": "{69F1EC94-711D-4F30-A3F2-602E06967A9C}"
      }
     ],
     "GameParameters": [
@@ -78,6 +120,98 @@
       "Name": "Test",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Test",
       "GUID": "{3007F86A-33EB-43A6-A2E8-6178B5DEC4AE}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "183903552",
+      "Name": "Occlusion",
+      "ObjectPath": "\\States\\Default Work Unit\\Occlusion",
+      "GUID": "{8D0C8ED3-2393-418A-A30E-EFC389F80FEB}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Occlusion\\None",
+        "GUID": "{9121407C-838D-49EE-9121-8C1B6FB37432}"
+       },
+       {
+        "Id": "1846755610",
+        "Name": "Small",
+        "ObjectPath": "\\States\\Default Work Unit\\Occlusion\\Small",
+        "GUID": "{027FA434-4423-4696-9033-21CE2D047313}"
+       }
+      ]
+     },
+     {
+      "Id": "1911932434",
+      "Name": "MusicChange",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicChange",
+      "GUID": "{FB22BD3D-A77D-40BE-A093-A669D91AD0AB}",
+      "States": [
+       {
+        "Id": "417916826",
+        "Name": "Ruins",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Ruins",
+        "GUID": "{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\None",
+        "GUID": "{A87E8A05-91D4-43E0-A52E-32C3F61CA134}"
+       },
+       {
+        "Id": "3177314144",
+        "Name": "Part2",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part2",
+        "GUID": "{087F5479-CFB3-47E9-9938-106CF1EE43AB}"
+       },
+       {
+        "Id": "3177314147",
+        "Name": "Part1",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part1",
+        "GUID": "{6FF8051B-9BEF-4CAF-8509-C09E42CEEAD2}"
+       }
+      ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{D154197B-5B76-4555-84C2-346B68020777}",
+      "States": [
+       {
+        "Id": "579523862",
+        "Name": "Explore",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Explore",
+        "GUID": "{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"
+       },
+       {
+        "Id": "580146960",
+        "Name": "BossFight",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\BossFight",
+        "GUID": "{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{953EAB03-844B-4E15-9F80-0D66F2BC5863}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Victory",
+        "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
+       },
+       {
+        "Id": "2910527622",
+        "Name": "Settings",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Settings",
+        "GUID": "{58752B23-8422-432B-AAD9-263CA04F15BF}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -142,6 +276,6 @@
     ]
    }
   ],
-  "FileHash": "{4981EE19-D55B-E791-8789-80F42772AAC8}"
+  "FileHash": "{80201E4C-7D36-3C50-0AA7-330EC6D850D7}"
  }
 }

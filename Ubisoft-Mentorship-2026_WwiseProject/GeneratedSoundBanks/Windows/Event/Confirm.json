@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3895DE59-50F5-440C-A2D5-16B4057AD1BF}",
     "Language": "SFX",
-    "Hash": "{2D2B107B-13E7-95C4-81AB-103ECC092054}",
+    "Hash": "{CECA0259-DA3D-4374-9D8F-CCDD9D21F728}",
     "ObjectPath": "Confirm",
     "ShortName": "Confirm",
     "Path": "Event/Confirm.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{39A6FDF3-BA81-1899-0806-111A58A58CB5}"
+  "FileHash": "{23A8D04F-20E9-34E3-35CD-0EC45AE74006}"
  }
 }

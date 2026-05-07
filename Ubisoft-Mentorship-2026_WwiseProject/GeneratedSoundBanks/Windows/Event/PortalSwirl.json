@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B545269D-C012-4CA6-90CE-2AB6603396E5}",
     "Language": "SFX",
-    "Hash": "{38120AAA-98EE-D688-38D0-2AE2D8EA794A}",
+    "Hash": "{72FC1231-C1F6-6B06-B1AF-20FE43D2738E}",
     "ObjectPath": "PortalSwirl",
     "ShortName": "PortalSwirl",
     "Path": "Event/PortalSwirl.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{2245620A-7342-1E46-CAF1-D9B298095309}"
+  "FileHash": "{661C932B-FDEE-6BA3-F650-45D67E766C5A}"
  }
 }

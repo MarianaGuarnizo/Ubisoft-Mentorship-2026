@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
     "Language": "SFX",
-    "Hash": "{90D10D92-5170-B658-DC2B-1BA0CF21E0FD}",
+    "Hash": "{D84B9340-7A64-0778-A869-EC38C4BCAF64}",
     "ObjectPath": "GrenadierDeath",
     "ShortName": "GrenadierDeath",
     "Path": "Event/GrenadierDeath.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{1C9D0D29-57DC-924A-F1BE-58BAF066FED3}"
+  "FileHash": "{28D1A604-408B-B84C-8B7D-F4DC2B947AAF}"
  }
 }

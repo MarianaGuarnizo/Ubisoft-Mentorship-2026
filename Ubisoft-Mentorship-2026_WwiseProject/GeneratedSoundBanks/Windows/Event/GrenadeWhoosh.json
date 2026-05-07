@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{15D5343A-B374-4F4F-85EB-1DE2F23AFDE1}",
     "Language": "SFX",
-    "Hash": "{6973170D-7B5A-DA21-A238-FABCC6BA5FE0}",
+    "Hash": "{FAB4C2BB-13BC-5235-5C66-552250E10853}",
     "ObjectPath": "GrenadeWhoosh",
     "ShortName": "GrenadeWhoosh",
     "Path": "Event/GrenadeWhoosh.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{4341E6A0-7D3E-B8D9-4459-06AFBA789804}"
+  "FileHash": "{40B4FBEB-6545-F37D-42EB-4BBA9233C68A}"
  }
 }

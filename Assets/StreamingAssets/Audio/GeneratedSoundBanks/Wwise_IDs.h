@@ -72,6 +72,48 @@ namespace AK
         static const AkUniqueID WIND = 1537061107U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace GAMESTATE
+        {
+            static const AkUniqueID GROUP = 4091656514U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSSFIGHT = 580146960U;
+                static const AkUniqueID EXPLORE = 579523862U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SETTINGS = 2910527622U;
+                static const AkUniqueID VICTORY = 2716678721U;
+            } // namespace STATE
+        } // namespace GAMESTATE
+
+        namespace MUSICCHANGE
+        {
+            static const AkUniqueID GROUP = 1911932434U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PART1 = 3177314147U;
+                static const AkUniqueID PART2 = 3177314144U;
+                static const AkUniqueID RUINS = 417916826U;
+            } // namespace STATE
+        } // namespace MUSICCHANGE
+
+        namespace OCCLUSION
+        {
+            static const AkUniqueID GROUP = 183903552U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SMALL = 1846755610U;
+            } // namespace STATE
+        } // namespace OCCLUSION
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace DEATHSURFACETYPE
@@ -117,9 +159,16 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENT = 77978275U;
+        static const AkUniqueID CHARACTER = 436743010U;
+        static const AkUniqueID ENNEMIES = 4166191657U;
+        static const AkUniqueID EXTERIOR = 2213992659U;
+        static const AkUniqueID INTERIOR = 1132214669U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PROPS = 968010305U;
         static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES
