@@ -73,6 +73,24 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{E07A889A-C670-481B-82E1-302407E6D585}" ShortID="271319017">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{9604063C-074F-4E57-B5BA-563AC88DFD8D}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI_Select" ID="{37A4E354-2964-47CD-8F4D-E523A1B56AC3}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
@@ -223,6 +241,24 @@
 											<ObjectRef Name="PROPS_PortalEnter" ID="{C0C244A5-0A82-45E5-9D35-B8DD68001F65}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
 										</Reference>
 									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{24AA8A04-42B8-4FC9-9C78-48602613BB08}" ShortID="576539612">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{BA67AEB2-761A-4F9E-8CC3-FB0EC0B832FE}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PROPS_PortalEnter" ID="{C0C244A5-0A82-45E5-9D35-B8DD68001F65}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
 								</Action>
 							</ChildrenList>
 						</Event>

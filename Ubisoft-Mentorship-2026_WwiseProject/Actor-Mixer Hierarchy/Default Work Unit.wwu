@@ -338,7 +338,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Long" ID="{48D25544-C8CB-49D2-BC31-28C208BC5B9D}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -420,16 +420,16 @@
 													<CrossfadingInfo>
 														<LeftEdgePos>0</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>198.148398148148</RightEdgePos>
+														<RightEdgePos>27.6135145827886</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>89.2596342592592</LeftEdgePos>
+														<LeftEdgePos>11.6264752264575</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>500</RightEdgePos>
+														<RightEdgePos>101.904761904762</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
@@ -1168,7 +1168,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Crystalroom.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="578703268"/>
+												<MediaID ID="214648372"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1531,7 +1531,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-18</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1638,16 +1638,16 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>49.9992500000001</RightEdgePos>
+												<RightEdgePos>6.59010051929744</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="PROPS_CrystalCall_Rnd" ID="{C0C82C80-7CD9-4166-919B-59ED5F81959B}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>40.00025</LeftEdgePos>
+												<LeftEdgePos>2.84145017630511</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>49.4661434047095</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
