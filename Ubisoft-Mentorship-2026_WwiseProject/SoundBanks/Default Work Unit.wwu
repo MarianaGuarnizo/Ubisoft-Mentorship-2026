@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{71632AD1-86E1-4981-9C82-36E1AC7C5EE1}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="MasterSB" ID="{0EFA12C5-107A-4904-9E4C-253310022095}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="ReverbLarge" ID="{9785CD8E-0E61-4841-A608-1D72EC65D99E}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ReverbSmall" ID="{7D2F580D-87C5-4FDD-9C6E-AC4AF7882D1F}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

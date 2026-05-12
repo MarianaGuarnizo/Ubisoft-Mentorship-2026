@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7208C2C5-34CF-45FE-8C6B-468098656292}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{7208C2C5-34CF-45FE-8C6B-468098656292}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7208C2C5-34CF-45FE-8C6B-468098656292}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Ambient" ID="{197A7463-FB3A-4087-B5DF-19D3656A1C81}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="HangingVines" ID="{D9692EFF-D71C-4B97-8B6B-7087234FE1C7}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SpaceshipBroken" ID="{5E8D5B6D-4FAC-451E-AB30-B25B97703094}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HangingMoss" ID="{2A16116A-B54A-4489-B271-A35B739D1523}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireFliesDef" ID="{83CFE29C-E0D8-44F3-8B17-0DEEFE666B95}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Island _1_MainWind" ID="{F5F15739-DFAC-4077-8FAD-3C1C96870B55}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Water" ID="{E2908781-3C85-4C6F-AE27-28116E6EB8F1}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

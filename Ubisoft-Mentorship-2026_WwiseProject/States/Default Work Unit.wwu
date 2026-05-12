@@ -20,12 +20,6 @@
 						<State Name="Ruins" ID="{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Occlusion" ID="{8D0C8ED3-2393-418A-A30E-EFC389F80FEB}">
-					<ChildrenList>
-						<State Name="None" ID="{9121407C-838D-49EE-9121-8C1B6FB37432}"/>
-						<State Name="Small" ID="{027FA434-4423-4696-9033-21CE2D047313}"/>
-					</ChildrenList>
-				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

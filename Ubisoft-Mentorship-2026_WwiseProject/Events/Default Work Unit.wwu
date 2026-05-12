@@ -595,6 +595,9 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="GrenadierRangeAttack" ID="{46AD1EB2-BBE9-483A-8F73-FB937C8E444F}">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool" Value="False"/>
+									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{D4B6FF6F-DCCB-4A6C-951B-6F1B4BAD4AA8}" ShortID="940600293">
 											<ReferenceList>
@@ -621,6 +624,46 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="main" ID="{CB353D66-37C4-4C14-A52F-EFCBED802AAE}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="IngameMusic" ID="{86E00EAF-4174-44E1-A60F-2ECB0666733F}">
+							<ChildrenList>
+								<Action Name="" ID="{17018E58-CC2B-4A97-B456-6F67C65F8A5A}" ShortID="7403404">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CA78594A-7C51-4BAF-82F0-D40A8256791E}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="main" ID="{CB353D66-37C4-4C14-A52F-EFCBED802AAE}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA1EDD91-E60B-4FFB-8FAA-C99F14D94CCC}" ShortID="841049009">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19472D32-C674-4432-BAF1-2C669D0F3966}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lvl1" ID="{DB131DCE-9A21-4B43-BE28-9765E5405844}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -723,6 +766,39 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SpaceshipBroken" ID="{5E8D5B6D-4FAC-451E-AB30-B25B97703094}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WindPlate" ID="{B46AA5D5-E442-492F-A520-A47FD25C8D26}">
+									<ChildrenList>
+										<Action Name="" ID="{15DE9179-753F-4D21-9D87-01E5E017C3A5}" ShortID="203204236">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wind3" ID="{BEB9682C-2E96-4B3D-ACF6-CE3DB6170EBA}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="CrystalRoom" ID="{419C87AD-0C90-49B7-A252-8A1B4AE62705}">
+									<ChildrenList>
+										<Action Name="" ID="{A76AB309-25C4-4B74-8189-472B8D14055B}" ShortID="10440829">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crystalroom" ID="{12B9A495-2427-422C-A329-EDFAC20CFF26}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="WindRuins" ID="{CDCBF69E-E732-4A05-AE66-D44AD47948BB}">
+									<ChildrenList>
+										<Action Name="" ID="{6919E1DB-4936-42C7-84EC-5B2BC32F5F00}" ShortID="896325864">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WindRuins" ID="{3617A3DE-1841-407D-94C4-7268F4373613}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

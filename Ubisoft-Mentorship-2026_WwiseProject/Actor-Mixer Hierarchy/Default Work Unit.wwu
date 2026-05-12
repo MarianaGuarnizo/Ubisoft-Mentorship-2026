@@ -209,12 +209,17 @@
 							<ChildrenList>
 								<Sound Name="Amb_Island _1_MainWind" ID="{F5F15739-DFAC-4077-8FAD-3C1C96870B55}" ShortID="55515406">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{195E7724-BABE-4D36-A90C-1DD8D2B49725}" ShortID="1065998139">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="500"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -227,9 +232,10 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>500</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -324,10 +330,15 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Long" ID="{48D25544-C8CB-49D2-BC31-28C208BC5B9D}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -340,11 +351,6 @@
 										<Sound Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}" ShortID="523279923">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>6</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -414,16 +420,16 @@
 													<CrossfadingInfo>
 														<LeftEdgePos>0</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>28.7039537037037</RightEdgePos>
+														<RightEdgePos>198.148398148148</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="WaterFlow" ID="{6749EC09-3135-4595-9C3B-09522A7864C7}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>12.4077824074074</LeftEdgePos>
+														<LeftEdgePos>89.2596342592592</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>100</RightEdgePos>
+														<RightEdgePos>500</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
@@ -433,8 +439,10 @@
 								</BlendContainer>
 								<Sound Name="SpaceshipBroken" ID="{5E8D5B6D-4FAC-451E-AB30-B25B97703094}" ShortID="987235320">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-1</Value>
@@ -465,12 +473,506 @@
 										<ActiveSource Name="SpaceshipBroken" ID="{7290BA3A-824E-4224-A8E8-673BBD4B7C88}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Wind2" ID="{F82BD0F5-BD4B-4EB8-AAEC-C18372DAA132}" ShortID="749668848">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Exterior" ID="{42C5B807-8D70-4497-94AF-38A64F9786BC}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind2" ID="{9F888001-2C3A-4F93-9161-F7F358E5F30E}">
+											<Language>SFX</Language>
+											<AudioFile>Wind2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830599804"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind2" ID="{9F888001-2C3A-4F93-9161-F7F358E5F30E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Wind3" ID="{BEB9682C-2E96-4B3D-ACF6-CE3DB6170EBA}" ShortID="521191220">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{BCBFEFD5-7375-4833-9DAB-BD7B6A924DE7}" ShortID="158348250">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{C7D894B9-A0F7-43CB-9F83-2FD670139020}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Exterior" ID="{42C5B807-8D70-4497-94AF-38A64F9786BC}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wind3_1" ID="{41D2D20C-635E-43A0-9D80-48F2A388BB09}" ShortID="235033625">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind3_1" ID="{67094258-5BCD-4B59-BC19-3F3200522F67}">
+													<Language>SFX</Language>
+													<AudioFile>Wind3_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329591838"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind3_1" ID="{67094258-5BCD-4B59-BC19-3F3200522F67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wind3_2" ID="{0AF4C91E-22D2-427B-94C4-BDDDBFA7C25F}" ShortID="1051296037">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind3_2" ID="{3681F3BD-E4C1-4ACB-A3E4-7245EAEECC99}">
+													<Language>SFX</Language>
+													<AudioFile>Wind3_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753992042"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind3_2" ID="{3681F3BD-E4C1-4ACB-A3E4-7245EAEECC99}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<Sound Name="Crystalroom" ID="{12B9A495-2427-422C-A329-EDFAC20CFF26}" ShortID="704470241">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{5C63B00E-006A-4916-8724-9A9958C8619A}" ShortID="365536433">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{539680B4-890E-4399-A439-296C35D2F117}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Interior" ID="{26E64CFF-25D4-4E8C-B3B1-80C06C48C0EF}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crystalroom" ID="{3F067E8B-C2E3-4117-8963-384E64D78DCD}">
+											<Language>SFX</Language>
+											<AudioFile>Crystalroom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214648372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crystalroom" ID="{3F067E8B-C2E3-4117-8963-384E64D78DCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="WindRuins" ID="{3617A3DE-1841-407D-94C4-7268F4373613}" ShortID="841995286">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{2609BEEF-1085-41C2-844A-4781712C21EB}" ShortID="749452968">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{0EF3B263-5617-4EA0-BB12-4234B3C9AC93}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wind4_1" ID="{06BD3588-CC73-4D3F-AFA6-0A77C1F3E6E5}" ShortID="169774051">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind4_1" ID="{4CB584BC-4B77-44BD-A6C0-F33116B436E0}">
+													<Language>SFX</Language>
+													<AudioFile>Wind4_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="646384585"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind4_1" ID="{4CB584BC-4B77-44BD-A6C0-F33116B436E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wind4_2" ID="{1F7CDA62-5303-41E0-B009-7A03E5B23078}" ShortID="220167924">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind4_2" ID="{AD4F83BC-86F4-469E-A92F-2151E5ACBF08}">
+													<Language>SFX</Language>
+													<AudioFile>Wind4_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="64902846"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind4_2" ID="{AD4F83BC-86F4-469E-A92F-2151E5ACBF08}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="FloraFauna" ID="{E1564605-30C2-4694-8A0B-C259148BCCB0}" ShortID="899191470">
 							<ChildrenList>
 								<Sound Name="BlueGlowyPlant" ID="{6C062B80-E182-4AD2-810B-5DA084C389EE}" ShortID="786301186">
 									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -482,7 +984,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="FlauraFauna" ID="{E37FD3A5-41B1-45E3-8B68-E125ED831428}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -622,7 +1124,7 @@
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>25</Value>
+												<Value>15</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -639,13 +1141,13 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-26</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="FlauraFauna" ID="{E37FD3A5-41B1-45E3-8B68-E125ED831428}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -660,6 +1162,13 @@
 											<AudioFile>HangingVines.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="949535130"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Crystalroom" ID="{11C98D5B-8653-41E7-8F18-B848DD879805}">
+											<Language>SFX</Language>
+											<AudioFile>Crystalroom.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578703268"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -871,6 +1380,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="CrateBreak" ID="{F5C23117-E7AC-4E65-A34C-27B020F88A49}" ShortID="245394055">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -998,6 +1508,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<BlendContainer Name="Crystal" ID="{C37A57E4-7F37-4F65-8FB5-81F62BAC994D}" ShortID="474294526">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -1144,6 +1657,7 @@
 						</BlendContainer>
 						<Sound Name="PROPS_CrateFall" ID="{B7A9B649-75CD-4A30-9161-951CACAFEB26}" ShortID="722559246">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1190,6 +1704,7 @@
 						<Sound Name="PROPS_CrystalPickUp" ID="{4F45A713-A95C-4ACF-AA33-683555C5F4DC}" ShortID="840919613">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1214,6 +1729,7 @@
 						</Sound>
 						<Sound Name="PROPS_HealBoxIdle" ID="{F9E2C1BB-F6A1-4933-9E61-6772E2F128C7}" ShortID="639352911">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1241,6 +1757,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_HealBoxOpen" ID="{2303DF3E-5F45-432D-8C5B-24F7CCB6036A}" ShortID="393882311">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -1266,6 +1785,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_HugeDoor" ID="{4213307D-D986-47E6-B6C6-DD9825FD816B}" ShortID="994411905">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="ExtraLong" ID="{3FD12E8B-F8C0-4A7F-98AE-7057F52DFCAE}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -1296,6 +1818,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_MediumDoor" ID="{D73F6705-9A5A-4D97-8DBA-FC121F84EB1A}" ShortID="752856526">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Long" ID="{48D25544-C8CB-49D2-BC31-28C208BC5B9D}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -1327,6 +1852,7 @@
 						</Sound>
 						<Sound Name="PROPS_PlateIDLE" ID="{E0ED6055-8AA8-45A9-B972-E16119DF2B34}" ShortID="332716260">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1356,6 +1882,7 @@
 						<Sound Name="PROPS_PlateUnlock" ID="{AF08B536-D09D-4FA3-BCE5-F71974C35600}" ShortID="1029204753">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -1384,6 +1911,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_PortalEnter" ID="{C0C244A5-0A82-45E5-9D35-B8DD68001F65}" ShortID="324905416">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1407,6 +1937,7 @@
 						</Sound>
 						<Sound Name="PROPS_PortalIDLE" ID="{FC16E270-3723-47BB-BFC9-74A6E061F705}" ShortID="160812496">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsStreamingEnabled" Type="bool">
 									<ValueList>
@@ -1440,6 +1971,7 @@
 						</Sound>
 						<Sound Name="PROPS_PortalSwirl" ID="{52D313B9-97DC-4D3D-B813-1D755D167A1F}" ShortID="975325607">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsStreamingEnabled" Type="bool">
 									<ValueList>
@@ -1472,6 +2004,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PROPS_SmallDoor" ID="{B055E324-0B49-43CA-A51D-06064E50CAD6}" ShortID="599477082">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -1820,6 +2355,7 @@
 						<Sound Name="SFX_Respawn" ID="{A5C5CAC1-2A22-4E52-AD6D-7BB7E82CBFEC}" ShortID="717041495">
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -1849,6 +2385,7 @@
 						</Sound>
 						<BlendContainer Name="Death" ID="{79667443-52DE-4A1E-98CC-20F153DAC07F}" ShortID="943504574">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -2221,6 +2758,7 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="Jump" ID="{452BC5B4-81C1-4F8C-913C-49ABBE5F80D4}" ShortID="238532732">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -2284,6 +2822,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="EmoteLanding" ID="{12E2A5FD-F0E4-48A0-96C7-14D4C8D0308E}" ShortID="546932585">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-20</Value>
@@ -2369,6 +2908,7 @@
 						</RandomSequenceContainer>
 						<BlendContainer Name="Footsteps" ID="{3C7B1DE8-BE46-412F-B67C-C58D9CC90B8A}" ShortID="411726407">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -2959,6 +3499,7 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="Hurt" ID="{F1F90AAF-3C5C-401E-A5D1-B3E4B8443EC0}" ShortID="851667377">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -3110,6 +3651,7 @@
 						</RandomSequenceContainer>
 						<BlendContainer Name="Land" ID="{A816A74A-EB19-413B-88D5-AFDDBBAC7C38}" ShortID="389136463">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -3559,6 +4101,7 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="QuickTurn" ID="{9B22E037-73A9-4ADA-88E2-891A94241C4E}" ShortID="389380553">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -3651,6 +4194,7 @@
 						</RandomSequenceContainer>
 						<Sound Name="CHARA_Shield" ID="{17799BBE-1EDD-4087-BBBE-C44FA7DD3480}" ShortID="725022481">
 							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -3689,6 +4233,9 @@
 						<Folder Name="Grenadier" ID="{3A32C8D7-CEF8-4619-9924-E1F2EFE31DF2}" ShortID="1012924684">
 							<ChildrenList>
 								<Sound Name="Grenadier_MeleeAttack2" ID="{9FD6E38F-8758-49B8-B59B-207D4AA4A413}" ShortID="774975894">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -3714,6 +4261,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CHARA_GrenadierDeath" ID="{0999E7AF-1FA9-45E0-8FC6-34094C5B16B9}" ShortID="115799166">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -3739,6 +4289,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CHARA_GrenadierExplosion" ID="{4F230DE7-BD92-4801-BA0F-86DD7F52DCB9}" ShortID="346542647">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -3765,6 +4318,7 @@
 								</Sound>
 								<RandomSequenceContainer Name="Footsteps" ID="{00FD18FF-3EEB-405F-A14A-E2F15A3EABA7}" ShortID="159953164">
 									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -3905,6 +4459,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="GreandeBounce" ID="{8C47DCF1-0F60-489D-B69D-1088424A2B94}" ShortID="521619755">
 									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -4014,6 +4569,9 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="CHARA_GrenadierGrenadeExplosion" ID="{923C1A1C-80AD-4C1D-BB57-A17040122E22}" ShortID="522575742">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -4039,6 +4597,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="GrenadeWhoosh_ProjectileV3" ID="{B83BB9E7-889A-4F39-A704-1E519DA7F736}" ShortID="468809077">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -4064,6 +4625,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Grenadier_Hit" ID="{342D5665-B800-48EC-BAD9-5F56973FCDBD}" ShortID="943644671">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -4089,6 +4653,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Grenadier_MeleeAttackPunch" ID="{F1AA0DEC-856C-4BDE-AD04-BEEE09BB6706}" ShortID="126618583">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -4114,6 +4681,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Grenadier_RangeAttack" ID="{8BE729E2-48E2-40FD-8D5B-E858E13ADBF3}" ShortID="187778415">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
@@ -4145,6 +4715,7 @@
 								<Sound Name="ChomperAttack" ID="{90224C46-6151-4228-919B-FCD0CE2CF59D}" ShortID="32919946">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4158,6 +4729,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -4187,6 +4763,7 @@
 								<RandomSequenceContainer Name="Footsteps" ID="{090C2C95-D82E-4A2A-86EC-176B226EB808}" ShortID="360804958">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4202,13 +4779,16 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{619B1B6C-2490-4488-9108-B7DDC12077E8}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="5"/>
-															<Property Name="Min" Type="Real64" Value="-5"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4342,6 +4922,7 @@
 								<Sound Name="ChomperDisappearV1" ID="{D09ACCC8-AA90-45C2-8994-9188736E7976}" ShortID="421910520">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
 												<Value>18</Value>
@@ -4350,7 +4931,7 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>11</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4396,6 +4977,7 @@
 								<Sound Name="Hit1" ID="{18565A4F-4303-46AF-BCD0-33666AAE70BE}" ShortID="453915234">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4438,6 +5020,7 @@
 								<Sound Name="ChomperIdleMix" ID="{39FAC4A2-D516-4650-A164-42477B3A101F}" ShortID="919374371">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
@@ -4472,6 +5055,7 @@
 								<Sound Name="SpottedV2_EnnemyVersion" ID="{6168F699-4D29-4BAB-8DCE-9F807160DACD}" ShortID="564199196">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4485,6 +5069,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
