@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3955585364",
+    "Type": "Event",
+    "GUID": "{419C87AD-0C90-49B7-A252-8A1B4AE62705}",
+    "Language": "SFX",
+    "Hash": "{A524A5AB-C297-0EA3-C2BC-25A3B5CEAB04}",
+    "ObjectPath": "CrystalRoom",
+    "ShortName": "CrystalRoom",
+    "Path": "Event/CrystalRoom.bnk",
+    "Media": [
+     {
+      "Id": "214648372",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Crystalroom.wav",
+      "Path": "Media/214648372.wem",
+      "CachePath": "9B/{9BBAC0AB-D297-19B6-4B56-5993FF700909}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3955585364",
+      "Name": "CrystalRoom",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\CrystalRoom",
+      "GUID": "{419C87AD-0C90-49B7-A252-8A1B4AE62705}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "214648372"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6140E50D-3680-2A5E-059E-0E39E039C687}"
+ }
+}

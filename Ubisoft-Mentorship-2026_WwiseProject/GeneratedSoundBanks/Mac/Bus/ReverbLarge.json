@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1560941454",
+    "Type": "Bus",
+    "GUID": "{9785CD8E-0E61-4841-A608-1D72EC65D99E}",
+    "Language": "SFX",
+    "Hash": "{EF84FFEB-DD63-BD60-B2E0-E59EEFD8516E}",
+    "ObjectPath": "ReverbLarge",
+    "ShortName": "ReverbLarge",
+    "Path": "Bus/ReverbLarge.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1560941454",
+      "Name": "ReverbLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbLarge",
+      "GUID": "{9785CD8E-0E61-4841-A608-1D72EC65D99E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D20449E-6E7C-D043-46E6-9B4116D92E67}"
+ }
+}

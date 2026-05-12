@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2C5393B8-8F4E-49BA-BC05-C7D323B9544C}",
     "Language": "SFX",
-    "Hash": "{B7FD993A-796B-0BAF-4E68-4253FE43C8A1}",
+    "Hash": "{514AF662-497F-A314-5247-775769B605E3}",
     "ObjectPath": "SmallDoor",
     "ShortName": "SmallDoor",
     "Path": "Event/SmallDoor.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{B46C0D29-093C-26EA-8EE6-370864A79CD3}"
+  "FileHash": "{BEAF8082-86E9-21E1-725C-23FE375D0E5F}"
  }
 }

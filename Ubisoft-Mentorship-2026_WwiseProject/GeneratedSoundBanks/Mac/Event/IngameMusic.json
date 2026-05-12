@@ -1,0 +1,261 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1545821079",
+    "Type": "Event",
+    "GUID": "{86E00EAF-4174-44E1-A60F-2ECB0666733F}",
+    "Language": "SFX",
+    "Hash": "{71D8505F-B090-0BB3-4C6A-CB9FF0086142}",
+    "ObjectPath": "IngameMusic",
+    "ShortName": "IngameMusic",
+    "Path": "Event/IngameMusic.bnk",
+    "Media": [
+     {
+      "Id": "21713490",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_BossfightMid.wav",
+      "Path": "Media/21713490.wem",
+      "CachePath": "03/{03C434A9-5EBE-D193-7326-5F72B43CA7C4}.wem"
+     },
+     {
+      "Id": "250430559",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Spawn.wav",
+      "Path": "Media/250430559.wem",
+      "CachePath": "6D/{6D901EF2-C33B-B608-A4F8-ECC1DC0ACEA5}.wem"
+     },
+     {
+      "Id": "255196991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Victory.wav",
+      "Path": "Media/255196991.wem",
+      "CachePath": "96/{96E9D1E8-FF29-CBE9-52F1-1C756C022CFE}.wem"
+     },
+     {
+      "Id": "371708592",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_BossfightStart.wav",
+      "Path": "Media/371708592.wem",
+      "CachePath": "92/{92B6F232-0E90-A2E9-435B-3F9E5E53B52D}.wem"
+     },
+     {
+      "Id": "779993522",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Part1.wav",
+      "Path": "Media/779993522.wem",
+      "CachePath": "26/{2679442D-E1D7-9553-FEDF-44BB6215CAA6}.wem"
+     },
+     {
+      "Id": "913317702",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Part2.wav",
+      "Path": "Media/913317702.wem",
+      "CachePath": "23/{23F8368F-AFEE-17D9-CC86-274099A21B15}.wem"
+     },
+     {
+      "Id": "1002127017",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Ruins.wav",
+      "Path": "Media/1002127017.wem",
+      "CachePath": "F7/{F746912E-1990-1447-0502-68D8E4572C5C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1545821079",
+      "Name": "IngameMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\IngameMusic",
+      "GUID": "{86E00EAF-4174-44E1-A60F-2ECB0666733F}",
+      "Color": "8",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "580146960",
+         "GUID": "{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "21713490"
+         },
+         {
+          "Id": "371708592"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "579523862",
+         "GUID": "{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911932434",
+           "Id": "3177314147",
+           "GUID": "{6FF8051B-9BEF-4CAF-8509-C09E42CEEAD2}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "779993522"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911932434",
+           "Id": "3177314144",
+           "GUID": "{087F5479-CFB3-47E9-9938-106CF1EE43AB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "913317702"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911932434",
+           "Id": "417916826",
+           "GUID": "{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "1002127017"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911932434",
+           "Id": "748895195",
+           "GUID": "{A87E8A05-91D4-43E0-A52E-32C3F61CA134}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "250430559"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "2716678721",
+         "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "255196991"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1911932434",
+      "Name": "MusicChange",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicChange",
+      "GUID": "{FB22BD3D-A77D-40BE-A093-A669D91AD0AB}",
+      "States": [
+       {
+        "Id": "417916826",
+        "Name": "Ruins",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Ruins",
+        "GUID": "{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\None",
+        "GUID": "{A87E8A05-91D4-43E0-A52E-32C3F61CA134}"
+       },
+       {
+        "Id": "3177314144",
+        "Name": "Part2",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part2",
+        "GUID": "{087F5479-CFB3-47E9-9938-106CF1EE43AB}"
+       },
+       {
+        "Id": "3177314147",
+        "Name": "Part1",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicChange\\Part1",
+        "GUID": "{6FF8051B-9BEF-4CAF-8509-C09E42CEEAD2}"
+       }
+      ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{D154197B-5B76-4555-84C2-346B68020777}",
+      "States": [
+       {
+        "Id": "579523862",
+        "Name": "Explore",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Explore",
+        "GUID": "{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"
+       },
+       {
+        "Id": "580146960",
+        "Name": "BossFight",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\BossFight",
+        "GUID": "{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{953EAB03-844B-4E15-9F80-0D66F2BC5863}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Victory",
+        "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
+       },
+       {
+        "Id": "2910527622",
+        "Name": "Settings",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Settings",
+        "GUID": "{58752B23-8422-432B-AAD9-263CA04F15BF}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{85F3323E-832F-B273-D5EE-6DABCD305DC2}"
+ }
+}

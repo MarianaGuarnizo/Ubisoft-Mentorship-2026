@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2920F2F2-C677-477E-89E7-845F530051FF}",
     "Language": "SFX",
-    "Hash": "{3D9B5A43-E4AD-C18E-0045-57716BAC9719}",
+    "Hash": "{43BEBBE4-49B5-2DA3-413F-C0143A72C3A9}",
     "ObjectPath": "GrenadierMeleeAttack",
     "ShortName": "GrenadierMeleeAttack",
     "Path": "Event/GrenadierMeleeAttack.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{411FD390-30AF-35C1-332D-2B1D1CB94FA9}"
+  "FileHash": "{D37B8D04-3A4A-4AC9-732D-4EA76EE87224}"
  }
 }

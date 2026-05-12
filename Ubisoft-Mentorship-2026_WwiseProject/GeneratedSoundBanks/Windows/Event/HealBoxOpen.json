@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{553EEA84-FA8E-4A73-9668-F818F23A6891}",
     "Language": "SFX",
-    "Hash": "{48D5A590-FB62-CB02-D518-1507A094B0FA}",
+    "Hash": "{72DA9B85-B38B-535F-6D72-FF22D0BBB1AE}",
     "ObjectPath": "HealBoxOpen",
     "ShortName": "HealBoxOpen",
     "Path": "Event/HealBoxOpen.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{5D8CC09F-C113-A7E6-51C4-1E7DC1D5C66D}"
+  "FileHash": "{683F2DDD-4B7D-5613-E60A-480092942C88}"
  }
 }

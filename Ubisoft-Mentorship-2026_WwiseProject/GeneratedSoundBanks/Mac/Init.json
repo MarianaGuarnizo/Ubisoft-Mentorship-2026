@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{06D3B4FD-3A5D-91B5-3449-C5840DEB6C73}",
+    "Hash": "{0897F887-B8AE-33D3-2F53-F96F474B39ED}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -96,6 +114,34 @@
       "GUID": "{69F1EC94-711D-4F30-A3F2-602E06967A9C}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "1273045290",
+      "Name": "ReverbSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbSmall",
+      "GUID": "{7D2F580D-87C5-4FDD-9C6E-AC4AF7882D1F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1560941454",
+      "Name": "ReverbLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbLarge",
+      "GUID": "{9785CD8E-0E61-4841-A608-1D72EC65D99E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
+     }
+    ],
     "GameParameters": [
      {
       "Id": "988953028",
@@ -123,26 +169,6 @@
      }
     ],
     "StateGroups": [
-     {
-      "Id": "183903552",
-      "Name": "Occlusion",
-      "ObjectPath": "\\States\\Default Work Unit\\Occlusion",
-      "GUID": "{8D0C8ED3-2393-418A-A30E-EFC389F80FEB}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Occlusion\\None",
-        "GUID": "{9121407C-838D-49EE-9121-8C1B6FB37432}"
-       },
-       {
-        "Id": "1846755610",
-        "Name": "Small",
-        "ObjectPath": "\\States\\Default Work Unit\\Occlusion\\Small",
-        "GUID": "{027FA434-4423-4696-9033-21CE2D047313}"
-       }
-      ]
-     },
      {
       "Id": "1911932434",
       "Name": "MusicChange",
@@ -276,6 +302,6 @@
     ]
    }
   ],
-  "FileHash": "{CC28A3C6-3947-B0C0-3D36-3057C0A97F66}"
+  "FileHash": "{E0F907B1-FE73-DA9D-A350-BCC25EAE473F}"
  }
 }

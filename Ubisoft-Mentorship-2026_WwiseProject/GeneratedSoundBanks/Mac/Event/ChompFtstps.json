@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{22464572-1EA5-461C-952E-66CF1FB2D45B}",
     "Language": "SFX",
-    "Hash": "{89B2B988-8728-0841-22D6-1B267FEDCF99}",
+    "Hash": "{474ED5DF-6F0B-A0DB-559D-4A39D6A44451}",
     "ObjectPath": "ChompFtstps",
     "ShortName": "ChompFtstps",
     "Path": "Event/ChompFtstps.bnk",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{E1C111F1-3F9C-0594-24D9-2009B650BB86}"
+  "FileHash": "{5C5739C9-C5AF-0C3E-8B1F-2AF5F1728742}"
  }
 }

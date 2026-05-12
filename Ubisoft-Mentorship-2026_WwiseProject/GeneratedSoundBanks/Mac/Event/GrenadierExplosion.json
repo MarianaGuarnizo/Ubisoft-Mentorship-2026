@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{15D41DE5-FD5F-40AD-9046-8C60F306D045}",
     "Language": "SFX",
-    "Hash": "{6852CF2F-9538-C0A3-7768-59F6D568F20C}",
+    "Hash": "{4E1A383B-12B9-528D-84F2-21B215EA5858}",
     "ObjectPath": "GrenadierExplosion",
     "ShortName": "GrenadierExplosion",
     "Path": "Event/GrenadierExplosion.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{343CD884-CE5A-7255-AB21-1B52F3768F34}"
+  "FileHash": "{A7F10AFD-E4B3-E9F4-60EF-6542C4622798}"
  }
 }

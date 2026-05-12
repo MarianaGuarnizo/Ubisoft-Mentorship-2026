@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5847D12C-C55A-4ECF-B9A7-807224F9554B}",
     "Language": "SFX",
-    "Hash": "{CB6714BA-8C01-18A7-CEDA-D026DF12D889}",
+    "Hash": "{4825BFA9-E673-4289-B39B-6C0CE73C78C5}",
     "ObjectPath": "MediumDoor",
     "ShortName": "MediumDoor",
     "Path": "Event/MediumDoor.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{F4C2FA45-5ECA-C48D-6612-B9EA9D0B6C20}"
+  "FileHash": "{23849661-3762-1CC9-A172-D7595084CB49}"
  }
 }

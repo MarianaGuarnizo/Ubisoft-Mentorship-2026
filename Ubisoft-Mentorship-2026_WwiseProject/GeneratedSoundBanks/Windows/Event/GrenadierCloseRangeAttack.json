@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2D8A8F21-F50A-4269-A453-E9B8FEE9A6A7}",
     "Language": "SFX",
-    "Hash": "{FD31A801-1B0C-8B34-F26C-C1FB2F1A086B}",
+    "Hash": "{B330A826-093A-FD15-6BDB-7D1123DE79E1}",
     "ObjectPath": "GrenadierCloseRangeAttack",
     "ShortName": "GrenadierCloseRangeAttack",
     "Path": "Event/GrenadierCloseRangeAttack.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{33162FE2-1F75-6CFE-86C4-7916913241CD}"
+  "FileHash": "{0B1560A6-198A-C8FA-2F9A-84BF83837055}"
  }
 }

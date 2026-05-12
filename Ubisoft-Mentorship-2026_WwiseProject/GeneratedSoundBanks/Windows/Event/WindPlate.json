@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2369823165",
+    "Type": "Event",
+    "GUID": "{B46AA5D5-E442-492F-A520-A47FD25C8D26}",
+    "Language": "SFX",
+    "Hash": "{C973ACBF-E0D5-E958-1B14-43C78952A63C}",
+    "ObjectPath": "WindPlate",
+    "ShortName": "WindPlate",
+    "Path": "Event/WindPlate.bnk",
+    "Media": [
+     {
+      "Id": "329591838",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wind3_1.wav",
+      "Path": "Media/329591838.wem",
+      "CachePath": "91/{91BE7551-126F-6D0D-9E65-45523D3B602D}.wem"
+     },
+     {
+      "Id": "753992042",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wind3_2.wav",
+      "Path": "Media/753992042.wem",
+      "CachePath": "0F/{0F09BCEE-35C1-8FA9-A1A8-688A20B3CEEB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2369823165",
+      "Name": "WindPlate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\WindPlate",
+      "GUID": "{B46AA5D5-E442-492F-A520-A47FD25C8D26}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "329591838"
+       },
+       {
+        "Id": "753992042"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7A71F5C9-E0E2-CF35-BC88-19C7A002260D}"
+ }
+}

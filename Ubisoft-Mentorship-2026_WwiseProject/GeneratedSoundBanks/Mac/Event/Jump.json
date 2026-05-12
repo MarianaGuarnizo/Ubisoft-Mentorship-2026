@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D51E5304-693E-4A50-BE9C-FFEA0AC36727}",
     "Language": "SFX",
-    "Hash": "{36915E3A-B08F-69ED-0CC2-74C38EA20429}",
+    "Hash": "{2338EB16-90C7-C85D-4E5B-EED3F1E60EF8}",
     "ObjectPath": "Jump",
     "ShortName": "Jump",
     "Path": "Event/Jump.bnk",
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{F2EA2CE2-F699-316B-7044-C9A52615C3AF}"
+  "FileHash": "{A35F4B7A-1F22-91CE-7E1E-CDB9FE5CE159}"
  }
 }

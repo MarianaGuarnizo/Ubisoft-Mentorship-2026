@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{9342F19A-7CD7-4C27-8A03-AD8B00A87C60}",
     "Language": "SFX",
-    "Hash": "{74D096D5-1AD1-B075-8155-9374FC48FF5C}",
+    "Hash": "{8D75A7D0-B6EA-DD25-7F82-90819EF4A142}",
     "ObjectPath": "Shield",
     "ShortName": "Shield",
     "Path": "Event/Shield.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{96C14C0D-007F-D5F4-E005-64E896460748}"
+  "FileHash": "{F3EA855C-5EAA-06FC-0100-D970C8C6FF2D}"
  }
 }

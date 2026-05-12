@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID CRATEFALL = 402727457U;
         static const AkUniqueID CRYSTAL = 3444057113U;
         static const AkUniqueID CRYSTALPICKUP = 3943406705U;
+        static const AkUniqueID CRYSTALROOM = 3955585364U;
         static const AkUniqueID DEATH = 779278001U;
         static const AkUniqueID EMOTELANDING = 1399379220U;
         static const AkUniqueID FIREFLIES = 1126065684U;
@@ -38,7 +39,6 @@ namespace AK
         static const AkUniqueID GRENADIERFTSTPS = 3604079796U;
         static const AkUniqueID GRENADIERHIT = 3414813087U;
         static const AkUniqueID GRENADIERMELEEATTACK = 528823072U;
-        static const AkUniqueID GRENADIERRANGEATTACK = 4242898983U;
         static const AkUniqueID HANGINGMOSS = 2095273585U;
         static const AkUniqueID HANGINGVINES = 3182403742U;
         static const AkUniqueID HEALBOXIDLE = 3222341092U;
@@ -48,6 +48,7 @@ namespace AK
         static const AkUniqueID HOVER = 3753593413U;
         static const AkUniqueID HUGEDOOR = 3947373296U;
         static const AkUniqueID HURT = 3193947170U;
+        static const AkUniqueID INGAMEMUSIC = 1545821079U;
         static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LAND = 674522502U;
         static const AkUniqueID MEDIUMDOOR = 4086418528U;
@@ -70,6 +71,8 @@ namespace AK
         static const AkUniqueID WEAPONIDLE = 3966510143U;
         static const AkUniqueID WEAPONPICK = 4213176998U;
         static const AkUniqueID WIND = 1537061107U;
+        static const AkUniqueID WINDPLATE = 2369823165U;
+        static const AkUniqueID WINDRUINS = 698197760U;
     } // namespace EVENTS
 
     namespace STATES
@@ -100,17 +103,6 @@ namespace AK
                 static const AkUniqueID RUINS = 417916826U;
             } // namespace STATE
         } // namespace MUSICCHANGE
-
-        namespace OCCLUSION
-        {
-            static const AkUniqueID GROUP = 183903552U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID SMALL = 1846755610U;
-            } // namespace STATE
-        } // namespace OCCLUSION
 
     } // namespace STATES
 
@@ -170,6 +162,12 @@ namespace AK
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERBLARGE = 1560941454U;
+        static const AkUniqueID REVERBSMALL = 1273045290U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

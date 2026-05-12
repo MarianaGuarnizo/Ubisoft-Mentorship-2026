@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2369823165	WindPlate			\Default Work Unit\Ambient\Island\WindPlate	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	329591838	Wind3_1	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\91\{91BE7551-126F-6D0D-9E65-45523D3B602D}.wem	329591838.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Island\Wind3\Wind3_1	
+	753992042	Wind3_2	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\0F\{0F09BCEE-35C1-8FA9-A1A8-688A20B3CEEB}.wem	753992042.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Island\Wind3\Wind3_2	
+

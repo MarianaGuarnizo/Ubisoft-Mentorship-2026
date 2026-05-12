@@ -10,12 +10,76 @@
     "Type": "User",
     "GUID": "{0EFA12C5-107A-4904-9E4C-253310022095}",
     "Language": "SFX",
-    "Hash": "{18920331-6F4F-FC73-349D-7FEF82B3A320}",
+    "Hash": "{129367AE-624C-0140-E756-5C7AE517B6EA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterSB",
     "ShortName": "MasterSB",
-    "Path": "MasterSB.bnk"
+    "Path": "MasterSB.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "1273045290",
+      "Name": "ReverbSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbSmall",
+      "GUID": "{7D2F580D-87C5-4FDD-9C6E-AC4AF7882D1F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1560941454",
+      "Name": "ReverbLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbLarge",
+      "GUID": "{9785CD8E-0E61-4841-A608-1D72EC65D99E}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{8FF28777-EF20-42C6-A548-16BD39045D21}"
+     }
+    ]
    }
   ],
-  "FileHash": "{14EBA9FE-5E10-B6DE-2CA8-CC28A1101D05}"
+  "FileHash": "{85E4B602-1DF4-B6CC-EA2D-CBF850759056}"
  }
 }

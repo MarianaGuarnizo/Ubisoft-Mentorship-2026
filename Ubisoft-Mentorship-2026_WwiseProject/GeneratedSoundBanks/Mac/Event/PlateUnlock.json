@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6116962-91D9-4A84-97E7-2891774215E3}",
     "Language": "SFX",
-    "Hash": "{63CB36B9-F8E7-57DC-EF92-66983BEE3D33}",
+    "Hash": "{7B639AD9-CEC4-70F8-1E3D-909006329ADB}",
     "ObjectPath": "PlateUnlock",
     "ShortName": "PlateUnlock",
     "Path": "Event/PlateUnlock.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{1EE31AE6-3769-289B-2F77-DB5A4A6A0CC3}"
+  "FileHash": "{BAD0132C-90CF-6A51-F6C4-2CA42806BCA6}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CF842EF1-DCBA-405E-A520-537C879F88B6}",
     "Language": "SFX",
-    "Hash": "{01B67AB2-C64B-9B8F-A746-62B493C5167D}",
+    "Hash": "{138D7787-5F42-77BD-204A-EEC440B98173}",
     "ObjectPath": "Respawn",
     "ShortName": "Respawn",
     "Path": "Event/Respawn.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{B5182A14-4557-C600-2575-8DC4A21D9713}"
+  "FileHash": "{3622C91B-6278-AD54-6438-1DCEF2710E2C}"
  }
 }

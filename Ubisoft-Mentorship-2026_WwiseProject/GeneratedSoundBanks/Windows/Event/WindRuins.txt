@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	698197760	WindRuins			\Default Work Unit\Ambient\Island\WindRuins	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	64902846	Wind4_2	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\DC\{DC7DFA6F-940B-2A01-B0B9-471C7EF3695C}.wem	64902846.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Island\WindRuins\Wind4_2	
+	646384585	Wind4_1	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\17\{173A0039-C177-42DC-309E-C3753BE3E438}.wem	646384585.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Island\WindRuins\Wind4_1	
+

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1273045290",
+    "Type": "Bus",
+    "GUID": "{7D2F580D-87C5-4FDD-9C6E-AC4AF7882D1F}",
+    "Language": "SFX",
+    "Hash": "{83D891C3-66A4-65E0-CBDF-E08656FC3E79}",
+    "ObjectPath": "ReverbSmall",
+    "ShortName": "ReverbSmall",
+    "Path": "Bus/ReverbSmall.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1273045290",
+      "Name": "ReverbSmall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbSmall",
+      "GUID": "{7D2F580D-87C5-4FDD-9C6E-AC4AF7882D1F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B1BD9DD2-2128-7BE7-FAD1-5AC3FF6B2355}"
+ }
+}

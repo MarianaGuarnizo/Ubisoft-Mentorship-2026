@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "698197760",
+    "Type": "Event",
+    "GUID": "{CDCBF69E-E732-4A05-AE66-D44AD47948BB}",
+    "Language": "SFX",
+    "Hash": "{DA67E56D-78B7-C70B-367C-CA7F387450B7}",
+    "ObjectPath": "WindRuins",
+    "ShortName": "WindRuins",
+    "Path": "Event/WindRuins.bnk",
+    "Media": [
+     {
+      "Id": "64902846",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wind4_2.wav",
+      "Path": "Media/64902846.wem",
+      "CachePath": "DC/{DC7DFA6F-940B-2A01-B0B9-471C7EF3695C}.wem"
+     },
+     {
+      "Id": "646384585",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wind4_1.wav",
+      "Path": "Media/646384585.wem",
+      "CachePath": "17/{173A0039-C177-42DC-309E-C3753BE3E438}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "698197760",
+      "Name": "WindRuins",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\WindRuins",
+      "GUID": "{CDCBF69E-E732-4A05-AE66-D44AD47948BB}",
+      "Color": "4",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "64902846"
+       },
+       {
+        "Id": "646384585"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ED3F1C5C-4303-D2B7-DBD0-4F72A4169613}"
+ }
+}

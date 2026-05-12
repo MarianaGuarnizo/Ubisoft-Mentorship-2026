@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2281C375-9485-45F6-9829-237999155855}",
     "Language": "SFX",
-    "Hash": "{075E53FF-009D-7EBA-A8F3-D209003DE808}",
+    "Hash": "{C03438AB-BBCA-4287-6CDD-050D078BE46A}",
     "ObjectPath": "PortalEnter",
     "ShortName": "PortalEnter",
     "Path": "Event/PortalEnter.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{1DD980B3-5BCA-3F24-0F31-E087B45191AC}"
+  "FileHash": "{9889CFAA-7B63-24A3-3855-F352D9AD445A}"
  }
 }

@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1545821079	IngameMusic			\Default Work Unit\Music\IngameMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1911932434	MusicChange			\Default Work Unit\MusicChange	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	417916826	Ruins	MusicChange			
+	748895195	None	MusicChange			
+	3177314144	Part2	MusicChange			
+	3177314147	Part1	MusicChange			
+	579523862	Explore	GameState			
+	580146960	BossFight	GameState			
+	748895195	None	GameState			
+	2716678721	Victory	GameState			
+	2910527622	Settings	GameState			
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	21713490	ZIK_LVL1_BossfightMid	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\03\{03C434A9-5EBE-D193-7326-5F72B43CA7C4}.wem	21713490.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Bossfight\ZIK_LVL1_BossfightMid\ZIK_LVL1_BossfightMid	
+	250430559	ZIK_LVL1_Spawn	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\6D\{6D901EF2-C33B-B608-A4F8-ECC1DC0ACEA5}.wem	250430559.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Explore\ZIK_LVL1_Spawn\ZIK_LVL1_Spawn	
+	371708592	ZIK_LVL1_BossfightStart	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\92\{92B6F232-0E90-A2E9-435B-3F9E5E53B52D}.wem	371708592.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Bossfight\ZIK_LVL1_BossfightStart\ZIK_LVL1_BossfightStart	
+	779993522	ZIK_LVL1_Part1	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\26\{2679442D-E1D7-9553-FEDF-44BB6215CAA6}.wem	779993522.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Explore\ZIK_LVL1_Part1\ZIK_LVL1_Part1	
+	913317702	ZIK_LVL1_Part2	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\23\{23F8368F-AFEE-17D9-CC86-274099A21B15}.wem	913317702.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Explore\ZIK_LVL1_Part2\ZIK_LVL1_Part2	
+	1002127017	ZIK_LVL1_Ruins	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\F7\{F746912E-1990-1447-0502-68D8E4572C5C}.wem	1002127017.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Explore\ZIK_LVL1_Ruins\ZIK_LVL1_Ruins	
+

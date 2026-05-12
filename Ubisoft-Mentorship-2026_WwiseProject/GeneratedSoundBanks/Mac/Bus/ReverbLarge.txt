@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1560941454	ReverbLarge			\Default Work Unit\Master Audio Bus\ReverbLarge	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+

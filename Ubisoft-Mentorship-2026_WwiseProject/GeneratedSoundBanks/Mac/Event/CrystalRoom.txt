@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3955585364	CrystalRoom			\Default Work Unit\Ambient\Island\CrystalRoom	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	214648372	Crystalroom	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\9B\{9BBAC0AB-D297-19B6-4B56-5993FF700909}.wem	214648372.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambient\Island\Crystalroom	
+
