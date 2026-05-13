@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{02DAA5EB-6CC6-48F3-A9F4-41F3B570C014}",
     "Language": "SFX",
-    "Hash": "{74F5EC5A-9A7D-BCB9-162B-1A196982D494}",
+    "Hash": "{53AEA80F-335A-EA9D-377D-7B57E7FB1B2B}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
@@ -176,6 +176,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\Footsteps",
       "GUID": "{02DAA5EB-6CC6-48F3-A9F4-41F3B570C014}",
       "Color": "24",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "1.3350567",
       "DurationMax": "1.7782253",
@@ -313,6 +314,6 @@
     ]
    }
   ],
-  "FileHash": "{D4C2DADB-9162-CE63-D437-56E6908C7AEA}"
+  "FileHash": "{5E1374B2-0625-2ACF-130D-8988D450EBD2}"
  }
 }

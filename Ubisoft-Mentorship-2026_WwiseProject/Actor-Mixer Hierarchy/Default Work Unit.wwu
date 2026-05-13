@@ -209,16 +209,22 @@
 							<ChildrenList>
 								<Sound Name="Amb_Island _1_MainWind" ID="{F5F15739-DFAC-4077-8FAD-3C1C96870B55}" ShortID="55515406">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{195E7724-BABE-4D36-A90C-1DD8D2B49725}" ShortID="1065998139">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="500"/>
+														<Property Name="RadiusMax" Type="Real64" Value="5"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -235,7 +241,7 @@
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>500</XPos>
+																			<XPos>5</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -244,13 +250,51 @@
 															</CurveUsageInfo>
 														</VolumeDryUsage>
 														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeWetGame" ID="{3E4248A4-E282-4AAC-AAF9-0756A43F40F7}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log1</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>5</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</VolumeWetGameUsage>
 														<VolumeWetUserUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{B38EEEA7-92CF-4B5E-86BA-8E4037DD2685}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log1</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>5</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</LowPassFilterUsage>
 														<HighPassFilterUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -271,10 +315,46 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 														</ObstructionHPFUsage>
 														<OcclusionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="ObstructionVolume" ID="{925CCA95-D822-4A5B-AA1D-726C75D487C9}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</OcclusionVolumeUsage>
 														<OcclusionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																<Curve Name="ObstructionLPF" ID="{E82676E5-81DC-4B73-888D-C2E764878034}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</OcclusionLPFUsage>
 														<OcclusionHPFUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
@@ -441,6 +521,7 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -2354,8 +2435,10 @@
 					<ChildrenList>
 						<Sound Name="SFX_Respawn" ID="{A5C5CAC1-2A22-4E52-AD6D-7BB7E82CBFEC}" ShortID="717041495">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -2385,7 +2468,9 @@
 						</Sound>
 						<BlendContainer Name="Death" ID="{79667443-52DE-4A1E-98CC-20F153DAC07F}" ShortID="943504574">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -2758,7 +2843,9 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="Jump" ID="{452BC5B4-81C1-4F8C-913C-49ABBE5F80D4}" ShortID="238532732">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -2822,7 +2909,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="EmoteLanding" ID="{12E2A5FD-F0E4-48A0-96C7-14D4C8D0308E}" ShortID="546932585">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-20</Value>
@@ -2908,7 +2997,9 @@
 						</RandomSequenceContainer>
 						<BlendContainer Name="Footsteps" ID="{3C7B1DE8-BE46-412F-B67C-C58D9CC90B8A}" ShortID="411726407">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -2916,6 +3007,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Short" ID="{4BD01783-E4E0-4620-9FB9-6DC82FB2AFC3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 								</Reference>
@@ -3499,7 +3593,9 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="Hurt" ID="{F1F90AAF-3C5C-401E-A5D1-B3E4B8443EC0}" ShortID="851667377">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -3651,6 +3747,7 @@
 						</RandomSequenceContainer>
 						<BlendContainer Name="Land" ID="{A816A74A-EB19-413B-88D5-AFDDBBAC7C38}" ShortID="389136463">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -3659,6 +3756,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-18</Value>
@@ -4101,6 +4199,7 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="QuickTurn" ID="{9B22E037-73A9-4ADA-88E2-891A94241C4E}" ShortID="389380553">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -4109,6 +4208,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
@@ -4194,7 +4294,9 @@
 						</RandomSequenceContainer>
 						<Sound Name="CHARA_Shield" ID="{17799BBE-1EDD-4087-BBBE-C44FA7DD3480}" ShortID="725022481">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{30F5590E-1461-4C3A-8E6F-12C31D5DF2EA}",
     "Language": "SFX",
-    "Hash": "{E82B447C-51ED-ECA1-8447-386FC2CFEF2C}",
+    "Hash": "{7741DAC3-3135-9098-8E5A-CA342ACB1F1A}",
     "ObjectPath": "Wind",
     "ShortName": "Wind",
     "Path": "Event/Wind.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\Wind",
       "GUID": "{30F5590E-1461-4C3A-8E6F-12C31D5DF2EA}",
       "Color": "4",
-      "MaxAttenuation": "500",
+      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3AAB5B35-6580-8923-3BFE-B9354B137814}"
+  "FileHash": "{EE0AB5C2-03F0-DE7F-9E15-395EA88A2BF0}"
  }
 }

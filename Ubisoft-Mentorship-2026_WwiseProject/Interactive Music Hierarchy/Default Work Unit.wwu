@@ -876,100 +876,136 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="ZIK_LVL1_Part1" ID="{3D4521BB-B5E8-4376-9626-CA89D4047739}" ShortID="129462952">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="13714.3083900227"/>
-										<Property Name="Tempo" Type="Real64" Value="140"/>
-									</PropertyList>
+								<MusicPlaylistContainer Name="Test" ID="{BCFA5070-F1AE-4182-8E97-43B64F3FE71F}" ShortID="235486868">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Music" ID="{818E1D2A-440F-4DD0-A9DD-29BC867A9281}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{F078671E-1E8C-4E07-9FD8-0696E893B9B1}" ShortID="814664762">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8D4122DB-E1EE-42B4-AD99-CEA91D0E4673}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{CFDA4522-D26F-43E6-A9A4-310E3F1659B3}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ZIK_LVL1_Part1" ID="{3EEACC55-24CA-4A94-BA9F-532803E01881}" ShortID="672829373">
+										<MusicSegment Name="ZIK_LVL1_Part1" ID="{3D4521BB-B5E8-4376-9626-CA89D4047739}" ShortID="129462952">
 											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
+												<Property Name="EndPosition" Type="Real64" Value="13714.3083900227"/>
+												<Property Name="Tempo" Type="Real64" Value="140"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
 												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{463F9575-E873-491C-9A6B-CF6D07473E95}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music" ID="{818E1D2A-440F-4DD0-A9DD-29BC867A9281}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ZIK_LVL1_Part1" ID="{E65DD29C-6C85-4493-87F1-2E11DE65596D}">
-													<Language>SFX</Language>
-													<AudioFile>ZIK_LVL1_Part1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="779993522"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<MusicTrack Name="ZIK_LVL1_Part1" ID="{3EEACC55-24CA-4A94-BA9F-532803E01881}" ShortID="672829373">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4937126-295E-4493-80C3-23FD25BF510A}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{463F9575-E873-491C-9A6B-CF6D07473E95}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ZIK_LVL1_Part1" ID="{E65DD29C-6C85-4493-87F1-2E11DE65596D}">
+															<Language>SFX</Language>
+															<AudioFile>ZIK_LVL1_Part1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="779993522"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{E2C3C1FF-C1E0-4DEE-A1FB-23F8FB1072B1}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="ZIK_LVL1_Part1" ID="{AE1F6E21-8481-46EF-B414-5E30983C4718}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="13714.3083900227"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="ZIK_LVL1_Part1" ID="{E65DD29C-6C85-4493-87F1-2E11DE65596D}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
 											</ChildrenList>
 											<ObjectLists>
-												<ObjectList Name="Sequences">
+												<ObjectList Name="Cues">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{E2C3C1FF-C1E0-4DEE-A1FB-23F8FB1072B1}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="ZIK_LVL1_Part1" ID="{AE1F6E21-8481-46EF-B414-5E30983C4718}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="13714.3083900227"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="ZIK_LVL1_Part1" ID="{E65DD29C-6C85-4493-87F1-2E11DE65596D}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
+															<MusicCue Name="Entry Cue" ID="{53D9103F-B62F-49D4-AA34-BD472B6580A0}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{BE498854-38A0-4985-BE2D-83D0AF62AFF3}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="13714.3083900227"/>
+																</PropertyList>
+															</MusicCue>
 														</Local>
 													</Reference>
 												</ObjectList>
 											</ObjectLists>
-										</MusicTrack>
+										</MusicSegment>
 									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Cues">
-											<Reference>
-												<Local>
-													<MusicCue Name="Entry Cue" ID="{53D9103F-B62F-49D4-AA34-BD472B6580A0}"/>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicCue Name="Exit Cue" ID="{BE498854-38A0-4985-BE2D-83D0AF62AFF3}">
-														<PropertyList>
-															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="13714.3083900227"/>
-														</PropertyList>
-													</MusicCue>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicSegment>
+								</MusicPlaylistContainer>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Arguments">
@@ -1037,7 +1073,7 @@
 											<MultiSwitchEntry Name="" ID="{25B139F8-3DCE-4B12-9395-9328E3770BAE}">
 												<ReferenceList>
 													<Reference Name="AudioNode">
-														<ObjectRef Name="ZIK_LVL1_Spawn" ID="{6914928E-5572-481C-9279-DD62728123BD}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
+														<ObjectRef Name="Test" ID="{BCFA5070-F1AE-4182-8E97-43B64F3FE71F}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
 													</Reference>
 												</ReferenceList>
 												<ObjectLists>

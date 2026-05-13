@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B4DA66A7-E523-438A-8299-6643015E8A5A}",
     "Language": "SFX",
-    "Hash": "{F37A12B2-214F-3FD9-3811-291EAAD3446E}",
+    "Hash": "{D6879949-4CA1-2EBC-4B45-261D60F18C57}",
     "ObjectPath": "Crystal",
     "ShortName": "Crystal",
     "Path": "Event/Crystal.bnk",
@@ -63,6 +63,6 @@
     ]
    }
   ],
-  "FileHash": "{4534F3E0-A5CD-0A5B-755B-784B353DD756}"
+  "FileHash": "{157A9E31-58B0-892A-D0CF-C0107362D23F}"
  }
 }
