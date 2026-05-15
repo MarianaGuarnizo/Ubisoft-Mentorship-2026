@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F6D085D6-F718-4E92-9D60-89FBDEA0239A}",
     "Language": "SFX",
-    "Hash": "{685ACC25-9419-E0B7-F9B7-898FD41ECF56}",
+    "Hash": "{2CB5B502-0646-47DE-D345-A3AC35044908}",
     "ObjectPath": "HealBoxIdle",
     "ShortName": "HealBoxIdle",
     "Path": "Event/HealBoxIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{46BF53D3-ECEB-1227-AFFB-C63241B6BF50}"
+  "FileHash": "{0168D4EF-E164-E528-075A-FD933951BD21}"
  }
 }

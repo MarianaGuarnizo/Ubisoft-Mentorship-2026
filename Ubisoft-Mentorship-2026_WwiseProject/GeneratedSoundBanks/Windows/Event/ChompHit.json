@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{70B21B31-3A53-4308-A68D-5037C2D5CE68}",
     "Language": "SFX",
-    "Hash": "{9FE3DFF7-674C-8A6D-986C-B7FFF1D08E67}",
+    "Hash": "{EA8560D6-3475-6981-4F02-F721790FB529}",
     "ObjectPath": "ChompHit",
     "ShortName": "ChompHit",
     "Path": "Event/ChompHit.bnk",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{DE06D8F9-025A-03BD-39BD-28D388DE2EA9}"
+  "FileHash": "{3FA5328D-D370-D999-DFD7-4D54C28A328D}"
  }
 }

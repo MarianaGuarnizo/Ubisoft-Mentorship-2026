@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{15D41DE5-FD5F-40AD-9046-8C60F306D045}",
     "Language": "SFX",
-    "Hash": "{4E1A383B-12B9-528D-84F2-21B215EA5858}",
+    "Hash": "{965292DD-BA07-C7F8-9984-AB653AC6A5C6}",
     "ObjectPath": "GrenadierExplosion",
     "ShortName": "GrenadierExplosion",
     "Path": "Event/GrenadierExplosion.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierExplosion",
       "GUID": "{15D41DE5-FD5F-40AD-9046-8C60F306D045}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "5.9947166",
       "DurationMax": "5.9947166",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{8F856E94-4E5C-4F48-A78E-1D34266DCFFB}"
+  "FileHash": "{4F45A5A0-1EEA-FC8B-2DFB-3D20F0B2697E}"
  }
 }

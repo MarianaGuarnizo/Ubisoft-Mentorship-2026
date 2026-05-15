@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{86E00EAF-4174-44E1-A60F-2ECB0666733F}",
     "Language": "SFX",
-    "Hash": "{71D8505F-B090-0BB3-4C6A-CB9FF0086142}",
+    "Hash": "{9F1BE334-D165-1BF3-ACF4-A833D1A8825C}",
     "ObjectPath": "IngameMusic",
     "ShortName": "IngameMusic",
     "Path": "Event/IngameMusic.bnk",
@@ -23,15 +23,6 @@
       "ShortName": "ZIK_LVL1_BossfightMid.wav",
       "Path": "Media/21713490.wem",
       "CachePath": "03/{03C434A9-5EBE-D193-7326-5F72B43CA7C4}.wem"
-     },
-     {
-      "Id": "250430559",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "ZIK_LVL1_Spawn.wav",
-      "Path": "Media/250430559.wem",
-      "CachePath": "6D/{6D901EF2-C33B-B608-A4F8-ECC1DC0ACEA5}.wem"
      },
      {
       "Id": "255196991",
@@ -160,7 +151,7 @@
           },
           "MediaRefs": [
            {
-            "Id": "250430559"
+            "Id": "779993522"
            }
           ]
          }
@@ -256,6 +247,6 @@
     ]
    }
   ],
-  "FileHash": "{322F5946-496D-CE9C-AC0B-F5DF1C39643B}"
+  "FileHash": "{AAC64C83-5E52-1E4B-79E0-23A65E47CB63}"
  }
 }

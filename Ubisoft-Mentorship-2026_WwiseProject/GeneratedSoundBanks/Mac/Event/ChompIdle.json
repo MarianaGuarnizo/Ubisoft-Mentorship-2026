@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{50B18782-C1F4-4227-954C-804ADEADEA26}",
     "Language": "SFX",
-    "Hash": "{6DF72781-9304-49F2-08AC-973C54E58180}",
+    "Hash": "{8E23C346-04B5-07B6-2F67-97CBE85874E7}",
     "ObjectPath": "ChompIdle",
     "ShortName": "ChompIdle",
     "Path": "Event/ChompIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3C658EDD-BD48-C9F6-9942-820848FB0080}"
+  "FileHash": "{01C93A65-BCFA-4143-223C-CD96B48DACA0}"
  }
 }

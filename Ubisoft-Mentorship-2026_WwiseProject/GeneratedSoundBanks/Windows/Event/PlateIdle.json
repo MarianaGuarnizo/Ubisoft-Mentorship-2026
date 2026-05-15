@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EC6213F4-C004-49B8-960F-817E351DAEDE}",
     "Language": "SFX",
-    "Hash": "{DEDBC3F8-DE3F-32D5-9687-97C11901C29E}",
+    "Hash": "{036684D2-E1B0-456F-0EEB-035DA579E124}",
     "ObjectPath": "PlateIdle",
     "ShortName": "PlateIdle",
     "Path": "Event/PlateIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3CB0F402-0B1B-3213-4AE7-5A11EA781084}"
+  "FileHash": "{EA77EC49-9D2E-15B6-418B-378964F33555}"
  }
 }

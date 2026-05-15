@@ -18,6 +18,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -90,6 +95,11 @@
 											<Modifier Name="" ID="{75F399D5-29CB-4353-8FB8-567DB29AE03B}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -215,7 +225,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -598,6 +608,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -881,12 +896,16 @@
 								<BlendContainer Name="WindRuins" ID="{3617A3DE-1841-407D-94C4-7268F4373613}" ShortID="841995286">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{2609BEEF-1085-41C2-844A-4781712C21EB}" ShortID="749452968">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="40"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -899,9 +918,10 @@
 																			<XPos>0</XPos>
 																			<YPos>0</YPos>
 																			<Flags>5</Flags>
+																			<SegmentShape>Log2</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>40</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -916,10 +936,48 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 														</VolumeWetUserUsage>
 														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{D0E267B9-DB5D-405D-90C7-F4C703A67506}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>40</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</LowPassFilterUsage>
 														<HighPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None">
+																<Curve Name="HighPassFilter" ID="{9D27CBC3-AD3B-400B-922F-73CCE088C330}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>40</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -1020,7 +1078,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1053,6 +1111,8 @@
 							<ChildrenList>
 								<Sound Name="BlueGlowyPlant" ID="{6C062B80-E182-4AD2-810B-5DA084C389EE}" ShortID="786301186">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.95"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -1062,6 +1122,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1089,6 +1150,7 @@
 								</Sound>
 								<Sound Name="FireFliesDef" ID="{83CFE29C-E0D8-44F3-8B17-0DEEFE666B95}" ShortID="363116380">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
@@ -1108,6 +1170,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1590,6 +1653,7 @@
 						</RandomSequenceContainer>
 						<BlendContainer Name="Crystal" ID="{C37A57E4-7F37-4F65-8FB5-81F62BAC994D}" ShortID="474294526">
 							<PropertyList>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.65"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1719,14 +1783,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>6.59010051929744</RightEdgePos>
+												<RightEdgePos>22.180875021478</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="PROPS_CrystalCall_Rnd" ID="{C0C82C80-7CD9-4166-919B-59ED5F81959B}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>2.84145017630511</LeftEdgePos>
+												<LeftEdgePos>8.03837501036529</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>49.4661434047095</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -1786,6 +1850,11 @@
 							<PropertyList>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1868,6 +1937,11 @@
 						<Sound Name="PROPS_HugeDoor" ID="{4213307D-D986-47E6-B6C6-DD9825FD816B}" ShortID="994411905">
 							<PropertyList>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1901,6 +1975,11 @@
 						<Sound Name="PROPS_MediumDoor" ID="{D73F6705-9A5A-4D97-8DBA-FC121F84EB1A}" ShortID="752856526">
 							<PropertyList>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2052,6 +2131,7 @@
 						</Sound>
 						<Sound Name="PROPS_PortalSwirl" ID="{52D313B9-97DC-4D3D-B813-1D755D167A1F}" ShortID="975325607">
 							<PropertyList>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.85"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="IsStreamingEnabled" Type="bool">
@@ -2112,6 +2192,13 @@
 						<Folder Name="Weapon" ID="{81184B99-B612-4BB5-9A6F-932981A4515B}" ShortID="880669745">
 							<ChildrenList>
 								<BlendContainer Name="Swing" ID="{7034BE89-21C5-4320-8097-E633E6953F37}" ShortID="760617762">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -2124,6 +2211,11 @@
 										<RandomSequenceContainer Name="Whoosh" ID="{10DC5197-893F-42F2-8B2C-18B40AC021B6}" ShortID="385568676">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2243,6 +2335,11 @@
 										<RandomSequenceContainer Name="PlayerVoice" ID="{FEAEBD1D-E73C-4EBE-8E14-A4BE7C4A8EE1}" ShortID="54484269">
 											<PropertyList>
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2363,6 +2460,7 @@
 								</BlendContainer>
 								<Sound Name="StickIdle" ID="{AF2DCD56-F063-4885-A514-314781E73488}" ShortID="446162103">
 									<PropertyList>
+										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="1.9"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2435,10 +2533,8 @@
 					<ChildrenList>
 						<Sound Name="SFX_Respawn" ID="{A5C5CAC1-2A22-4E52-AD6D-7BB7E82CBFEC}" ShortID="717041495">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -3598,7 +3694,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4296,7 +4392,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -4336,11 +4431,13 @@
 							<ChildrenList>
 								<Sound Name="Grenadier_MeleeAttack2" ID="{9FD6E38F-8758-49B8-B59B-207D4AA4A413}" ShortID="774975894">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4364,11 +4461,13 @@
 								</Sound>
 								<Sound Name="CHARA_GrenadierDeath" ID="{0999E7AF-1FA9-45E0-8FC6-34094C5B16B9}" ShortID="115799166">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4392,11 +4491,13 @@
 								</Sound>
 								<Sound Name="CHARA_GrenadierExplosion" ID="{4F230DE7-BD92-4801-BA0F-86DD7F52DCB9}" ShortID="346542647">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4420,6 +4521,7 @@
 								</Sound>
 								<RandomSequenceContainer Name="Footsteps" ID="{00FD18FF-3EEB-405F-A14A-E2F15A3EABA7}" ShortID="159953164">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4434,10 +4536,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4561,6 +4664,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="GreandeBounce" ID="{8C47DCF1-0F60-489D-B69D-1088424A2B94}" ShortID="521619755">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -4575,10 +4679,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4672,11 +4777,13 @@
 								</RandomSequenceContainer>
 								<Sound Name="CHARA_GrenadierGrenadeExplosion" ID="{923C1A1C-80AD-4C1D-BB57-A17040122E22}" ShortID="522575742">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4700,11 +4807,13 @@
 								</Sound>
 								<Sound Name="GrenadeWhoosh_ProjectileV3" ID="{B83BB9E7-889A-4F39-A704-1E519DA7F736}" ShortID="468809077">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4728,11 +4837,13 @@
 								</Sound>
 								<Sound Name="Grenadier_Hit" ID="{342D5665-B800-48EC-BAD9-5F56973FCDBD}" ShortID="943644671">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4756,11 +4867,13 @@
 								</Sound>
 								<Sound Name="Grenadier_MeleeAttackPunch" ID="{F1AA0DEC-856C-4BDE-AD04-BEEE09BB6706}" ShortID="126618583">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4784,11 +4897,13 @@
 								</Sound>
 								<Sound Name="Grenadier_RangeAttack" ID="{8BE729E2-48E2-40FD-8D5B-E858E13ADBF3}" ShortID="187778415">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Medium" ID="{6B81E910-6E3B-4724-980D-62D0700D26F1}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
+											<ObjectRef Name="Boss" ID="{CC169703-0729-4E47-8C48-B7D910482DB3}" WorkUnitID="{4ABFF4B5-C003-4941-B155-D9EDD10A1177}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22C10E74-D790-40AE-865D-7D1F0BECD192}"/>
@@ -4816,6 +4931,7 @@
 							<ChildrenList>
 								<Sound Name="ChomperAttack" ID="{90224C46-6151-4228-919B-FCD0CE2CF59D}" ShortID="32919946">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -4832,6 +4948,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>
@@ -4864,6 +4981,7 @@
 								</Sound>
 								<RandomSequenceContainer Name="Footsteps" ID="{090C2C95-D82E-4A2A-86EC-176B226EB808}" ShortID="360804958">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -4880,9 +4998,10 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-1</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -5023,6 +5142,7 @@
 								</RandomSequenceContainer>
 								<Sound Name="ChomperDisappearV1" ID="{D09ACCC8-AA90-45C2-8994-9188736E7976}" ShortID="421910520">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Highpass" Type="int16">
@@ -5031,9 +5151,10 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5078,6 +5199,7 @@
 								</Sound>
 								<Sound Name="Hit1" ID="{18565A4F-4303-46AF-BCD0-33666AAE70BE}" ShortID="453915234">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -5093,6 +5215,12 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -5121,10 +5249,12 @@
 								</Sound>
 								<Sound Name="ChomperIdleMix" ID="{39FAC4A2-D516-4650-A164-42477B3A101F}" ShortID="919374371">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -5156,6 +5286,7 @@
 								</Sound>
 								<Sound Name="SpottedV2_EnnemyVersion" ID="{6168F699-4D29-4BAB-8DCE-9F807160DACD}" ShortID="564199196">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -5172,6 +5303,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>

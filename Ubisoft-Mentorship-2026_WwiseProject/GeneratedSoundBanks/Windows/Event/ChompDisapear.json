@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8C457199-E1F6-4CB6-97A9-654A6BB75F1F}",
     "Language": "SFX",
-    "Hash": "{A73AB647-96E8-DF2B-387F-E7AC551C1C32}",
+    "Hash": "{5A088B5E-932A-703F-C32E-B1E881426568}",
     "ObjectPath": "ChompDisapear",
     "ShortName": "ChompDisapear",
     "Path": "Event/ChompDisapear.bnk",
@@ -64,6 +64,6 @@
     ]
    }
   ],
-  "FileHash": "{B133F3FB-64BF-E379-4848-23F6B5BBD3E9}"
+  "FileHash": "{AB5FF382-ECAE-A27B-B7AE-8FE122C17157}"
  }
 }

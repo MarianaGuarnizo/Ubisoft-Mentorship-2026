@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B46AA5D5-E442-492F-A520-A47FD25C8D26}",
     "Language": "SFX",
-    "Hash": "{C973ACBF-E0D5-E958-1B14-43C78952A63C}",
+    "Hash": "{9212B306-7B84-9777-9C45-2DBDFFD3347E}",
     "ObjectPath": "WindPlate",
     "ShortName": "WindPlate",
     "Path": "Event/WindPlate.bnk",
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{D1B32D0E-8772-B26E-63B2-B997A052D4C1}"
+  "FileHash": "{351376A8-3878-445D-841A-916A22FB1A7B}"
  }
 }

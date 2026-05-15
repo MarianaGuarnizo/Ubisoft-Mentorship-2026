@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{79828FEC-70B0-47B2-8063-48253672215E}",
     "Language": "SFX",
-    "Hash": "{B9F5A6D1-D83D-929F-130F-C0C31E0F0864}",
+    "Hash": "{50341120-DE58-0010-01FC-0462429C75ED}",
     "ObjectPath": "CrystalPickUp",
     "ShortName": "CrystalPickUp",
     "Path": "Event/CrystalPickUp.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{88FF5743-B3E0-4B9B-1382-EEB022199E8D}"
+  "FileHash": "{F276E083-436E-25A5-F48D-DC09404ECC93}"
  }
 }

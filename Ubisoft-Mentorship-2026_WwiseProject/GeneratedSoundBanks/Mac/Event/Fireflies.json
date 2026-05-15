@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0E349FB0-6E24-4625-A27E-17F5E8A903CC}",
     "Language": "SFX",
-    "Hash": "{DBA31AC7-C67E-F3E0-155A-AAEEC8BE7D08}",
+    "Hash": "{2706F3E0-EC3E-F7AA-9241-95ABAC3D3427}",
     "ObjectPath": "Fireflies",
     "ShortName": "Fireflies",
     "Path": "Event/Fireflies.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{1D086600-CE1C-6E46-E782-735F9648A30C}"
+  "FileHash": "{8AC143A1-AAB6-E29C-FBF0-FCC2DEC556BB}"
  }
 }

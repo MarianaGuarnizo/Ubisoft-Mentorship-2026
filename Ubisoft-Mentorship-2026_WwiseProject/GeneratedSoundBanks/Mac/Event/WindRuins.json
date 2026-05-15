@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CDCBF69E-E732-4A05-AE66-D44AD47948BB}",
     "Language": "SFX",
-    "Hash": "{DA67E56D-78B7-C70B-367C-CA7F387450B7}",
+    "Hash": "{6CB8A9CA-970C-F548-9129-1FE8843ED35B}",
     "ObjectPath": "WindRuins",
     "ShortName": "WindRuins",
     "Path": "Event/WindRuins.bnk",
@@ -41,7 +41,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\Island\\WindRuins",
       "GUID": "{CDCBF69E-E732-4A05-AE66-D44AD47948BB}",
       "Color": "4",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{6A52F29B-3463-CE57-6F38-3552C8722FE1}"
+  "FileHash": "{1087CE49-0DD3-4D8D-D01C-5FC6D122153B}"
  }
 }

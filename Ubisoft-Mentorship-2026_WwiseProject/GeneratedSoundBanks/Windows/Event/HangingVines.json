@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{585E97FC-25C7-4EEC-A12C-8F901B6A02D1}",
     "Language": "SFX",
-    "Hash": "{507FE723-807E-4AB7-D52B-9604B888B4C3}",
+    "Hash": "{2026B9E6-7843-466A-A251-2B7978EB140B}",
     "ObjectPath": "HangingVines",
     "ShortName": "HangingVines",
     "Path": "Event/HangingVines.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{E48547BD-0939-4B12-0525-F381307AADF0}"
+  "FileHash": "{8FBABC53-9060-067A-848F-8B6EE5F97789}"
  }
 }

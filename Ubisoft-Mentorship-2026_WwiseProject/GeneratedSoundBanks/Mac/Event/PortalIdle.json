@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A22245B5-7608-4422-A5DC-7AD17824E7BB}",
     "Language": "SFX",
-    "Hash": "{43A67A98-C132-C830-94F5-5D1548AA4F5F}",
+    "Hash": "{8D2E98F4-9317-BA22-C1A0-13EE26289B5D}",
     "ObjectPath": "PortalIdle",
     "ShortName": "PortalIdle",
     "Path": "Event/PortalIdle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{C3936FFD-49C9-772A-79B9-A53F4DE280BB}"
+  "FileHash": "{A7CDD540-1D1B-9DB1-BB01-65119EA02AD7}"
  }
 }

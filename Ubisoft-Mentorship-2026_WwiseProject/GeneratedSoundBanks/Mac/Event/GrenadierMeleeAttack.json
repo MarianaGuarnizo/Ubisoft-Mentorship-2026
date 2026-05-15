@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2920F2F2-C677-477E-89E7-845F530051FF}",
     "Language": "SFX",
-    "Hash": "{43BEBBE4-49B5-2DA3-413F-C0143A72C3A9}",
+    "Hash": "{41CCB46F-B3E1-9CBA-97A4-C3957732BF9F}",
     "ObjectPath": "GrenadierMeleeAttack",
     "ShortName": "GrenadierMeleeAttack",
     "Path": "Event/GrenadierMeleeAttack.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierMeleeAttack",
       "GUID": "{2920F2F2-C677-477E-89E7-845F530051FF}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "3.7615647",
       "DurationMax": "3.7615647",
@@ -45,6 +45,6 @@
     ]
    }
   ],
-  "FileHash": "{D37B8D04-3A4A-4AC9-732D-4EA76EE87224}"
+  "FileHash": "{3F249792-FCD1-A4B2-FC1E-37824A6476AE}"
  }
 }

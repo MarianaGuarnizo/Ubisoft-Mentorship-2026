@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{30F5590E-1461-4C3A-8E6F-12C31D5DF2EA}",
     "Language": "SFX",
-    "Hash": "{7741DAC3-3135-9098-8E5A-CA342ACB1F1A}",
+    "Hash": "{B50FDF98-707D-38CF-3A9F-68780C7B33AA}",
     "ObjectPath": "Wind",
     "ShortName": "Wind",
     "Path": "Event/Wind.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{36C57B0B-16F6-F043-C90D-E8E1150EB716}"
+  "FileHash": "{FB297575-E556-35AC-DA4E-E76B91DEC4E3}"
  }
 }

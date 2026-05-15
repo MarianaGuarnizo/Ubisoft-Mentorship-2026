@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{00181578-945B-4FC1-A896-5EB7530BDD23}",
     "Language": "SFX",
-    "Hash": "{8152074D-3163-96A4-636D-BD0F99D3319B}",
+    "Hash": "{FE120BF0-C52D-7276-06B2-04BF52DC8241}",
     "ObjectPath": "GrenadierFtstps",
     "ShortName": "GrenadierFtstps",
     "Path": "Event/GrenadierFtstps.bnk",
@@ -68,7 +68,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Creatures\\Grenadier\\GrenadierFtstps",
       "GUID": "{00181578-945B-4FC1-A896-5EB7530BDD23}",
       "Color": "12",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "200",
       "DurationType": "OneShot",
       "DurationMin": "0.75464994",
       "DurationMax": "1.0400517",
@@ -93,6 +93,6 @@
     ]
    }
   ],
-  "FileHash": "{DE5B9863-B5A7-1939-1331-ECBACA0B1027}"
+  "FileHash": "{696D55DD-C1D0-C44E-2C4D-C2D005897091}"
  }
 }
