@@ -11,14 +11,26 @@ namespace Gamekit3D.GameCommands
 
         private bool hasPlayedSound = false; //checks if the sound is already playing
 
+        // All portal references
         private AkRoomPortal m_CrystalroomPortal;
+        private AkRoomPortal m_1stDoorPortal;
+        private AkRoomPortal m_BossDoorPortal;
 
         new void Awake()
         {
-            base.Awake(); // runs SimpleTransformer's Awake first
-            GameObject portalObject = GameObject.Find("CrystalroomDoor");
-            if (portalObject != null)
-                m_CrystalroomPortal = portalObject.GetComponent<AkRoomPortal>();
+            base.Awake();
+
+            GameObject crystalDoor = GameObject.Find("CrystalroomDoor");
+            if (crystalDoor != null)
+                m_CrystalroomPortal = crystalDoor.GetComponent<AkRoomPortal>();
+
+            GameObject firstDoor = GameObject.Find("1stDoor");
+            if (firstDoor != null)
+                m_1stDoorPortal = firstDoor.GetComponent<AkRoomPortal>();
+
+            GameObject bossDoor = GameObject.Find("BossDoor");
+            if (bossDoor != null)
+                m_BossDoorPortal = bossDoor.GetComponent<AkRoomPortal>();
         }
 
         public override void PerformTransform(float position)
@@ -38,25 +50,25 @@ namespace Gamekit3D.GameCommands
             {
                 AkUnitySoundEngine.PostEvent("SmallDoor", gameObject);
                 hasPlayedSound = true;
+                //Opening AkRoomPortal for 1stDoor when the door opens
+                if (m_1stDoorPortal != null)
+                    m_1stDoorPortal.enabled = true;
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge2")
             {
                 AkUnitySoundEngine.PostEvent("MediumDoor", gameObject);
                 hasPlayedSound = true;
-
-                if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge2")
-                {
-                    AkUnitySoundEngine.PostEvent("MediumDoor", gameObject);
-                    hasPlayedSound = true;
-
-                    if (m_CrystalroomPortal != null)
-                        m_CrystalroomPortal.enabled = true;
-                }
+                //Opening AkRoomPortal for CrystalroomDoor when the door opens
+                if (m_CrystalroomPortal != null)
+                    m_CrystalroomPortal.enabled = true;
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge")
             {
                 AkUnitySoundEngine.PostEvent("HugeDoor", gameObject);
                 hasPlayedSound = true;
+                //Opening AkRoomPortal for BossDoor when the door opens
+                if (m_BossDoorPortal != null)
+                    m_BossDoorPortal.enabled = true;
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door1")
             {
