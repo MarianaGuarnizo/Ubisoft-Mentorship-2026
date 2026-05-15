@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8E317153-A4CF-73B5-2F23-CDE94440FC50}",
+    "Hash": "{842A661B-0DD4-8791-540F-4CBB9DBBEBA5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -232,10 +232,10 @@
         "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
        },
        {
-        "Id": "2910527622",
-        "Name": "Settings",
-        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Settings",
-        "GUID": "{58752B23-8422-432B-AAD9-263CA04F15BF}"
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MainMenu",
+        "GUID": "{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"
        }
       ]
      }
@@ -302,6 +302,6 @@
     ]
    }
   ],
-  "FileHash": "{9E26E8EE-A66C-F764-092C-D142FED2C277}"
+  "FileHash": "{65A6CED9-23EB-9547-9CA1-E89B0FD67545}"
  }
 }

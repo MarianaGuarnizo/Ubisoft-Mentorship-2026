@@ -9,7 +9,7 @@
 						<State Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
 						<State Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
 						<State Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
-						<State Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
+						<State Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="MusicChange" ID="{FB22BD3D-A77D-40BE-A093-A669D91AD0AB}">

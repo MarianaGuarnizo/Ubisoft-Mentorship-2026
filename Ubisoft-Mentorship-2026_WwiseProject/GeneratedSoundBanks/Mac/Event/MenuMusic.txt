@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	679636833	MenuMusic			\Default Work Unit\Music\MenuMusic	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	579523862	Explore	GameState			
+	580146960	BossFight	GameState			
+	748895195	None	GameState			
+	2716678721	Victory	GameState			
+	3604647259	MainMenu	GameState			
+
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	965066180	MainMenu	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\34\{343DCB0F-556E-C8E4-30D3-3D20282A9351}.wem	965066180.wem	\Interactive Music Hierarchy\Default Work Unit\main\MainMenu	
+	965066180	MainMenu	D:\UBISOFT\Ubisoft-Mentorship-2026\Ubisoft-Mentorship-2026_WwiseProject\.cache\34\{343DCB0F-556E-C8E4-30D3-3D20282A9351}.wem	965066180.wem	\Interactive Music Hierarchy\Default Work Unit\Lvl1\Menu\main\MainMenu	
 

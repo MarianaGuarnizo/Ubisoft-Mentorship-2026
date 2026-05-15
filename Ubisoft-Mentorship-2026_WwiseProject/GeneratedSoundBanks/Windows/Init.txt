@@ -11,7 +11,7 @@ State	ID	Name	State Group			Notes
 	580146960	BossFight	GameState			
 	748895195	None	GameState			
 	2716678721	Victory	GameState			
-	2910527622	Settings	GameState			
+	3604647259	MainMenu	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	988953028	SFXVolume			\Default Work Unit\SFXVolume	

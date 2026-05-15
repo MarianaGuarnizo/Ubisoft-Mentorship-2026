@@ -9,7 +9,17 @@ namespace Gamekit3D.GameCommands
         public Vector3 start = -Vector3.forward;
         public Vector3 end = Vector3.forward;
 
-        private bool hasPlayedSound = false; //checker si le son est déjà played
+        private bool hasPlayedSound = false; //checks if the sound is already playing
+
+        private AkRoomPortal m_CrystalroomPortal;
+
+        new void Awake()
+        {
+            base.Awake(); // runs SimpleTransformer's Awake first
+            GameObject portalObject = GameObject.Find("CrystalroomDoor");
+            if (portalObject != null)
+                m_CrystalroomPortal = portalObject.GetComponent<AkRoomPortal>();
+        }
 
         public override void PerformTransform(float position)
         {
@@ -33,6 +43,15 @@ namespace Gamekit3D.GameCommands
             {
                 AkUnitySoundEngine.PostEvent("MediumDoor", gameObject);
                 hasPlayedSound = true;
+
+                if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge2")
+                {
+                    AkUnitySoundEngine.PostEvent("MediumDoor", gameObject);
+                    hasPlayedSound = true;
+
+                    if (m_CrystalroomPortal != null)
+                        m_CrystalroomPortal.enabled = true;
+                }
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "DoorHuge")
             {

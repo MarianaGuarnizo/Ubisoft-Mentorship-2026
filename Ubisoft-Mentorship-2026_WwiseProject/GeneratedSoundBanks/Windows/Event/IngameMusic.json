@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{86E00EAF-4174-44E1-A60F-2ECB0666733F}",
     "Language": "SFX",
-    "Hash": "{9F1BE334-D165-1BF3-ACF4-A833D1A8825C}",
+    "Hash": "{15C37404-477E-A1C0-F07E-9232252F00C9}",
     "ObjectPath": "IngameMusic",
     "ShortName": "IngameMusic",
     "Path": "Event/IngameMusic.bnk",
@@ -23,6 +23,15 @@
       "ShortName": "ZIK_LVL1_BossfightMid.wav",
       "Path": "Media/21713490.wem",
       "CachePath": "03/{03C434A9-5EBE-D193-7326-5F72B43CA7C4}.wem"
+     },
+     {
+      "Id": "250430559",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "ZIK_LVL1_Spawn.wav",
+      "Path": "Media/250430559.wem",
+      "CachePath": "6D/{6D901EF2-C33B-B608-A4F8-ECC1DC0ACEA5}.wem"
      },
      {
       "Id": "255196991",
@@ -59,6 +68,15 @@
       "ShortName": "ZIK_LVL1_Part2.wav",
       "Path": "Media/913317702.wem",
       "CachePath": "23/{23F8368F-AFEE-17D9-CC86-274099A21B15}.wem"
+     },
+     {
+      "Id": "965066180",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "main.wav",
+      "Path": "Media/965066180.wem",
+      "CachePath": "34/{343DCB0F-556E-C8E4-30D3-3D20282A9351}.wem"
      },
      {
       "Id": "1002127017",
@@ -151,7 +169,7 @@
           },
           "MediaRefs": [
            {
-            "Id": "779993522"
+            "Id": "250430559"
            }
           ]
          }
@@ -167,6 +185,19 @@
         "MediaRefs": [
          {
           "Id": "255196991"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3604647259",
+         "GUID": "{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "965066180"
          }
         ]
        }
@@ -237,16 +268,16 @@
         "GUID": "{95CA1003-5A2E-4851-BC08-6BE57EED898A}"
        },
        {
-        "Id": "2910527622",
-        "Name": "Settings",
-        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Settings",
-        "GUID": "{58752B23-8422-432B-AAD9-263CA04F15BF}"
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MainMenu",
+        "GUID": "{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{AAC64C83-5E52-1E4B-79E0-23A65E47CB63}"
+  "FileHash": "{4FF46637-10D3-FC21-7AA7-43798430F75C}"
  }
 }

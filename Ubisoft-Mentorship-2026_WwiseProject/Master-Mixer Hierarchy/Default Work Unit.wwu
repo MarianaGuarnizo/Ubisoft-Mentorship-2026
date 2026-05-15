@@ -21,16 +21,12 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-												<CustomState Name="" ID="{100F76DA-B361-4112-8C3A-9D5203DB0EA6}" ShortID="215175297"/>
+												<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+												<CustomState Name="" ID="{B6300A40-9301-4E51-86E9-E42830C46E52}" ShortID="523143434"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-												<CustomState Name="" ID="{0EA24BC1-358C-4D26-B8E7-C69597342AA6}" ShortID="423696814">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="60"/>
-													</PropertyList>
-												</CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{100F76DA-B361-4112-8C3A-9D5203DB0EA6}" ShortID="215175297"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -56,16 +52,12 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-												<CustomState Name="" ID="{3C801FD7-5F6B-4E89-8701-A8A2D6189D60}" ShortID="304044817"/>
+												<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+												<CustomState Name="" ID="{17CE1F9E-2D7C-4FAD-9F93-196A90BD9DEB}" ShortID="828756967"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-												<CustomState Name="" ID="{D32CC5E7-0C26-411F-B76E-58A039152EE9}" ShortID="171702995">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="59"/>
-													</PropertyList>
-												</CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{3C801FD7-5F6B-4E89-8701-A8A2D6189D60}" ShortID="304044817"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -91,16 +83,12 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-												<CustomState Name="" ID="{5DB1810C-9968-4D49-8486-3FB36A8BD3DB}" ShortID="838510650"/>
+												<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+												<CustomState Name="" ID="{54C541FE-1E24-436A-9CFC-9E176414BA9A}" ShortID="193492952"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-												<CustomState Name="" ID="{6FFAFAB2-6EDE-4804-B9EA-4D9CDAFD21DD}" ShortID="547786636">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="61"/>
-													</PropertyList>
-												</CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{5DB1810C-9968-4D49-8486-3FB36A8BD3DB}" ShortID="838510650"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -136,16 +124,12 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-												<CustomState Name="" ID="{0BDBA99B-4972-42CA-87C3-E2B3E904BD73}" ShortID="830643707"/>
+												<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+												<CustomState Name="" ID="{FEB0DB9E-E18C-41AF-B36F-C61E38D71717}" ShortID="538789506"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-												<CustomState Name="" ID="{A9C7FDB2-4420-409F-8463-8EAF5A8A178C}" ShortID="867499526">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="60"/>
-													</PropertyList>
-												</CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{0BDBA99B-4972-42CA-87C3-E2B3E904BD73}" ShortID="830643707"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -171,16 +155,12 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
-										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-										<CustomState Name="" ID="{91C675DF-A0D4-40F6-B4CE-126130D3F81C}" ShortID="553193695"/>
+										<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+										<CustomState Name="" ID="{16E0293F-7DCC-4EDD-A519-38D27F94C9BC}" ShortID="33937299"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-										<CustomState Name="" ID="{CD7B99CC-5CC0-4B2E-83A9-EE437AEA2FFF}" ShortID="218417458">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="67"/>
-											</PropertyList>
-										</CustomState>
+										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+										<CustomState Name="" ID="{91C675DF-A0D4-40F6-B4CE-126130D3F81C}" ShortID="553193695"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -246,16 +226,12 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
-										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
-										<CustomState Name="" ID="{387F8FE4-5026-444C-A498-8D16132A229A}" ShortID="409552739"/>
+										<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+										<CustomState Name="" ID="{5E3D87F1-A6A6-4B98-B4DB-46C17457B4CA}" ShortID="391193039"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Settings" ID="{58752B23-8422-432B-AAD9-263CA04F15BF}"/>
-										<CustomState Name="" ID="{214A63FD-6629-451E-B4A1-5D9FB6D2DD21}" ShortID="193653235">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="60"/>
-											</PropertyList>
-										</CustomState>
+										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+										<CustomState Name="" ID="{387F8FE4-5026-444C-A498-8D16132A229A}" ShortID="409552739"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>

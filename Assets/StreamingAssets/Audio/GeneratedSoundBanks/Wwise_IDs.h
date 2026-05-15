@@ -85,8 +85,8 @@ namespace AK
             {
                 static const AkUniqueID BOSSFIGHT = 580146960U;
                 static const AkUniqueID EXPLORE = 579523862U;
+                static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID SETTINGS = 2910527622U;
                 static const AkUniqueID VICTORY = 2716678721U;
             } // namespace STATE
         } // namespace GAMESTATE
