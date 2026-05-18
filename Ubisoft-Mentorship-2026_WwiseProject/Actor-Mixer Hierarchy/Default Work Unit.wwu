@@ -1540,7 +1540,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1909,6 +1909,11 @@
 						<Sound Name="PROPS_HealBoxOpen" ID="{2303DF3E-5F45-432D-8C5B-24F7CCB6036A}" ShortID="393882311">
 							<PropertyList>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1977,7 +1982,7 @@
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2045,7 +2050,7 @@
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2167,6 +2172,11 @@
 						<Sound Name="PROPS_SmallDoor" ID="{B055E324-0B49-43CA-A51D-06064E50CAD6}" ShortID="599477082">
 							<PropertyList>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4466,7 +4476,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5006,7 +5016,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>

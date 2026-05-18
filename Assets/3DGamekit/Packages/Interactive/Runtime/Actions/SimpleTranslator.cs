@@ -71,7 +71,7 @@ namespace Gamekit3D.GameCommands
                     m_BossDoorPortal.enabled = true;
 
                 // Trigger boss fight music by changing the GameState switch
-                AkUnitySoundEngine.SetSwitch("GameState", "BossFight", gameObject);
+                AkUnitySoundEngine.SetState("GameState", "BossFight");
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door1")
             {

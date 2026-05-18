@@ -137,7 +137,12 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
-												<CustomState Name="" ID="{B56630E9-68BC-4E88-8678-DE8A69BEEE66}" ShortID="613185449"/>
+												<CustomState Name="" ID="{B56630E9-68BC-4E88-8678-DE8A69BEEE66}" ShortID="613185449">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-4"/>
+														<Property Name="Lowpass" Type="int16" Value="17"/>
+													</PropertyList>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>

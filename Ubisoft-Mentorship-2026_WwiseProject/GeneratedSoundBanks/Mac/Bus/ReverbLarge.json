@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{9785CD8E-0E61-4841-A608-1D72EC65D99E}",
     "Language": "SFX",
-    "Hash": "{AD0B5BA0-8A06-166B-6351-AD70E5E83FA8}",
+    "Hash": "{69BFB6FF-F526-F924-A47E-A6C19CE54CCF}",
     "ObjectPath": "ReverbLarge",
     "ShortName": "ReverbLarge",
     "Path": "Bus/ReverbLarge.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{42B95602-0DB2-C488-5FD6-A4CB65E17035}"
+  "FileHash": "{A87E0F1C-1EAE-D560-BE57-CBE9F1A6AEB0}"
  }
 }
