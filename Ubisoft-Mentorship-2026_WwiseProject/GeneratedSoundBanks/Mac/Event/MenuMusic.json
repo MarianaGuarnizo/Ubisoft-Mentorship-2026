@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{72969B4B-1B79-417A-B63C-2F00F5519584}",
     "Language": "SFX",
-    "Hash": "{FD80DAD4-1AE2-B1D7-D8FB-8151E8DB5A62}",
+    "Hash": "{30F63E4D-DDE3-E17C-EBE4-ED3CBA9D9DD6}",
     "ObjectPath": "MenuMusic",
     "ShortName": "MenuMusic",
     "Path": "Event/MenuMusic.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{8A9692BC-4C56-A67D-2295-A69C1D1F69B5}"
+  "FileHash": "{E73B8554-46D0-BECE-536F-EFF2DA5B1109}"
  }
 }
