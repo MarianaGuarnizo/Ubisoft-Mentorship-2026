@@ -69,6 +69,9 @@ namespace Gamekit3D.GameCommands
                 //Opening AkRoomPortal for BossDoor when the door opens
                 if (m_BossDoorPortal != null)
                     m_BossDoorPortal.enabled = true;
+
+                // Trigger boss fight music by changing the GameState switch
+                AkUnitySoundEngine.SetSwitch("GameState", "BossFight", gameObject);
             }
             if (!hasPlayedSound && position > 0.01f && gameObject.name == "Door1")
             {
