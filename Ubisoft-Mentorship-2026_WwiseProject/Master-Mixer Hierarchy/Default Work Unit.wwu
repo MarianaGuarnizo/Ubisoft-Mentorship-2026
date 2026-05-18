@@ -315,6 +315,11 @@
 						</AuxBus>
 						<AuxBus Name="ReverbLarge" ID="{9785CD8E-0E61-4841-A608-1D72EC65D99E}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ObjectLists>
