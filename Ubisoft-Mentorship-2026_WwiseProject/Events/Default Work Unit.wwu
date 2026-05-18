@@ -667,25 +667,6 @@
 						</Event>
 						<Event Name="IngameMusic" ID="{86E00EAF-4174-44E1-A60F-2ECB0666733F}">
 							<ChildrenList>
-								<Action Name="" ID="{17018E58-CC2B-4A97-B456-6F67C65F8A5A}" ShortID="7403404">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{CA78594A-7C51-4BAF-82F0-D40A8256791E}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Scope" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="main" ID="{CB353D66-37C4-4C14-A52F-EFCBED802AAE}" WorkUnitID="{759CF5AD-1818-4BD3-AD0A-4C168B97D8A5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{CA1EDD91-E60B-4FFB-8FAA-C99F14D94CCC}" ShortID="841049009">
 									<PropertyList>
 										<Property Name="FadeInCurve" Type="int16" Value="7"/>

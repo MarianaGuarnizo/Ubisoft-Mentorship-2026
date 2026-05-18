@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{0EFA12C5-107A-4904-9E4C-253310022095}",
     "Language": "SFX",
-    "Hash": "{8003E141-F7CF-0577-E481-CFCBE72F52D9}",
+    "Hash": "{D3DC3AE9-A92B-7F38-AE61-7995DD2E512C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterSB",
     "ShortName": "MasterSB",
     "Path": "MasterSB.bnk",
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{5038AE3F-C3F5-338A-B941-4FAEBFC385B7}"
+  "FileHash": "{50EE5090-8652-C5B8-17FB-CA00C9FBBB26}"
  }
 }

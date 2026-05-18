@@ -9766,6 +9766,7 @@ GameObject:
   - component: {fileID: 1249543459}
   - component: {fileID: 1249543458}
   - component: {fileID: 1249543457}
+  - component: {fileID: 1249543462}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -9808,7 +9809,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4070d072d0398414b89a7b530ef780ce,
+    WwiseObjectReference: {fileID: 11400000, guid: 881e8c7f73cf2ed47ae7d5fa42338c46,
       type: 2}
   useCallbacks: 0
   stopSoundOnDestroy: 1
@@ -9913,6 +9914,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249543455}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1249543462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249543455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e5e165a42d2174a88345954857ab21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23f435eaab268034fa4829f1c2f2d0d6,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1001 &1270299956
 PrefabInstance:
   m_ObjectHideFlags: 0

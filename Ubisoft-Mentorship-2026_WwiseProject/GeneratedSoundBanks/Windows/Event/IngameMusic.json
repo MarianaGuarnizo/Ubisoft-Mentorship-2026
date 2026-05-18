@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{86E00EAF-4174-44E1-A60F-2ECB0666733F}",
     "Language": "SFX",
-    "Hash": "{A48C16BD-577C-D472-0436-364E2D2D8230}",
+    "Hash": "{C37B6A2C-6F60-E28B-1A2F-2B34B94FEA94}",
     "ObjectPath": "IngameMusic",
     "ShortName": "IngameMusic",
     "Path": "Event/IngameMusic.bnk",
@@ -278,6 +278,6 @@
     ]
    }
   ],
-  "FileHash": "{78CCE7EF-122F-49EC-F4A4-A13EE46D8270}"
+  "FileHash": "{C3C531DE-4EF1-14A0-307E-9C60BE800D15}"
  }
 }

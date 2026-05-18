@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AB13726A-330F-431D-80B2-FAE366E95C88}",
     "Language": "SFX",
-    "Hash": "{693F2BCD-C1AE-12FD-2C59-EC1070CF0220}",
+    "Hash": "{C7A5731F-52AC-9FC3-C37C-59EA38B0D848}",
     "ObjectPath": "HangingMoss",
     "ShortName": "HangingMoss",
     "Path": "Event/HangingMoss.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{4EC43765-6AA2-D227-1EA1-68544707A7DF}"
+  "FileHash": "{4DCDF505-0804-3D7B-AE62-BCE1D803D0C0}"
  }
 }
