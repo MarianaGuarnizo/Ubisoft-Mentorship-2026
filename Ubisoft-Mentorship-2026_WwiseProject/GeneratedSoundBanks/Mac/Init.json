@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1C933CDF-2B5F-F938-805F-A76538AE8C60}",
+    "Hash": "{437840FF-5034-9A8E-6328-77DD399FC55A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -202,6 +202,32 @@
       ]
      },
      {
+      "Id": "3494343696",
+      "Name": "PauseMenu",
+      "ObjectPath": "\\States\\Default Work Unit\\PauseMenu",
+      "GUID": "{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PauseMenu\\None",
+        "GUID": "{0007C3E1-080F-450C-BC22-B91CB732F75B}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Default Work Unit\\PauseMenu\\Off",
+        "GUID": "{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\PauseMenu\\On",
+        "GUID": "{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"
+       }
+      ]
+     },
+     {
       "Id": "4091656514",
       "Name": "GameState",
       "ObjectPath": "\\States\\Default Work Unit\\GameState",
@@ -302,6 +328,6 @@
     ]
    }
   ],
-  "FileHash": "{20FFABFC-785F-45E9-598F-F55AA0E7BAEE}"
+  "FileHash": "{E50DBCF9-744D-F353-0149-7AA3FC716B5F}"
  }
 }

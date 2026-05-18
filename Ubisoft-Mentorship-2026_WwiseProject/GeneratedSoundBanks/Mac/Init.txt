@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1911932434	MusicChange			\Default Work Unit\MusicChange	
+	3494343696	PauseMenu			\Default Work Unit\PauseMenu	
 	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
@@ -7,6 +8,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	MusicChange			
 	3177314144	Part2	MusicChange			
 	3177314147	Part1	MusicChange			
+	748895195	None	PauseMenu			
+	930712164	Off	PauseMenu			
+	1651971902	On	PauseMenu			
 	579523862	Explore	GameState			
 	580146960	BossFight	GameState			
 	748895195	None	GameState			

@@ -121,6 +121,9 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
 											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="PauseMenu" ID="{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}"/>
+											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -128,8 +131,24 @@
 												<CustomState Name="" ID="{FEB0DB9E-E18C-41AF-B36F-C61E38D71717}" ShortID="538789506"/>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="On" ID="{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"/>
+												<CustomState Name="" ID="{9D104F00-4859-446A-8E97-70E1CC68FC27}" ShortID="506891061">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
 												<CustomState Name="" ID="{0BDBA99B-4972-42CA-87C3-E2B3E904BD73}" ShortID="830643707"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{0007C3E1-080F-450C-BC22-B91CB732F75B}"/>
+												<CustomState Name="" ID="{DF1FB018-F686-4104-87DB-CC6E3CE9DE1B}" ShortID="720797288"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Off" ID="{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"/>
+												<CustomState Name="" ID="{739DEAEA-D854-4189-9E15-9BF952FA7B32}" ShortID="246464121"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -228,6 +247,9 @@
 									<StateGroupInfo>
 										<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
 									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="PauseMenu" ID="{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}"/>
+									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
@@ -235,8 +257,24 @@
 										<CustomState Name="" ID="{5E3D87F1-A6A6-4B98-B4DB-46C17457B4CA}" ShortID="391193039"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="On" ID="{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"/>
+										<CustomState Name="" ID="{257036D1-6125-461B-97D1-10984C676923}" ShortID="271720117">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
 										<CustomState Name="" ID="{387F8FE4-5026-444C-A498-8D16132A229A}" ShortID="409552739"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{0007C3E1-080F-450C-BC22-B91CB732F75B}"/>
+										<CustomState Name="" ID="{6927CD00-8477-4AC8-9AF5-137274652C67}" ShortID="69203546"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"/>
+										<CustomState Name="" ID="{6B5CE725-59F2-4C0A-92F8-E1A83445E5B0}" ShortID="368223053"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>

@@ -20,6 +20,13 @@
 						<State Name="Ruins" ID="{56602EB9-2BCE-4BF1-9096-1CD5E55CAE76}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="PauseMenu" ID="{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}">
+					<ChildrenList>
+						<State Name="None" ID="{0007C3E1-080F-450C-BC22-B91CB732F75B}"/>
+						<State Name="Off" ID="{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"/>
+						<State Name="On" ID="{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

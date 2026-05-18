@@ -111,6 +111,7 @@ namespace Gamekit3D
             if (audioCanvas)
                 audioCanvas.SetActive(false);
 
+            AkUnitySoundEngine.SetState("PauseMenu", m_InPause ? "Off" : "On");
             m_InPause = !m_InPause;
         }
     }
