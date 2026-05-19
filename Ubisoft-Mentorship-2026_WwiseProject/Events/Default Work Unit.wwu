@@ -555,10 +555,10 @@
 								</Event>
 								<Event Name="GrenadierDeath" ID="{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}">
 									<ChildrenList>
-										<Action Name="" ID="{334FEF00-A4FE-4EF9-BA77-900FB3100446}" ShortID="641684150">
+										<Action Name="" ID="{5B62384F-4CBE-46FE-B9E1-791D87E2C2A6}" ShortID="340156620">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="CHARA_GrenadierDeath" ID="{0999E7AF-1FA9-45E0-8FC6-34094C5B16B9}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
+													<ObjectRef Name="GreandierDeathV2" ID="{3A21E136-2896-437D-8005-22CE811648BB}" WorkUnitID="{3908481D-D65F-49D7-8A31-CE09AE3344E9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

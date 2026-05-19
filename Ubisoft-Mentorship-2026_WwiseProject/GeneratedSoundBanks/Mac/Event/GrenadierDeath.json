@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{E7B5402F-32EA-4200-9E1A-30B3ACBBB672}",
     "Language": "SFX",
-    "Hash": "{59CC53E7-A0F2-5E34-CD5B-6C2CF7D2A271}",
+    "Hash": "{04552420-2EF3-6744-0C06-80271355DF03}",
     "ObjectPath": "GrenadierDeath",
     "ShortName": "GrenadierDeath",
     "Path": "Event/GrenadierDeath.bnk",
     "Media": [
      {
-      "Id": "922103404",
+      "Id": "430066352",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "CHARA_GrenadierDeath.wav",
-      "Path": "Media/922103404.wem",
-      "CachePath": "47/{47DFD6B3-DE2A-F45B-B043-A3EF17382617}.wem"
+      "ShortName": "GreandierDeathV2.wav",
+      "Path": "Media/430066352.wem",
+      "CachePath": "89/{89AC8E78-C41B-164D-FC89-0C5D7D0F8F53}.wem"
      }
     ],
     "Events": [
@@ -38,13 +38,13 @@
       "DurationMax": "7.597347",
       "MediaRefs": [
        {
-        "Id": "922103404"
+        "Id": "430066352"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{575D9AEA-51A5-2218-D312-BA4BED4D3086}"
+  "FileHash": "{A417F989-89B7-EF7A-13A5-D9AA2B7B54AB}"
  }
 }
