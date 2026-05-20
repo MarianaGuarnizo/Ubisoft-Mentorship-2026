@@ -80,6 +80,9 @@
 											<StateGroupInfo>
 												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
 											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="PauseMenu" ID="{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}"/>
+											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
@@ -87,8 +90,24 @@
 												<CustomState Name="" ID="{54C541FE-1E24-436A-9CFC-9E176414BA9A}" ShortID="193492952"/>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="On" ID="{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"/>
+												<CustomState Name="" ID="{61C51A23-73D2-4B0E-B126-AA944877C89F}" ShortID="567044806">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="37"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
 												<CustomState Name="" ID="{5DB1810C-9968-4D49-8486-3FB36A8BD3DB}" ShortID="838510650"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{0007C3E1-080F-450C-BC22-B91CB732F75B}"/>
+												<CustomState Name="" ID="{B6864659-017A-4335-9E9B-76E4E4BA9D1A}" ShortID="512293493"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Off" ID="{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"/>
+												<CustomState Name="" ID="{6E66473B-CBD4-4F27-AE85-99C61DF207BA}" ShortID="8548352"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
@@ -98,8 +117,7 @@
 												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
 												<CustomState Name="" ID="{FF870063-684F-44C0-BB48-9F2CEFED7BB4}" ShortID="175553711">
 													<PropertyList>
-														<Property Name="BusVolume" Type="Real64" Value="-13"/>
-														<Property Name="Lowpass" Type="int16" Value="30"/>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -170,6 +188,66 @@
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
+								<Bus Name="Portal" ID="{954AABC8-1560-4844-ACF9-B372B4253F50}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{D154197B-5B76-4555-84C2-346B68020777}"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="PauseMenu" ID="{F1F65F40-8C09-4FE7-81F5-EC759A1ABCCC}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+												<CustomState Name="" ID="{78F9CF0D-12F3-48F6-A3D8-8E931BF477A4}" ShortID="162748829"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="On" ID="{4EA722F7-FAF2-40CE-B318-0AC7D83042DD}"/>
+												<CustomState Name="" ID="{DF2B596F-5B41-41E3-B90F-73890AB8B53F}" ShortID="8807334">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="37"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+												<CustomState Name="" ID="{62A6487B-FDBB-4352-B6DF-9B8750F2922A}" ShortID="994391100">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-3"/>
+														<Property Name="Lowpass" Type="int16" Value="61"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{0007C3E1-080F-450C-BC22-B91CB732F75B}"/>
+												<CustomState Name="" ID="{AB5D79CA-97A9-4565-B8D7-4EAA9535811E}" ShortID="59935816"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Off" ID="{D9282C0A-B111-46F1-BF4E-5ED50D6D71D8}"/>
+												<CustomState Name="" ID="{4517A53C-A3F2-44E1-9B18-0A0A689DA840}" ShortID="346118619"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+												<CustomState Name="" ID="{052EC28D-D297-402D-9B99-F9529037BA0D}" ShortID="586869256"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+												<CustomState Name="" ID="{5B2FA5AD-91A1-43C6-AF88-FC06CF240B9F}" ShortID="20652935">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-9"/>
+														<Property Name="Lowpass" Type="int16" Value="38"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+												<CustomState Name="" ID="{443E7B34-F6E0-4657-A9C3-C8E8AEA766FE}" ShortID="706577959"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -201,6 +279,43 @@
 								</CustomStateList>
 							</StateInfo>
 							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{765B8F58-07B2-4231-8B9B-A9F7C136A16C}" ShortID="179793045">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="New_Meter" ID="{5B7A787C-FA7F-4652-B6AF-04CD0E349766}" WorkUnitID="{BA385A2B-1176-4475-95AD-2ECA54F00598}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="MainMenu" ID="{11D9A88D-D14F-40C9-9A26-138D919AE0A2}"/>
+															<CustomState Name="" ID="{280903DF-CC07-4E20-85F1-0911DD2F5DB4}" ShortID="15537444"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Explore" ID="{67B29F2F-9300-4273-B71B-EBAAB7E466A6}"/>
+															<CustomState Name="" ID="{921FA0EC-3576-4F02-B8E6-D36BB9FAA038}" ShortID="450051797"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Victory" ID="{95CA1003-5A2E-4851-BC08-6BE57EED898A}"/>
+															<CustomState Name="" ID="{CD263FB0-4B87-4E29-83D0-783B4245C610}" ShortID="890838311"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="BossFight" ID="{96C6E6D3-BFAA-4C6C-A42C-46F32FA0B989}"/>
+															<CustomState Name="" ID="{A28CD939-0802-458A-8D59-B06429467879}" ShortID="593931816"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="None" ID="{953EAB03-844B-4E15-9F80-0D66F2BC5863}"/>
+															<CustomState Name="" ID="{43CBF545-C139-4256-981F-D9F5E1560E31}" ShortID="404350056"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
@@ -318,6 +433,42 @@
 																	<Point>
 																		<XPos>100</XPos>
 																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{3C54B168-CC44-4ADB-8C53-B7D8C7E43656}" ShortID="421557835">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Ducking" ID="{EDC56008-3FEE-4D45-AAF0-8C29774C5983}" WorkUnitID="{AC7A141D-47F7-4439-815F-FD061C4342C3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{DE0695A6-11E5-40F2-9808-5A3758EB23C4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-48</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>

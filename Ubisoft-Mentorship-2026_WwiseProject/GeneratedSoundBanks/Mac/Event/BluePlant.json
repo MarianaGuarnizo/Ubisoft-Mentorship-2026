@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2B3A1E31-E043-48EC-852C-9A57C163E987}",
     "Language": "SFX",
-    "Hash": "{B7D516AE-7D8A-B888-35F3-DBED87BF4656}",
+    "Hash": "{5B8C0898-B885-B3FE-A7D8-9A0B4193DECE}",
     "ObjectPath": "BluePlant",
     "ShortName": "BluePlant",
     "Path": "Event/BluePlant.bnk",
@@ -32,7 +32,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Ambient\\FloraFauna\\BluePlant",
       "GUID": "{2B3A1E31-E043-48EC-852C-9A57C163E987}",
       "Color": "4",
-      "MaxAttenuation": "45.5",
+      "MaxAttenuation": "42",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{2E0C8BC4-A813-CF2A-0473-B493B8B41AC3}"
+  "FileHash": "{BBBC8419-20B3-2575-F546-00839F9698DD}"
  }
 }

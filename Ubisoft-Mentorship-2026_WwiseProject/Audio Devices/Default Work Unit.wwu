@@ -3,7 +3,23 @@
 	<AudioDevices>
 		<WorkUnit Name="Default Work Unit" ID="{50332709-35C8-471D-AD08-90F42D772A3C}" PersistMode="Standalone">
 			<ChildrenList>
-				<AudioDevice Name="System" ID="{99F96986-3001-40B7-AC8C-22351D0AACD5}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="System" ID="{99F96986-3001-40B7-AC8C-22351D0AACD5}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{33CF446C-AB8A-47BB-B344-818E25304C4A}" ShortID="492177374">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Mastering Suite" CompanyID="0" PluginID="186" PluginType="3">
+												<ObjectRef Name="New_Mastering_Suite" ID="{00E5D6A2-316C-44C3-A5BA-41ED7D11E2EC}" WorkUnitID="{BA385A2B-1176-4475-95AD-2ECA54F00598}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</AudioDevice>
 				<AudioDevice Name="No_Output" ID="{8CE2E11D-9391-4725-A76B-74B6730211AB}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>

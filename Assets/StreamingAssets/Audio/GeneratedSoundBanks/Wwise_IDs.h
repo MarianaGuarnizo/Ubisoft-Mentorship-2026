@@ -149,6 +149,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID DUCKING = 2712164154U;
         static const AkUniqueID MASTERVOLUME = 2918011349U;
         static const AkUniqueID MUSICVOLUME = 2346531308U;
         static const AkUniqueID SFXVOLUME = 988953028U;
@@ -170,6 +171,7 @@ namespace AK
         static const AkUniqueID INTERIOR = 1132214669U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PORTAL = 3118032615U;
         static const AkUniqueID PROPS = 968010305U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID UI = 1551306167U;

@@ -158,7 +158,32 @@
 							</CurveUsageInfo>
 						</VolumeDryUsage>
 						<VolumeWetGameUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeWetGame" ID="{5C08BE4F-14BF-4CF1-A8D5-2B622F8B3A54}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>-6</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Exp2</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>27.74755</XPos>
+											<YPos>-3</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>-48.53023</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</VolumeWetGameUsage>
 						<VolumeWetUserUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
@@ -178,7 +203,7 @@
 										</Point>
 										<Point>
 											<XPos>100</XPos>
-											<YPos>100</YPos>
+											<YPos>65</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -186,7 +211,26 @@
 							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="HighPassFilter" ID="{B04CCC01-1C03-42EB-B273-71069D5543B5}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>35</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -198,7 +242,26 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</ObstructionVolumeUsage>
 						<ObstructionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+								<Curve Name="ObstructionLPF" ID="{82DE0690-3552-4857-A1C2-93B476ABFEF7}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>Log3</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</ObstructionLPFUsage>
 						<ObstructionHPFUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
@@ -207,7 +270,25 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</OcclusionVolumeUsage>
 						<OcclusionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+								<Curve Name="ObstructionLPF" ID="{C0D3E804-743D-449D-9A3B-49F5236AAB68}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</OcclusionLPFUsage>
 						<OcclusionHPFUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
@@ -225,7 +306,25 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</TransmissionVolumeUsage>
 						<TransmissionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+								<Curve Name="TransmissionLPF" ID="{1A961C52-61F5-48EC-9B0C-E5A519359460}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</TransmissionLPFUsage>
 						<TransmissionHPFUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>

@@ -10,12 +10,20 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{437840FF-5034-9A8E-6328-77DD399FC55A}",
+    "Hash": "{2A76C21C-D672-8091-631F-8D6583DA50F3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "ShareSets": [
+      {
+       "Id": "1763592331",
+       "Name": "New_Meter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Meter",
+       "GUID": "{5B7A787C-FA7F-4652-B6AF-04CD0E349766}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
       {
        "Id": "1990128658",
        "Name": "Room_Medium",
@@ -63,7 +71,14 @@
       "Id": "393239870",
       "Name": "SFX",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
-      "GUID": "{B9DBFC70-3501-407B-8E95-B52F1337A1AA}"
+      "GUID": "{B9DBFC70-3501-407B-8E95-B52F1337A1AA}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1763592331"
+        }
+       ]
+      }
      },
      {
       "Id": "436743010",
@@ -94,6 +109,12 @@
       "Name": "Exterior",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Ambient\\Exterior",
       "GUID": "{42C5B807-8D70-4497-94AF-38A64F9786BC}"
+     },
+     {
+      "Id": "3118032615",
+      "Name": "Portal",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Portal",
+      "GUID": "{954AABC8-1560-4844-ACF9-B372B4253F50}"
      },
      {
       "Id": "3803692087",
@@ -154,6 +175,12 @@
       "Name": "MusicVolume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
       "GUID": "{0A63AA81-BC9B-4BA7-9999-9F72B95FEA92}"
+     },
+     {
+      "Id": "2712164154",
+      "Name": "Ducking",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Ducking",
+      "GUID": "{EDC56008-3FEE-4D45-AAF0-8C29774C5983}"
      },
      {
       "Id": "2918011349",
@@ -328,6 +355,6 @@
     ]
    }
   ],
-  "FileHash": "{E50DBCF9-744D-F353-0149-7AA3FC716B5F}"
+  "FileHash": "{900C6507-0EF7-3B1C-1651-94EAB3A74368}"
  }
 }

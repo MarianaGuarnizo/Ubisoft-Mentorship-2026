@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{EBD6F44A-9DFF-4E27-B1BE-A066C4282076}",
     "Language": "SFX",
-    "Hash": "{4FDE546F-0C37-CDB9-61D2-83295247F545}",
+    "Hash": "{4713E07A-4BE9-75AC-CC9F-2ED48CC7F87D}",
     "ObjectPath": "ThroughLeaves",
     "ShortName": "ThroughLeaves",
     "Path": "Event/ThroughLeaves.bnk",
@@ -116,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{BFC108B0-F229-E7DC-2833-634F11B2BB5B}"
+  "FileHash": "{DD78431B-EE89-AF20-4D36-F7A200B40037}"
  }
 }

@@ -20,6 +20,7 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	988953028	SFXVolume			\Default Work Unit\SFXVolume	
 	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+	2712164154	Ducking			\Default Work Unit\Ducking	
 	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
@@ -30,6 +31,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1132214669	Interior			\Default Work Unit\Master Audio Bus\SFX\Ambient\Interior	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
 	2213992659	Exterior			\Default Work Unit\Master Audio Bus\SFX\Ambient\Exterior	
+	3118032615	Portal			\Default Work Unit\Master Audio Bus\SFX\Portal	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 	4166191657	Ennemies			\Default Work Unit\Master Audio Bus\SFX\Ennemies	
@@ -39,6 +41,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1560941454	ReverbLarge			\Default Work Unit\Master Audio Bus\ReverbLarge	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1763592331	New_Meter	Wwise Meter			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2513915904	Hall_Large	Wwise RoomVerb			
 
